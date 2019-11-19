@@ -5,6 +5,90 @@
   "files": [
     {
       "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/01.-FAQs.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/01.-FAQs.html",
+          "hash": "Ejj3gwL5fBwcZVne3Y8W3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/02.-The-Basics.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/02.-The-Basics.html",
+          "hash": "zRUDyyqXJShk/dqChl36Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/03.-Configuration-API.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/03.-Configuration-API.html",
+          "hash": "B2of/4O4gnp+HT2iLSTOJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/04.-Features.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/04.-Features.html",
+          "hash": "N6l8O1PxTwwfD7Z2eyz3+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/05.-Example-Scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/05.-Example-Scenarios.html",
+          "hash": "jcOBJ3/Zjk1LbHXeJij5DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/06.-How-to-Upgrade-from-v1.x-to-v2.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/06.-How-to-Upgrade-from-v1.x-to-v2.html",
+          "hash": "VoN0TFWeLY9UKvYvu1f+ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/Home.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/Home.html",
+          "hash": "tT/zAqVkRl1BWzZgMgLrxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "conceptual/intro.md",
       "output": {
         ".html": {
@@ -16,15 +100,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "conceptual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "conceptual/toc.html",
-          "hash": "XZ7ghf+1KNVYR+95xthplg=="
+          "hash": "5y13CZd9CDECKMnjLaaC3A=="
         }
       },
       "is_incremental": false,
@@ -3037,16 +3118,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 0
+        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 245,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
           "skipped_file_count": 0
         }
       }
