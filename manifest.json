@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/projects/extendedxmlserializer/content",
+  "source_base_path": "C:/projects/extendedxmlserializer/documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/intro.html",
-          "hash": "Sradn0AKJ+nfPgbudMBZHA=="
+          "hash": "fWmy6/Q0Kni1Hf2udDcx/A=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "f59A92vQno6w3nJCgh8xKg=="
+          "hash": "mMfCHWRgR9mhB2nZC3Oc3Q=="
         }
       },
       "is_incremental": false,
@@ -3069,7 +3069,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/index.html",
-          "hash": "tRW9w/6ZXya1EJgAm7daGg=="
+          "hash": "iYli1gigtJWY/5C17SQmGQ=="
         }
       },
       "is_incremental": false,
