@@ -69,82 +69,101 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.Core.Sources.IAssignable`2">
-  
-  
-  <h1 id="ExtendedXmlSerializer_Core_Sources_IAssignable_2" data-uid="ExtendedXmlSerializer.Core.Sources.IAssignable`2" class="text-break">Interface IAssignable&lt;TKey, TValue&gt;
+  <h1 id="ExtendedXmlSerializer_Core_Sources_IAssignable_2" data-uid="ExtendedXmlSerializer.Core.Sources.IAssignable`2">Interface IAssignable&lt;TKey, TValue&gt;
   </h1>
   <div class="markdown level0 summary"><p>A command-based interface that accepts a key and value, usually to pair the two with a store of some sort.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
+  
+  
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.Core.Sources.html">ExtendedXmlSerializer.Core.Sources</a></h6>
   <h6><strong>Assembly</strong>: ExtendedXmlSerializer.dll</h6>
+  
   <h5 id="ExtendedXmlSerializer_Core_Sources_IAssignable_2_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IAssignable&lt;in TKey, in TValue&gt;</code></pre>
   </div>
+
+  
+  
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td><p>The key type.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The value type.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TKey</span>
+        <p><p>The key type.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="parametername">TValue</span>
+        <p><p>The value type.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
   <h3 id="methods">Methods
   </h3>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_IAssignable_2_Assign__0__1_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.IAssignable%602.Assign(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_IAssignable_2_Assign__0__1_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.IAssignable%602.Assign(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/Core/Sources/IAssignable.cs/#L15">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/Core/Sources/IAssignable.cs/#L15" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_Core_Sources_IAssignable_2_Assign_" data-uid="ExtendedXmlSerializer.Core.Sources.IAssignable`2.Assign*"></a>
-  <h4 id="ExtendedXmlSerializer_Core_Sources_IAssignable_2_Assign__0__1_" data-uid="ExtendedXmlSerializer.Core.Sources.IAssignable`2.Assign(`0,`1)">Assign(TKey, TValue)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_Core_Sources_IAssignable_2_Assign__0__1_" data-uid="ExtendedXmlSerializer.Core.Sources.IAssignable`2.Assign(`0,`1)"><a href="#collapsible-ExtendedXmlSerializer_Core_Sources_IAssignable_2_Assign__0__1_" class="expander" data-toggle="collapse">Assign(TKey, TValue)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_Core_Sources_IAssignable_2_Assign__0__1_" class="collapse in">
   <div class="markdown level1 summary"><p>Assigns a value with the associated key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void Assign(TKey key, TValue value)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TKey</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">TKey</span></span>
+        <span class="parametername">key</span>
+        <p><p>The key.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">TValue</span></span>
+        <span class="parametername">value</span>
+        <p><p>The value.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Return__2___0___1_">ExtensionMethods.Return&lt;T, TOut&gt;(T, TOut)</a>
@@ -170,23 +189,17 @@
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Let__2___1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0____1_">ExtensionMethodsForCoreSources.Let&lt;TSpecification, TInstance&gt;(TInstance, ISpecification&lt;TSpecification&gt;, TInstance)</a>
   </div>
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_IAssignable_2.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.IAssignable%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/Core/Sources/IAssignable.cs/#L8" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_IAssignable_2.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.IAssignable%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/Core/Sources/IAssignable.cs/#L8" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

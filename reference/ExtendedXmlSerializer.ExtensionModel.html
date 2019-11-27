@@ -69,74 +69,122 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.ExtensionModel">
-  
-  <h1 id="ExtendedXmlSerializer_ExtensionModel" data-uid="ExtendedXmlSerializer.ExtensionModel" class="text-break">Namespace ExtendedXmlSerializer.ExtensionModel
+  <h1 id="ExtendedXmlSerializer_ExtensionModel" data-uid="ExtendedXmlSerializer.ExtensionModel">Namespace ExtendedXmlSerializer.ExtensionModel
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.CachingExtension.html">CachingExtension</a></h4>
-      <section><p>Used to cache commonly used components that are selected during serialization.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.DefaultExtensions.html">DefaultExtensions</a></h4>
-      <section><p>Compiles a list of default extensions used in the configuration container.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.FallbackSerializationExtension.html">FallbackSerializationExtension</a></h4>
-      <section><p>Configures a serializer so that if an exception occcurs during selection of a serializer for a given type, a
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.CachingExtension.html">CachingExtension</a></p>
+          <p><p>Used to cache commonly used components that are selected during serialization.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.DefaultExtensions.html">DefaultExtensions</a></p>
+          <p><p>Compiles a list of default extensions used in the configuration container.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.FallbackSerializationExtension.html">FallbackSerializationExtension</a></p>
+          <p><p>Configures a serializer so that if an exception occcurs during selection of a serializer for a given type, a
 provided fallback serializer is selected instead.  By default the provided fallback serializer does nothing for
 serializer and returns a null instance for deserialization.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.Registrations-1.html">Registrations&lt;T&gt;</a></h4>
-      <section><p>A collection of registrations.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.SerializationExtension.html">SerializationExtension</a></h4>
-      <section><p>A default extension that registers all necessary and fundamental components required for successful serialization
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.Registrations-1.html">Registrations&lt;T&gt;</a></p>
+          <p><p>A collection of registrations.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.SerializationExtension.html">SerializationExtension</a></p>
+          <p><p>A default extension that registers all necessary and fundamental components required for successful serialization
 deserialization.</p>
-</section>
+</p>
+        </td>
+      </tr>
+    </table>
     <h3 id="interfaces">Interfaces
   </h3>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.FallbackSerializationExtension.IFallbackSerializer.html">FallbackSerializationExtension.IFallbackSerializer</a></h4>
-      <section><p>Used to register a specific serializer with the container so that it is used for fall back serialization.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IRegistration.html">IRegistration</a></h4>
-      <section><p>An specialized alteration that is intended to alter a service repository.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IRootInstances.html">IRootInstances</a></h4>
-      <section><p>A specialized selector that is intended to retrieve the root instance provided during serialization with the
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.FallbackSerializationExtension.IFallbackSerializer.html">FallbackSerializationExtension.IFallbackSerializer</a></p>
+          <p><p>Used to register a specific serializer with the container so that it is used for fall back serialization.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IRegistration.html">IRegistration</a></p>
+          <p><p>An specialized alteration that is intended to alter a service repository.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IRootInstances.html">IRootInstances</a></p>
+          <p><p>A specialized selector that is intended to retrieve the root instance provided during serialization with the
 <a class="xref" href="ExtendedXmlSerializer.ExtensionModel.Xml.ISerializer.html#ExtendedXmlSerializer_ExtensionModel_Xml_ISerializer_Serialize_System_Xml_XmlWriter_System_Object_">Serialize(XmlWriter, Object)</a> call.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.ISerializerExtension.html">ISerializerExtension</a></h4>
-      <section><p>The heart and soul of the extension model.  This performs any registrations during serializer activation and once
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.ISerializerExtension.html">ISerializerExtension</a></p>
+          <p><p>The heart and soul of the extension model.  This performs any registrations during serializer activation and once
 the serializer is created, performs any necessary post-processing with its <a class="xref" href="ExtendedXmlSerializer.Core.ICommand-1.html">ICommand&lt;T&gt;</a>
 implementation.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IServiceProvider.html">IServiceProvider</a></h4>
-      <section><p>A general purpose component that is intended for service location.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IServiceRepository.html">IServiceRepository</a></h4>
-      <section><p>Custom service registry.  Modeled after <span class="xref">LightInject.IServiceRegistry</span>.  If designed today, we would remove this
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IServiceProvider.html">IServiceProvider</a></p>
+          <p><p>A general purpose component that is intended for service location.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IServiceRepository.html">IServiceRepository</a></p>
+          <p><p>Custom service registry.  Modeled after <span class="xref">LightInject.IServiceRegistry</span>.  If designed today, we would remove this
 interface with the LightInject version.  Perhaps in a future version we will do this as a breaking change.  For the
 default implementation, most calls pass through directly to the underlying LightInject equivalent.  For those
 operations that require a <span class="xref">LightInject.ILifetime</span>, a <span class="xref">LightInject.PerContainerLifetime</span> is used.</p>
-</section>
-      <h4><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IServices.html">IServices</a></h4>
-      <section><p>Represents a services container for the extension model.  This is responsible for querying and registering
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="ExtendedXmlSerializer.ExtensionModel.IServices.html">IServices</a></p>
+          <p><p>Represents a services container for the extension model.  This is responsible for querying and registering
 services, as well as finally disposing and cleaning all resources once the serializer has been constructed.  This
 is passed in as the parameter to post-registration during the extension processing.</p>
-</section>
+</p>
+        </td>
+      </tr>
+    </table>
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

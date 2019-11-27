@@ -69,271 +69,356 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1">
-  
-  
-  <h1 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1" class="text-break">Interface ISerializationMonitor&lt;T&gt;
+  <h1 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1">Interface ISerializationMonitor&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"><p>Provides a mechanism to listen in to important events during the serialization process.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
+  
+  
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.ExtensionModel.Instances.html">ExtendedXmlSerializer.ExtensionModel.Instances</a></h6>
   <h6><strong>Assembly</strong>: ExtendedXmlSerializer.dll</h6>
+  
   <h5 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface ISerializationMonitor&lt;in T&gt;</code></pre>
   </div>
+
+  
+  
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The type to monitor.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p><p>The type to monitor.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
   <h3 id="methods">Methods
   </h3>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivated__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnActivated(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivated__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnActivated(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L50">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L50" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivated_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnActivated*"></a>
-  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivated__0_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnActivated(`0)">OnActivated(T)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivated__0_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnActivated(`0)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivated__0_" class="expander" data-toggle="collapse">OnActivated(T)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivated__0_" class="collapse in">
   <div class="markdown level1 summary"><p>Called when an instance of the monitored type is activated/instantiated.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void OnActivated(T instance)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">instance</span></td>
-        <td><p>Instance that was activated.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">T</span></span>
+        <span class="parametername">instance</span>
+        <p><p>Instance that was activated.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivating_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnActivating(ExtendedXmlSerializer.ContentModel.Format.IFormatReader%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivating_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnActivating(ExtendedXmlSerializer.ContentModel.Format.IFormatReader%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L44">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L44" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivating_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnActivating*"></a>
-  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivating_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnActivating(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,System.Type)">OnActivating(IFormatReader, Type)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivating_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnActivating(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivating_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_" class="expander" data-toggle="collapse">OnActivating(IFormatReader, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnActivating_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_" class="collapse in">
   <div class="markdown level1 summary"><p>Called when a particular type is about to be activated/instantiated.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void OnActivating(IFormatReader reader, Type instanceType)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatReader.html">IFormatReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td><p>The reader representing the source document.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td><span class="parametername">instanceType</span></td>
-        <td><p>The identified type about to be activated.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatReader.html">IFormatReader</a></span>
+        <span class="parametername">reader</span>
+        <p><p>The reader representing the source document.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">instanceType</span>
+        <p><p>The identified type about to be activated.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserialized_ExtendedXmlSerializer_ContentModel_Format_IFormatReader__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnDeserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserialized_ExtendedXmlSerializer_ContentModel_Format_IFormatReader__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnDeserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L57">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L57" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserialized_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnDeserialized*"></a>
-  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserialized_ExtendedXmlSerializer_ContentModel_Format_IFormatReader__0_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnDeserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,`0)">OnDeserialized(IFormatReader, T)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserialized_ExtendedXmlSerializer_ContentModel_Format_IFormatReader__0_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnDeserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,`0)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserialized_ExtendedXmlSerializer_ContentModel_Format_IFormatReader__0_" class="expander" data-toggle="collapse">OnDeserialized(IFormatReader, T)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserialized_ExtendedXmlSerializer_ContentModel_Format_IFormatReader__0_" class="collapse in">
   <div class="markdown level1 summary"><p>Called when an instance has been fully deserialized.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void OnDeserialized(IFormatReader reader, T instance)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatReader.html">IFormatReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td><p>The reader representing the source document.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">instance</span></td>
-        <td><p>The instance that was deserialized.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatReader.html">IFormatReader</a></span>
+        <span class="parametername">reader</span>
+        <p><p>The reader representing the source document.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">T</span></span>
+        <span class="parametername">instance</span>
+        <p><p>The instance that was deserialized.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserializing_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnDeserializing(ExtendedXmlSerializer.ContentModel.Format.IFormatReader%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserializing_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnDeserializing(ExtendedXmlSerializer.ContentModel.Format.IFormatReader%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L37">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L37" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserializing_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnDeserializing*"></a>
-  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserializing_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnDeserializing(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,System.Type)">OnDeserializing(IFormatReader, Type)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserializing_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnDeserializing(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserializing_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_" class="expander" data-toggle="collapse">OnDeserializing(IFormatReader, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnDeserializing_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Type_" class="collapse in">
   <div class="markdown level1 summary"><p>Called when a reader is about to deserialize an identified type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void OnDeserializing(IFormatReader reader, Type instanceType)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatReader.html">IFormatReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td><p>The reader representing the source document.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td><span class="parametername">instanceType</span></td>
-        <td><p>The identified type about to be deserialized.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatReader.html">IFormatReader</a></span>
+        <span class="parametername">reader</span>
+        <p><p>The reader representing the source document.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">instanceType</span>
+        <p><p>The identified type about to be deserialized.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerialized_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnSerialized(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerialized_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnSerialized(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L30">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L30" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerialized_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnSerialized*"></a>
-  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerialized_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnSerialized(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,`0)">OnSerialized(IFormatWriter, T)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerialized_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnSerialized(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,`0)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerialized_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" class="expander" data-toggle="collapse">OnSerialized(IFormatWriter, T)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerialized_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" class="collapse in">
   <div class="markdown level1 summary"><p>Called when an instance is serialized.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void OnSerialized(IFormatWriter writer, T instance)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatWriter.html">IFormatWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td><p>The writer performing the writing to the destination.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">instance</span></td>
-        <td><p>The instance that was serialized.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatWriter.html">IFormatWriter</a></span>
+        <span class="parametername">writer</span>
+        <p><p>The writer performing the writing to the destination.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">T</span></span>
+        <span class="parametername">instance</span>
+        <p><p>The instance that was serialized.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerializing_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnSerializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerializing_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601.OnSerializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L23">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L23" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerializing_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnSerializing*"></a>
-  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerializing_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnSerializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,`0)">OnSerializing(IFormatWriter, T)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerializing_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" data-uid="ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor`1.OnSerializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,`0)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerializing_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" class="expander" data-toggle="collapse">OnSerializing(IFormatWriter, T)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1_OnSerializing_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" class="collapse in">
   <div class="markdown level1 summary"><p>Called when an instance is about to be serialized.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void OnSerializing(IFormatWriter writer, T instance)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatWriter.html">IFormatWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td><p>The writer performing the writing to the destination.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">instance</span></td>
-        <td><p>The instance about to be serialized.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatWriter.html">IFormatWriter</a></span>
+        <span class="parametername">writer</span>
+        <p><p>The writer performing the writing to the destination.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">T</span></span>
+        <span class="parametername">instance</span>
+        <p><p>The instance about to be serialized.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Return__2___0___1_">ExtensionMethods.Return&lt;T, TOut&gt;(T, TOut)</a>
@@ -356,27 +441,21 @@
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Let__2___1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0____1_">ExtensionMethodsForCoreSources.Let&lt;TSpecification, TInstance&gt;(TInstance, ISpecification&lt;TSpecification&gt;, TInstance)</a>
   </div>
+  
   <h3 id="seealso">See Also</h3>
   <div class="seealso">
       <div><span><a href="https://github.com/ExtendedXmlSerializer/home/issues/264#issuecomment-544104668">https://github.com/ExtendedXmlSerializer/home/issues/264#issuecomment-544104668</a></span></div>
   </div>
 </article>
           </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L16" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+          </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationMonitor_1.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Instances/ISerializationMonitor.cs/#L16" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

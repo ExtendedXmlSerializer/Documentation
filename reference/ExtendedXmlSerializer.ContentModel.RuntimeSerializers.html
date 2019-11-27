@@ -69,24 +69,20 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers">
-  
-  
-  <h1 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers" class="text-break">Class RuntimeSerializers
+  <h1 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers">Class RuntimeSerializers
   </h1>
   <div class="markdown level0 summary"><p>A specialized implementation of <a class="xref" href="ExtendedXmlSerializer.ContentModel.Content.ISerializers.html">ISerializers</a> for runtime selection of a serializer when no other
 serializers can be located.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">RuntimeSerializers</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="ExtendedXmlSerializer.ContentModel.Content.ISerializers.html">ISerializers</a></div>
-    <div><a class="xref" href="ExtendedXmlSerializer.Core.Sources.IParameterizedSource-2.html">IParameterizedSource</a>&lt;<span class="xref">System.Reflection.TypeInfo</span>, <a class="xref" href="ExtendedXmlSerializer.ContentModel.ISerializer.html">ISerializer</a>&gt;</div>
-  </div>
+  
+  
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -111,145 +107,180 @@ serializers can be located.</p>
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.ContentModel.html">ExtendedXmlSerializer.ContentModel</a></h6>
   <h6><strong>Assembly</strong>: ExtendedXmlSerializer.dll</h6>
+  
   <h5 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class RuntimeSerializers : ISerializers, IParameterizedSource&lt;TypeInfo, ISerializer&gt;</code></pre>
   </div>
+
+  
+  
+  
+  
   <h3 id="constructors">Constructors
   </h3>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_ContentModel_Content_ISerializers_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.RuntimeSerializers.%23ctor(ExtendedXmlSerializer.ContentModel.Content.ISerializers)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_ContentModel_Content_ISerializers_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.RuntimeSerializers.%23ctor(ExtendedXmlSerializer.ContentModel.Content.ISerializers)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ContentModel/RuntimeSerializers.cs/#L22">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ContentModel/RuntimeSerializers.cs/#L22" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.#ctor*"></a>
-  <h4 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_ContentModel_Content_ISerializers_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.#ctor(ExtendedXmlSerializer.ContentModel.Content.ISerializers)">RuntimeSerializers(ISerializers)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_ContentModel_Content_ISerializers_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.#ctor(ExtendedXmlSerializer.ContentModel.Content.ISerializers)"><a href="#collapsible-ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_ContentModel_Content_ISerializers_" class="expander" data-toggle="collapse">RuntimeSerializers(ISerializers)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_ContentModel_Content_ISerializers_" class="collapse in">
   <div class="markdown level1 summary"><p>Creates an instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public RuntimeSerializers(ISerializers serializers)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.Content.ISerializers.html">ISerializers</a></td>
-        <td><span class="parametername">serializers</span></td>
-        <td><p>The serializer selector to decorate.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.ContentModel.Content.ISerializers.html">ISerializers</a></span>
+        <span class="parametername">serializers</span>
+        <p><p>The serializer selector to decorate.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_Core_Specifications_ISpecification_System_Reflection_TypeInfo__ExtendedXmlSerializer_ContentModel_Content_ISerializers_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.RuntimeSerializers.%23ctor(ExtendedXmlSerializer.Core.Specifications.ISpecification%7BSystem.Reflection.TypeInfo%7D%2CExtendedXmlSerializer.ContentModel.Content.ISerializers)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_Core_Specifications_ISpecification_System_Reflection_TypeInfo__ExtendedXmlSerializer_ContentModel_Content_ISerializers_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.RuntimeSerializers.%23ctor(ExtendedXmlSerializer.Core.Specifications.ISpecification%7BSystem.Reflection.TypeInfo%7D%2CExtendedXmlSerializer.ContentModel.Content.ISerializers)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ContentModel/RuntimeSerializers.cs/#L30">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ContentModel/RuntimeSerializers.cs/#L30" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.#ctor*"></a>
-  <h4 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_Core_Specifications_ISpecification_System_Reflection_TypeInfo__ExtendedXmlSerializer_ContentModel_Content_ISerializers_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.#ctor(ExtendedXmlSerializer.Core.Specifications.ISpecification{System.Reflection.TypeInfo},ExtendedXmlSerializer.ContentModel.Content.ISerializers)">RuntimeSerializers(ISpecification&lt;TypeInfo&gt;, ISerializers)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_Core_Specifications_ISpecification_System_Reflection_TypeInfo__ExtendedXmlSerializer_ContentModel_Content_ISerializers_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.#ctor(ExtendedXmlSerializer.Core.Specifications.ISpecification{System.Reflection.TypeInfo},ExtendedXmlSerializer.ContentModel.Content.ISerializers)"><a href="#collapsible-ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_Core_Specifications_ISpecification_System_Reflection_TypeInfo__ExtendedXmlSerializer_ContentModel_Content_ISerializers_" class="expander" data-toggle="collapse">RuntimeSerializers(ISpecification&lt;TypeInfo&gt;, ISerializers)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ContentModel_RuntimeSerializers__ctor_ExtendedXmlSerializer_Core_Specifications_ISpecification_System_Reflection_TypeInfo__ExtendedXmlSerializer_ContentModel_Content_ISerializers_" class="collapse in">
   <div class="markdown level1 summary"><p>Creates an instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public RuntimeSerializers(ISpecification&lt;TypeInfo&gt; specification, ISerializers serializers)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.Core.Specifications.ISpecification-1.html">ISpecification</a>&lt;<span class="xref">System.Reflection.TypeInfo</span>&gt;</td>
-        <td><span class="parametername">specification</span></td>
-        <td><p>The specification to determine whether to use the provided serializer selector or this
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Core.Specifications.ISpecification-1.html">ISpecification</a>&lt;<span class="xref">System.Reflection.TypeInfo</span>&gt;</span>
+        <span class="parametername">specification</span>
+        <p><p>The specification to determine whether to use the provided serializer selector or this
 instance.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.Content.ISerializers.html">ISerializers</a></td>
-        <td><span class="parametername">serializers</span></td>
-        <td><p>The serializer selector to decorate.</p>
-</td>
-      </tr>
-    </tbody>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.ContentModel.Content.ISerializers.html">ISerializers</a></span>
+        <span class="parametername">serializers</span>
+        <p><p>The serializer selector to decorate.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="methods">Methods
   </h3>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_RuntimeSerializers_Get_System_Reflection_TypeInfo_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.RuntimeSerializers.Get(System.Reflection.TypeInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_RuntimeSerializers_Get_System_Reflection_TypeInfo_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.RuntimeSerializers.Get(System.Reflection.TypeInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ContentModel/RuntimeSerializers.cs/#L37">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ContentModel/RuntimeSerializers.cs/#L37" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers_Get_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.Get*"></a>
-  <h4 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers_Get_System_Reflection_TypeInfo_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.Get(System.Reflection.TypeInfo)">Get(TypeInfo)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ContentModel_RuntimeSerializers_Get_System_Reflection_TypeInfo_" data-uid="ExtendedXmlSerializer.ContentModel.RuntimeSerializers.Get(System.Reflection.TypeInfo)"><a href="#collapsible-ExtendedXmlSerializer_ContentModel_RuntimeSerializers_Get_System_Reflection_TypeInfo_" class="expander" data-toggle="collapse">Get(TypeInfo)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ContentModel_RuntimeSerializers_Get_System_Reflection_TypeInfo_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public ISerializer Get(TypeInfo parameter)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.TypeInfo</span></td>
-        <td><span class="parametername">parameter</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Reflection.TypeInfo</span></span>
+        <span class="parametername">parameter</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.ISerializer.html">ISerializer</a></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.ContentModel.ISerializer.html">ISerializer</a>
+        <p>
+      </td>
+    </tr>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ContentModel.Content.ISerializers.html">ISerializers</a>
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="ExtendedXmlSerializer.Core.Sources.IParameterizedSource-2.html#ExtendedXmlSerializer_Core_Sources_IParameterizedSource_2_Get__0_">IParameterizedSource&lt;TParameter, TResult&gt;.Get(TParameter)</a></div>
+  
+  
+  
+  
   </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.Core.Sources.IParameterizedSource-2.html">IParameterizedSource&lt;TParameter, TResult&gt;</a>
-  </div>
+  
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Return__2___0___1_">ExtensionMethods.Return&lt;T, TOut&gt;(T, TOut)</a>
@@ -314,23 +345,17 @@ instance.</p>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_IfAssigned__2_ExtendedXmlSerializer_Core_Sources_IParameterizedSource___0___1__">ExtensionMethodsForCoreSpecifications.IfAssigned&lt;TParameter, TResult&gt;(IParameterizedSource&lt;TParameter, TResult&gt;)</a>
   </div>
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_RuntimeSerializers.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.RuntimeSerializers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ContentModel/RuntimeSerializers.cs/#L13" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_RuntimeSerializers.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.RuntimeSerializers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ContentModel/RuntimeSerializers.cs/#L13" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

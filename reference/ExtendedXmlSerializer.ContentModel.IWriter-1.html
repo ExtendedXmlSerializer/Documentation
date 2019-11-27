@@ -69,77 +69,94 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.ContentModel.IWriter`1">
-  
-  
-  <h1 id="ExtendedXmlSerializer_ContentModel_IWriter_1" data-uid="ExtendedXmlSerializer.ContentModel.IWriter`1" class="text-break">Interface IWriter&lt;T&gt;
+  <h1 id="ExtendedXmlSerializer_ContentModel_IWriter_1" data-uid="ExtendedXmlSerializer.ContentModel.IWriter`1">Interface IWriter&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"><p>Used during serialization to emit the provided instance (and its contents, if necessary) to the provided writer.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
+  
+  
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.ContentModel.html">ExtendedXmlSerializer.ContentModel</a></h6>
   <h6><strong>Assembly</strong>: ExtendedXmlSerializer.dll</h6>
+  
   <h5 id="ExtendedXmlSerializer_ContentModel_IWriter_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IWriter&lt;in T&gt;</code></pre>
   </div>
+
+  
+  
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The subject to emit.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p><p>The subject to emit.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
   <h3 id="methods">Methods
   </h3>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_IWriter_1_Write_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.IWriter%601.Write(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_IWriter_1_Write_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.IWriter%601.Write(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ContentModel/IWriter.cs/#L21">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ContentModel/IWriter.cs/#L21" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_ContentModel_IWriter_1_Write_" data-uid="ExtendedXmlSerializer.ContentModel.IWriter`1.Write*"></a>
-  <h4 id="ExtendedXmlSerializer_ContentModel_IWriter_1_Write_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" data-uid="ExtendedXmlSerializer.ContentModel.IWriter`1.Write(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,`0)">Write(IFormatWriter, T)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_ContentModel_IWriter_1_Write_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" data-uid="ExtendedXmlSerializer.ContentModel.IWriter`1.Write(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,`0)"><a href="#collapsible-ExtendedXmlSerializer_ContentModel_IWriter_1_Write_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" class="expander" data-toggle="collapse">Write(IFormatWriter, T)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ContentModel_IWriter_1_Write_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_" class="collapse in">
   <div class="markdown level1 summary"><p>Emits the instance into the provided writer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void Write(IFormatWriter writer, T instance)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatWriter.html">IFormatWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td><p>The writer that represents the destination.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">instance</span></td>
-        <td><p>The instance to emit.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.ContentModel.Format.IFormatWriter.html">IFormatWriter</a></span>
+        <span class="parametername">writer</span>
+        <p><p>The writer that represents the destination.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">T</span></span>
+        <span class="parametername">instance</span>
+        <p><p>The instance to emit.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Return__2___0___1_">ExtensionMethods.Return&lt;T, TOut&gt;(T, TOut)</a>
@@ -165,23 +182,17 @@
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Let__2___1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0____1_">ExtensionMethodsForCoreSources.Let&lt;TSpecification, TInstance&gt;(TInstance, ISpecification&lt;TSpecification&gt;, TInstance)</a>
   </div>
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_IWriter_1.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.IWriter%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/ContentModel/IWriter.cs/#L14" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ContentModel_IWriter_1.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ContentModel.IWriter%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ContentModel/IWriter.cs/#L14" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

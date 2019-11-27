@@ -69,13 +69,14 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.Core.Sources.ITableSource`2">
-  
-  
-  <h1 id="ExtendedXmlSerializer_Core_Sources_ITableSource_2" data-uid="ExtendedXmlSerializer.Core.Sources.ITableSource`2" class="text-break">Interface ITableSource&lt;TKey, TValue&gt;
+  <h1 id="ExtendedXmlSerializer_Core_Sources_ITableSource_2" data-uid="ExtendedXmlSerializer.Core.Sources.ITableSource`2">Interface ITableSource&lt;TKey, TValue&gt;
   </h1>
   <div class="markdown level0 summary"><p>A selector with assignment and a specification.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
+  
+  
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -88,85 +89,95 @@
       <a class="xref" href="ExtendedXmlSerializer.Core.Sources.IAssignable-2.html#ExtendedXmlSerializer_Core_Sources_IAssignable_2_Assign__0__1_">IAssignable&lt;TKey, TValue&gt;.Assign(TKey, TValue)</a>
     </div>
   </div>
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.Core.Sources.html">ExtendedXmlSerializer.Core.Sources</a></h6>
   <h6><strong>Assembly</strong>: ExtendedXmlSerializer.dll</h6>
+  
   <h5 id="ExtendedXmlSerializer_Core_Sources_ITableSource_2_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface ITableSource&lt;in TKey, TValue&gt; : ISpecification&lt;TKey&gt;, IParameterizedSource&lt;TKey, TValue&gt;, IAssignable&lt;TKey, TValue&gt;</code></pre>
   </div>
+
+  
+  
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td><p>The key type.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The value type.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TKey</span>
+        <p><p>The key type.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="parametername">TValue</span>
+        <p><p>The value type.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
   <h3 id="methods">Methods
   </h3>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_ITableSource_2_Remove__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.ITableSource%602.Remove(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_ITableSource_2_Remove__0_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.ITableSource%602.Remove(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/Core/Sources/ITableSource.cs/#L20">View Source</a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/Core/Sources/ITableSource.cs/#L20" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ExtendedXmlSerializer_Core_Sources_ITableSource_2_Remove_" data-uid="ExtendedXmlSerializer.Core.Sources.ITableSource`2.Remove*"></a>
-  <h4 id="ExtendedXmlSerializer_Core_Sources_ITableSource_2_Remove__0_" data-uid="ExtendedXmlSerializer.Core.Sources.ITableSource`2.Remove(`0)">Remove(TKey)</h4>
+  
+  <h4 id="ExtendedXmlSerializer_Core_Sources_ITableSource_2_Remove__0_" data-uid="ExtendedXmlSerializer.Core.Sources.ITableSource`2.Remove(`0)"><a href="#collapsible-ExtendedXmlSerializer_Core_Sources_ITableSource_2_Remove__0_" class="expander" data-toggle="collapse">Remove(TKey)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_Core_Sources_ITableSource_2_Remove__0_" class="collapse in">
   <div class="markdown level1 summary"><p>Removes the value (if any) found with the specified key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">bool Remove(TKey key)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TKey</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key used to query.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">TKey</span></span>
+        <span class="parametername">key</span>
+        <p><p>The key used to query.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Result of removal.</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p><p>Result of removal.</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Return__2___0___1_">ExtensionMethods.Return&lt;T, TOut&gt;(T, TOut)</a>
@@ -255,23 +266,17 @@
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_Adapt__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0__">ExtensionMethodsForCoreSpecifications.Adapt&lt;T&gt;(ISpecification&lt;T&gt;)</a>
   </div>
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ExtendedXmlSerializer/home/new/debug/documentation/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_ITableSource_2.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.ITableSource%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/blob/debug/documentation/src/ExtendedXmlSerializer/Core/Sources/ITableSource.cs/#L10" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_ITableSource_2.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.ITableSource%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/Core/Sources/ITableSource.cs/#L10" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>
