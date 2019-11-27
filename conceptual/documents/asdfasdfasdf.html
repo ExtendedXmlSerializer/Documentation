@@ -68,54 +68,7 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<p>Finally, if you have documents from v1, you will need to upgrade them to
-v2 to work. This involves reading the document in an instance of v1
-serializer, and then writing it in an instance of v2 serializer. We have
-provided the ExtendedXmlSerializer.Legacy nuget package to assist in
-this goal.</p>
-<pre><code class="lang-xml">    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-    &lt;ArrayOfSubject&gt;
-        &lt;Subject type=&quot;ExtendedXmlSerializer.Samples.Introduction.Subject&quot;&gt;
-            &lt;Message&gt;First&lt;/Message&gt;
-            &lt;Count&gt;0&lt;/Count&gt;
-        &lt;/Subject&gt;
-        &lt;Subject type=&quot;ExtendedXmlSerializer.Samples.Introduction.Subject&quot;&gt;
-            &lt;Message&gt;Second&lt;/Message&gt;
-            &lt;Count&gt;0&lt;/Count&gt;
-        &lt;/Subject&gt;
-        &lt;Subject type=&quot;ExtendedXmlSerializer.Samples.Introduction.Subject&quot;&gt;
-            &lt;Message&gt;Third&lt;/Message&gt;
-            &lt;Count&gt;0&lt;/Count&gt;
-        &lt;/Subject&gt;
-    &lt;/ArrayOfSubject&gt;
-</code></pre>
-<pre><code class="lang-csharp">    ExtendedXmlSerialization.ExtendedXmlSerializer legacySerializer = new ExtendedXmlSerialization.ExtendedXmlSerializer();
-    string content = File.ReadAllText(@&quot;bin\Upgrade.Example.v1.xml&quot;); // Path to your legacy xml file.
-    List&lt;Subject&gt; subject = legacySerializer.Deserialize&lt;List&lt;Subject&gt;&gt;(content);
-    
-    // Upgrade:
-    IExtendedXmlSerializer serializer = new ConfigurationContainer().Create();
-    string contents = serializer.Serialize(new XmlWriterSettings {Indent = true}, subject);
-    File.WriteAllText(@&quot;bin\Upgrade.Example.v2.xml&quot;, contents);
-    // ...
-</code></pre>
-<pre><code class="lang-xml">    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-    &lt;List xmlns:ns1=&quot;clr-namespace:ExtendedXmlSerializer.Samples.Introduction;assembly=ExtendedXmlSerializer.Samples&quot; xmlns:exs=&quot;https://extendedxmlserializer.github.io/v2&quot; exs:arguments=&quot;ns1:Subject&quot; xmlns=&quot;https://extendedxmlserializer.github.io/system&quot;&gt;
-      &lt;Capacity&gt;4&lt;/Capacity&gt;
-      &lt;ns1:Subject&gt;
-        &lt;Message&gt;First&lt;/Message&gt;
-        &lt;Count&gt;0&lt;/Count&gt;
-      &lt;/ns1:Subject&gt;
-      &lt;ns1:Subject&gt;
-        &lt;Message&gt;Second&lt;/Message&gt;
-        &lt;Count&gt;0&lt;/Count&gt;
-      &lt;/ns1:Subject&gt;
-      &lt;ns1:Subject&gt;
-        &lt;Message&gt;Third&lt;/Message&gt;
-        &lt;Count&gt;0&lt;/Count&gt;
-      &lt;/ns1:Subject&gt;
-    &lt;/List&gt;
-</code></pre>
+<p>asdfasdfasdfasdf</p>
 </article>
           </div>
           
@@ -124,7 +77,7 @@ this goal.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ExtendedXmlSerializer/ExtendedXmlSerializer.wiki/blob/documentation-debug/06.-How-to-Upgrade-from-v1.x-to-v2.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/ExtendedXmlSerializer/NextRelease.wiki/blob/9.0.9/asdfasdfasdf.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
