@@ -16,11 +16,17 @@
   font-size: 19px;
 }
 
+#logo {
+	width: 45px;
+	height: 45px;
+	margin-right: 25px;
+}
+
 .sidetoc,
 body .toc,
 .sidefilter,
 .sidetoggle { 
-  background-color: #f9fbe7; 
+  background-color: #D0EAF7; 
 }
 
 .sidenav,
@@ -191,9 +197,9 @@ article h4 {
 /* Custom Navbar
    ------------------------------------------------------- */
 .navbar-inverse {
-  background-color: #318f7c;
+  background-color: #33164A;
   opacity: 0.95;
-  border-color: #02735f;
+  border-color: #502274;
 }
 .navbar-inverse .navbar-brand {
   color: #ffffff;
@@ -216,20 +222,20 @@ article h4 {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ecdbff;
-  background-color: #02735f;
+  background-color: #502274;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #ecdbff;
-  background-color: #02735f;
+  background-color: #502274;
 }
 .navbar-inverse .navbar-toggle {
-  border-color: #02735f;
+  border-color: #502274;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #02735f;
+  background-color: #502274;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
@@ -257,6 +263,6 @@ article h4 {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ecdbff;
-    background-color: #02735f;
+    background-color: #502274;
   }
 }
