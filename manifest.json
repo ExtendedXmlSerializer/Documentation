@@ -5,11 +5,11 @@
   "files": [
     {
       "type": "Conceptual",
-      "source_relative_path": "conceptual/documents/01.-FAQs.md",
+      "source_relative_path": "conceptual/documents/API-Overview.md",
       "output": {
         ".html": {
-          "relative_path": "conceptual/documents/01.-FAQs.html",
-          "hash": "24VT8QddT9KBLd1QSTO33A=="
+          "relative_path": "conceptual/documents/API-Overview.html",
+          "hash": "ZLoxuexIgVLZnbYSszy1rg=="
         }
       },
       "is_incremental": false,
@@ -17,11 +17,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "conceptual/documents/02.-The-Basics.md",
+      "source_relative_path": "conceptual/documents/Configuration-API.md",
       "output": {
         ".html": {
-          "relative_path": "conceptual/documents/02.-The-Basics.html",
-          "hash": "KMkAhfZFiY0+KbMHXAwzmw=="
+          "relative_path": "conceptual/documents/Configuration-API.html",
+          "hash": "0XB1UJKuhg05scHzYpeX1Q=="
         }
       },
       "is_incremental": false,
@@ -29,11 +29,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "conceptual/documents/03.-Configuration-API.md",
+      "source_relative_path": "conceptual/documents/Example-Scenarios.md",
       "output": {
         ".html": {
-          "relative_path": "conceptual/documents/03.-Configuration-API.html",
-          "hash": "2JbUw9ycQJOIpa566eB8rg=="
+          "relative_path": "conceptual/documents/Example-Scenarios.html",
+          "hash": "9XEa07Ki3rtIkm7cMv8y6g=="
         }
       },
       "is_incremental": false,
@@ -41,11 +41,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "conceptual/documents/04.-Features.md",
+      "source_relative_path": "conceptual/documents/FAQs.md",
       "output": {
         ".html": {
-          "relative_path": "conceptual/documents/04.-Features.html",
-          "hash": "VNt4zfHx2iDog7wlgHx9cA=="
+          "relative_path": "conceptual/documents/FAQs.html",
+          "hash": "7BbW3vV+8SM+WDEygsCVow=="
         }
       },
       "is_incremental": false,
@@ -53,23 +53,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "conceptual/documents/05.-Example-Scenarios.md",
+      "source_relative_path": "conceptual/documents/Features.md",
       "output": {
         ".html": {
-          "relative_path": "conceptual/documents/05.-Example-Scenarios.html",
-          "hash": "joQxZd2sxn+TzwCGERDdAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "conceptual/documents/06.-How-to-Upgrade-from-v1.x-to-v2.md",
-      "output": {
-        ".html": {
-          "relative_path": "conceptual/documents/06.-How-to-Upgrade-from-v1.x-to-v2.html",
-          "hash": "LOiDqYTqf/t7+NnomdEo6Q=="
+          "relative_path": "conceptual/documents/Features.html",
+          "hash": "0xymU7ZiKZ1o0jl19pBrWw=="
         }
       },
       "is_incremental": false,
@@ -82,6 +70,42 @@
         ".html": {
           "relative_path": "conceptual/documents/Home.html",
           "hash": "+xvpGbwy8nHPjsqo5Hn3mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/How-to-Upgrade-from-v1.x-to-v2.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/How-to-Upgrade-from-v1.x-to-v2.html",
+          "hash": "1fjwCPqCta41baqD3TNBfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/The-Basics.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/The-Basics.html",
+          "hash": "klkSLNqi/3D/nLx6TGg/yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "conceptual/documents/_Sidebar.md",
+      "output": {
+        ".html": {
+          "relative_path": "conceptual/documents/_Sidebar.html",
+          "hash": "kaKO5TaH7c8VzcNNlK+26g=="
         }
       },
       "is_incremental": false,
@@ -105,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/toc.html",
-          "hash": "J2W5GruaOr2vhQZ8HI7T1A=="
+          "hash": "waOWQXYUHtJvUPpgrzHjmQ=="
         }
       },
       "is_incremental": false,
@@ -1679,7 +1703,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html",
-          "hash": "mZP3/C3tf1mItdGM6pXDPw=="
+          "hash": "n6l9RF1/Za7ypvOfpj4ojw=="
         }
       },
       "is_incremental": false,
@@ -3132,16 +3156,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 245,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
