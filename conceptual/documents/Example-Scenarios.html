@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Serialization of dictionary </title>
+    <title>Configuration Profiles </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Serialization of dictionary ">
+    <meta name="title" content="Configuration Profiles ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -65,8 +65,291 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h2 id="serialization-of-dictionary">Serialization of dictionary</h2>
+<h2 id="configuration-profiles">Configuration Profiles</h2>
 
+<p>The ExtendedXmlSerializer API allows for you to create pre-configured configuration containers, known as configuration profiles.  This is useful for encapsulating re-used configurations so that you can use them across different projects, or if you have different ways you would like to configure your container and would like to easily switch between them during development.</p>
+<p>You define your profiles and then create a configuration container through the use of the <code>ConfiguredContainer</code> static class to create a <code>ConfigurationContainer</code> that is configured via the provided configuration profile.</p>
+<p>Let's first start with a simple configuration profile:</p>
+<pre><code class="lang-csharp">	sealed class Subject
+	{
+		public int Number { get; set; }
+
+		public string Message { get; set; }
+	}
+
+	sealed class SimpleProfile : IConfigurationProfile
+	{
+		public static SimpleProfile Default { get; } = new SimpleProfile();
+
+		SimpleProfile() {}
+
+		public IConfigurationContainer Get(IConfigurationContainer parameter) 
+			=&gt; parameter.Type&lt;Subject&gt;()
+		                .Member(x =&gt; x.Message)
+		                .Name(&quot;NewMessage&quot;);
+	}
+</code></pre>
+<p>Now let's create a configuration container with the profile.  The configuration profile will apply its encapsulated configurations to the container once it has been created. We do this through the use of a <code>ConfiguredProfile.New</code> call:</p>
+<pre><code class="lang-csharp">	IConfigurationContainer container = ConfiguredContainer.New&lt;SimpleProfile&gt;();
+
+	IExtendedXmlSerializer serializer = container.UseAutoFormatting()
+	                          .EnableImplicitTyping(typeof(Subject))
+	                          .UseOptimizedNamespaces()
+	                          .Create();
+	var instance = new Subject {Message = &quot;Hello World!&quot;};
+	string document = serializer.Serialize(instance);
+</code></pre>
+<p>And the result of the <code>document</code> variable above is:</p>
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Issue282Tests_Profiles-Subject Number=&quot;0&quot; NewMessage=&quot;Hello World!&quot; /&gt;
+</code></pre>
+<p>You can also combine configuration profiles:</p>
+<pre><code class="lang-csharp">	sealed class ComplexProfile : CompositeConfigurationProfile
+	{
+		public static ComplexProfile Default { get; } = new ComplexProfile();
+
+		ComplexProfile() : base(SimpleProfile.Default, NumberProfile.Default) {}
+	}
+
+	sealed class NumberProfile : IConfigurationProfile
+	{
+		public static NumberProfile Default { get; } = new NumberProfile();
+
+		NumberProfile() {}
+
+		public IConfigurationContainer Get(IConfigurationContainer parameter) 
+			=&gt; parameter.Type&lt;Subject&gt;()
+                        .Member(x =&gt; x.Number)
+                        .Name(&quot;NewNumber&quot;);
+	}
+</code></pre>
+<p>Create:</p>
+<pre><code class="lang-csharp">	IConfigurationContainer container = ConfiguredContainer.New&lt;ComplexProfile&gt;();
+
+	IExtendedXmlSerializer serializer = container.UseAutoFormatting()
+	                          .EnableImplicitTyping(typeof(Subject))
+	                          .UseOptimizedNamespaces()
+	                          .Create();
+	var instance = new Subject {Message = &quot;Hello World!&quot;, Number = 123};
+	string document = serializer.Serialize(instance);
+</code></pre>
+<p>Result:</p>
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Issue282Tests_Profiles-Subject Number=&quot;123&quot; NewMessage=&quot;Hello World!&quot; /&gt;
+</code></pre>
+<p>The above code is verified and can be reviewed in <a href="https://github.com/ExtendedXmlSerializer/home/blob/6a7b4674e4abd9070309da4fd1b5b75cc9bbfe7b/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests_Profiles.cs">a passing test within our test suite here</a>.</p>
+<h2 id="monitor-serialization-pipeline">Monitor Serialization Pipeline</h2>
+<p>One scenario that you might want to engage in is to monitor events during the serialization (and deserialization) process.  You might want to do this for logging or storage purposes.</p>
+<p>The <code>ISerializationMonitor</code> [<a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor-1.html">link</a>] has the following callbacks:</p>
+<ul>
+<li><code>OnSerializing</code></li>
+<li><code>OnSerialized</code></li>
+<li><code>OnDeserializing</code></li>
+<li><code>OnActivating</code></li>
+<li><code>OnActivated</code></li>
+<li><code>OnDeserialized</code></li>
+</ul>
+<p>Let's run through a very simple example of this scenario by storing a list of strings whenever they are encountered during a serialization via the <code>OnSerialized</code> callback.</p>
+<p>The code written here can be <a href="https://github.com/ExtendedXmlSerializer/home/blob/633274f853684222b4818abbb789bdec41590662/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests_Monitor.cs#L14-L52">seen in a passing test defined in our test suite here</a>.</p>
+<p>First, define the monitor:</p>
+<pre><code class="lang-csharp">	sealed class Monitor : ISerializationMonitor&lt;string&gt;
+	{
+		readonly List&lt;string&gt; _store;
+
+		public Monitor(List&lt;string&gt; store) =&gt; _store = store;
+
+		public void OnSerializing(IFormatWriter writer, string instance) {}
+
+		public void OnSerialized(IFormatWriter writer, string instance)
+		{
+			_store.Add(instance);
+		}
+
+		public void OnDeserializing(IFormatReader reader, Type instanceType) {}
+
+		public void OnActivating(IFormatReader reader, Type instanceType) {}
+
+		public void OnActivated(string instance) {}
+
+		public void OnDeserialized(IFormatReader reader, string instance) {}
+	}
+</code></pre>
+<p>And our subject:</p>
+<pre><code class="lang-csharp">	sealed class Subject
+	{
+		public string Message { get; set; }
+	}
+</code></pre>
+<p>And finally our serializer instance:</p>
+<pre><code class="lang-csharp">	var instances = new List&lt;string&gt;();
+	IExtendedXmlSerializer serializer = new ConfigurationContainer().Type&lt;string&gt;()
+	                                                                .WithMonitor(new Monitor(instances))
+	                                                                .Create();
+</code></pre>
+<p>Now let's serialize one of our subject's with a message:</p>
+<pre><code>	const string message = &quot;Hello World!&quot;;
+	string document = serializer.Serialize(new Subject {Message = message});
+</code></pre>
+<p>When we poll the <code>instances</code> variable above now, we see that it contains the <code>Hello World!</code> message.</p>
+<p>For a full working test demonstrating this scenario, <a href="https://github.com/ExtendedXmlSerializer/home/blob/633274f853684222b4818abbb789bdec41590662/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests_Monitor.cs#L14-L52">see the test described here</a>.</p>
+<h2 id="create-an-extension">Create an Extension</h2>
+<p>Creating an extension is at the heart of ExtendedXmlSerializer's extension model.</p>
+<p>In this very simple example, we are going to extend the configuration container that creates our root serializer to create a content serializer so that it always add the number <code>42</code> whenever it encounters number during both serialization and deserialization.</p>
+<p>Here's our subject:</p>
+<pre><code class="lang-csharp">	sealed class Subject
+	{
+		public int Number { get; set; }
+	}
+</code></pre>
+<p>If we create an instance of this subject with its <code>Number</code> set to <code>10</code>, it will serialize that value with <code>52</code> and then deserialize with a</p>
+<p>Now, why on earth would we ever want to do this?! For demonstration purposes, of course! 😁</p>
+<p>All of the code provided in this article can be <a href="https://github.com/ExtendedXmlSerializer/home/blob/9824a628c911f6d46e1cb73d08be8e3200240cbe/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests_Extension.cs#L17-L80">found in the form of a passing test as defined here</a>.</p>
+<p>Let's begin by defining our extension:</p>
+<pre><code class="lang-csharp">    sealed class Extension : ISerializerExtension
+	{
+		public static Extension Default { get; } = new Extension();
+
+		Extension() {}
+
+		public IServiceRepository Get(IServiceRepository parameter) =&gt; parameter.DecorateContentsWith&lt;Contents&gt;()
+		                                                                        .Then();
+
+		void ICommand&lt;IServices&gt;.Execute(IServices parameter) {}
+
+		sealed class Contents : IContents
+		{
+			readonly IContents        _previous;
+			readonly ISerializer&lt;int&gt; _number;
+
+			public Contents(IContents previous)
+				: this(previous, new AnswerToEverythingSerializer(previous.Get(typeof(int)).For&lt;int&gt;())) {}
+
+			public Contents(IContents previous, ISerializer&lt;int&gt; number)
+			{
+				_previous = previous;
+				_number   = number;
+			}
+
+			public ISerializer Get(TypeInfo parameter)
+				=&gt; parameter == typeof(int) ? _number.Adapt() : _previous.Get(parameter);
+		}
+
+		sealed class AnswerToEverythingSerializer : ISerializer&lt;int&gt;
+		{
+			readonly ISerializer&lt;int&gt; _previous;
+
+			public AnswerToEverythingSerializer(ISerializer&lt;int&gt; previous) =&gt; _previous = previous;
+
+			public int Get(IFormatReader parameter) =&gt; _previous.Get(parameter) + 42;
+
+			public void Write(IFormatWriter writer, int instance)
+			{
+				_previous.Write(writer, instance + 42);
+			}
+		}
+	}
+</code></pre>
+<p>Here this extension is used to register the <code>AnswerToEverythingSerializer</code> whenever a content serializer is requested for the type of <code>int</code>.  The <code>AnswerToEverythingSerializer</code> adds <code>42</code> to a number when it serializes and then <code>42</code> again to a value when it deserializes it.</p>
+<p>Now let's create a container that is extended with this extension:</p>
+<pre><code class="lang-csharp">	IExtendedXmlSerializer serializer = new ConfigurationContainer().EnableImplicitTyping(typeof(Subject))
+	                                                                .Extend(Extension.Default)
+	                                                                .Create();
+	string document = serializer.Serialize(new Subject(){Number = 10});
+</code></pre>
+<p>When we inspect the <code>document</code> variable above, we get the following XML:</p>
+<pre><code class="lang-xml">&lt;?xml version=&quot;&quot;1.0&quot;&quot; encoding=&quot;&quot;utf-8&quot;&quot;?&gt;
+&lt;Subject&gt;&lt;Number&gt;52&lt;/Number&gt;&lt;/Subject&gt;
+</code></pre>
+<p>Now let's deserialize it:</p>
+<pre><code class="lang-csharp">var number = serializer.Deserialize&lt;Subject&gt;(document).Number;
+</code></pre>
+<p>Inspecting the <code>number</code> variable reveals <code>94</code> as it added <code>42</code> to the serialized value of <code>52</code>.</p>
+<p>This is a very contrived example but hopefully it communicates the power of the extension model that is available in ExtendedXmlSerializer.  For a working example of the code above, <a href="https://github.com/ExtendedXmlSerializer/home/blob/9824a628c911f6d46e1cb73d08be8e3200240cbe/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests_Extension.cs#L17-L80">check out the passing test</a> that is in our test suite that demonstrates the above scenario.</p>
+<h2 id="register-custom-serializer">Register Custom Serializer</h2>
+<p>You have full control over the serialization of a particular type.  Consider the following class structure:</p>
+<pre><code class="lang-csharp">	public class Subject
+	{
+		public Subject(string text, int number)
+		{
+			Text   = text;
+			Number = number;
+		}
+
+		public string Text { get; }
+		public int Number { get; }
+	}
+</code></pre>
+<p>Now, while it is possible to use <code>EnableParameterizedContent</code> [<a href="https://github.com/ExtendedXmlSerializer/home/wiki/Features#immutable-classes-and-content">feature</a>, <a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_EnableParameterizedContent_ExtendedXmlSerializer_Configuration_IConfigurationContainer_">API</a>] to serialize and deserialize the above contract, what we want to demonstrate here is the ability to have full control over how the above is stored and retrieved.</p>
+<p>The following code can be <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests.cs#L12-L56">found in a passing test stored here</a>.</p>
+<p>First, let's create a serializer:</p>
+<pre><code class="lang-csharp">	sealed class SubjectSerializer : ISerializer&lt;Subject&gt;
+	{
+		public static SubjectSerializer Default { get; } = new SubjectSerializer();
+
+		SubjectSerializer() {}
+
+		public Subject Get(IFormatReader parameter)
+		{
+			var parts  = parameter.Content().Split('|');
+			var result = new Subject(parts[0], int.Parse(parts[1]));
+			return result;
+		}
+
+		public void Write(IFormatWriter writer, Subject instance)
+		{
+			writer.Content($&quot;{instance.Text}|{instance.Number}&quot;);
+		}
+	}
+</code></pre>
+<p>The above is very rudimentary and extremely error-prone (particularly the <code>int.Parse</code> call), but again what we are demonstrating here is full control over the serialization and deserialization process for this particular type.  If you feel so inclined (and maybe a little crazy 😅), you could even modify the serializer to send and retrieve data from a database.</p>
+<p>That is the point (and power!) of this scenario, as well as demonstrating how to register a serializer for a particular type.</p>
+<p>Now that we have the serializer created, let's register it and create a root container:</p>
+<pre><code class="lang-csharp">	IExtendedXmlSerializer serializer = new ConfigurationContainer().Type&lt;Subject&gt;()
+	                                                                .Register()
+	                                                                .Serializer()
+	                                                                .Using(SubjectSerializer.Default)
+	                                                                .Create();
+    Subject instance = new Subject(&quot;Hello World!&quot;, 123);
+	string document = serializer.Serialize(instance);
+</code></pre>
+<p>The above will create the following XML:</p>
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Subject xmlns=&quot;clr-namespace:Namespace;assembly=Assembly&quot;&gt;Hello World!|123&lt;/Subject&gt;
+</code></pre>
+<p>The above code can be <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests.cs#L12-L56">viewed as a passing test here</a>.</p>
+<h2 id="register-a-converter">Register a Converter</h2>
+<p>While registering a serializer is meant for more complex serialization scenarios, you can use an <code>IConverter&lt;T&gt;</code> for simple <code>string</code>-based conversion implementations.  Let's walk through a simple example here.</p>
+<p>First, start by defining your converter for a type:</p>
+<pre><code class="lang-csharp">	sealed class Subject
+	{
+		public string Message { get; set; }
+	}
+
+	sealed class SubjectConverter : ConverterBase&lt;Subject&gt;
+	{
+		public static SubjectConverter Default { get; } = new SubjectConverter();
+
+		SubjectConverter() {}
+
+		public override Subject Parse(string data) =&gt; new Subject {Message = data};
+
+		public override string Format(Subject instance) =&gt; instance.Message;
+	}
+</code></pre>
+<p>Register it and serialize:</p>
+<pre><code class="lang-csharp">	IExtendedXmlSerializer serializer = new ConfigurationContainer().EnableImplicitTyping(typeof(Subject))
+	                                                                .Type&lt;Subject&gt;()
+	                                                                .Register()
+	                                                                .Converter()
+	                                                                .Using(SubjectConverter.Default)
+	                                                                .Create();
+
+	var instance = new Subject {Message = &quot;Hello World!&quot;};
+	string document = serializer.Serialize(instance);
+</code></pre>
+<p>Result:</p>
+<pre><code class="lang-xml">&lt;?xml version=&quot;&quot;1.0&quot;&quot; encoding=&quot;&quot;utf-8&quot;&quot;?&gt;&lt;Subject&gt;Hello World!&lt;/Subject&gt;
+</code></pre>
+<p>The above code can be reviewed in <a href="https://github.com/ExtendedXmlSerializer/home/blob/8ae06e2aff399a32625f0f7c29a68a2631646484/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests_Converters.cs">a passing test within our test suite here</a>.</p>
+<h2 id="serialization-of-dictionary">Serialization of Dictionary</h2>
 <p>You can serialize generic dictionary, that can store any type.</p>
 <pre><code class="lang-csharp">    public class TestClass
     {
@@ -121,50 +404,7 @@
       &lt;/Dictionary&gt;
     &lt;/TestClass&gt;
 </code></pre>
-<h2 id="custom-serialization">Custom serialization</h2>
-<p>If your class has to be serialized in a non-standard way:</p>
-<pre><code class="lang-csharp">    public class TestClass
-    {
-        public TestClass(string paramStr, int paramInt)
-        {
-            PropStr = paramStr;
-            PropInt = paramInt;
-        }
-    
-        public string PropStr { get; private set; }
-        public int PropInt { get; private set; }
-    }
-</code></pre>
-<p>You must create custom serializer:</p>
-<pre><code class="lang-csharp">    public class TestClassSerializer : IExtendedXmlCustomSerializer&lt;TestClass&gt;
-    {
-        public TestClass Deserialize(XElement element)
-        {
-            XElement xElement = element.Member(&quot;String&quot;);
-            XElement xElement1 = element.Member(&quot;Int&quot;);
-            if (xElement != null &amp;&amp; xElement1 != null)
-            {
-                string strValue = xElement.Value;
-    
-                int intValue = Convert.ToInt32(xElement1.Value);
-                return new TestClass(strValue, intValue);
-            }
-            throw new InvalidOperationException(&quot;Invalid xml for class TestClassWithSerializer&quot;);
-        }
-    
-        public void Serializer(XmlWriter writer, TestClass obj)
-        {
-            writer.WriteElementString(&quot;String&quot;, obj.PropStr);
-            writer.WriteElementString(&quot;Int&quot;, obj.PropInt.ToString(CultureInfo.InvariantCulture));
-        }
-    }
-</code></pre>
-<p>Then, you have to add custom serializer to configuration of TestClass:</p>
-<pre><code class="lang-csharp">    IExtendedXmlSerializer serializer = new ConfigurationContainer().Type&lt;TestClass&gt;()
-                                                                    .CustomSerializer(new TestClassSerializer())
-                                                                    .Create();
-</code></pre>
-<h2 id="migrate-old-version-of-xml">Migrate Old Version of XML</h2>
+<h2 id="migrate-xml-based-on-older-class-model">Migrate XML Based on Older Class Model</h2>
 <p>In standard XMLSerializer you can't deserialize XML in case you change
 model. In ExtendedXMLSerializer you can create migrator for each class
 separately. E.g.: If you have big class, that uses small class and this

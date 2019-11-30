@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>ConfigurationContainer </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="ConfigurationContainer ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -66,7 +66,84 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 
-<p>TBD</p>
+<p>At the heart of ExtendedXmlSerializer's configuration sits a fluent API. Example:</p>
+<pre><code class="lang-csharp">    IExtendedXmlSerializer serializer = new ConfigurationContainer()
+        .UseEncryptionAlgorithm(new CustomEncryption())
+        .Type&lt;Person&gt;() // Configuration of Person class
+            .Member(p =&gt; p.Password) // First member
+                .Name(&quot;P&quot;)
+                .Encrypt()
+            .Member(p =&gt; p.Name) // Second member
+                .Name(&quot;T&quot;)
+        .Type&lt;TestClass&gt;() // Configuration of another class
+            .CustomSerializer(new TestClassSerializer())
+        .Create();
+</code></pre>
+<p>As such, there are three primary configuration components that you will work with to configure ExtendedXmlSerializer:</p>
+<ul>
+<li><code>ConfigurationContainer</code></li>
+<li><code>TypeConfiguration&lt;T&gt;</code></li>
+<li><code>MemberConfiguration&lt;T, TMember&gt;</code></li>
+</ul>
+<p>We start this API Overview by exploring these three configuration elements, then move onto other primary components used throughout ExtendedXmlSerializer.</p>
+<h2 id="configurationcontainer"><code>ConfigurationContainer</code></h2>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.Configuration.ConfigurationContainer.html">API Reference</a></p>
+</blockquote>
+<p>The <code>ConfigurationContainer</code> is considered the root-level entry object in ExtendedXmlSerializer.  All root serializers created in ExtendedXmlSerializer are done through a <code>ConfigurationContainer</code> after it has been created and configured.</p>
+<p>Is is through the use of the <code>ConfigurationContainer</code>'s <code>Type&lt;T&gt;</code> method call [<a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ExtensionMethodsForConfiguration.html#ExtendedXmlSerializer_ExtensionMethodsForConfiguration_Type__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_">link</a>] that we are able to configure types, which we explore in the next section.</p>
+<h3 id="configuration-profiles">Configuration Profiles</h3>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.Configuration.IConfigurationProfile.html">API Reference</a></p>
+</blockquote>
+<p>But first. :)  A quick note about configuration profiles.  Configuration containers can be configured via configuration profiles, which are pre-configured, encapsulated components that can be shared across projects that configure configuration containers in a particular away.  You can <a href="https://github.com/ExtendedXmlSerializer/home/wiki/Example-Scenarios#configuration-profiles">see these in action here</a>.</p>
+<h2 id="typeconfiguration"><code>TypeConfiguration</code></h2>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.Configuration.ITypeConfiguration-1.html">API Reference</a></p>
+</blockquote>
+<p>A type configuration is a root-level component in ExtendedXmlSerializer, and is accessed by calling the <code>Type&lt;T&gt;</code> method [<a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ExtensionMethodsForConfiguration.html#ExtendedXmlSerializer_ExtensionMethodsForConfiguration_Type__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_">link</a>] on the <code>ConfigurationContainer</code>.</p>
+<p>With a <code>TypeConfiguration</code> configuration object, a system is able to configure a type and how it is processed during the serialization and deserialization process.  The system can further configure members of a type by calling their respective <code>Member</code> method [<a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ExtensionMethodsForConfiguration.html#ExtendedXmlSerializer_ExtensionMethodsForConfiguration_Member__2_ExtendedXmlSerializer_Configuration_ITypeConfiguration___0__System_Linq_Expressions_Expression_System_Func___0___1___">link</a>] on the <code>TypeConfiguration</code> object.  Doing so returns a <code>MemberConfiguration</code> object which we discuss next.</p>
+<h2 id="memberconfiguration"><code>MemberConfiguration</code></h2>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.Configuration.IMemberConfiguration-2.html">API Reference</a></p>
+</blockquote>
+<p>The member configuration is where configuration occurs for a type's member within a configuration container.  Using this object, a system can configure how a type's member is serialized and deserialized during their respective processes.</p>
+<h1 id="application-components">Application Components</h1>
+<p>Now that we have explored the configuration components, let's briefly dive into the other featured components used throughout ExtendedXmlSerializer.  These components are not typically used or seen by a casual user of ExtendedXmlSerializer, and are intended to be utilized by extension authors, if they should be so brave to wander into such territory. 😅</p>
+<h2 id="iserializerextension"><code>ISerializerExtension</code></h2>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ExtensionModel.ISerializerExtension.html">API Reference</a></p>
+</blockquote>
+<p>This is the root element in the extension model in ExtendedXmlSerializer.  This is to extensions what the <code>ConfigurationContainer</code> is to configuration.</p>
+<p>The serializer extension is used to extend a serializer by taking part of its service registration pipeline (think: dependency injection).  Extensions are added as a list and are then processed in the order that they are added.</p>
+<p>You can see the <code>ISerializerExtension</code> in action within the <a href="https://github.com/ExtendedXmlSerializer/home/wiki/Example-Scenarios#create-an-extension">Create an Extension example scenario</a>.</p>
+<h2 id="icontents"><code>IContents</code></h2>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ContentModel.Content.IContents.html">API Reference</a></p>
+</blockquote>
+<p>This interface is what is used to request and resolve content serializers for different types within the object graph as it is being processsed.  This interface is used quite extensively in extensions, mostly by way of <a href="https://en.wikipedia.org/wiki/Decorator_pattern">decoration</a> and used to intercept in favor of another implementation of <code>IContents</code> in the pipeline.  You can see an example of this <a href="https://github.com/ExtendedXmlSerializer/home/wiki/Example-Scenarios#create-an-extension">in the example scenario</a>.</p>
+<h2 id="iserializer"><code>ISerializer</code></h2>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ContentModel.ISerializer-1.html">API Reference</a></p>
+</blockquote>
+<p>Also known as a content serializer as it sits in the <code>ExtendedXmlSerializer.ContentModel</code> namespace.  This is the internal serializer that is returned whenever a serializer for a particular type is resolved.  When a particular type is encountered while traversing an object graph, this is the serializer type that is returned via the <code>IContents</code> interface.</p>
+<h2 id="iconverter"><code>IConverter</code></h2>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ContentModel.Conversion.IConverter-1.html">API Reference</a></p>
+</blockquote>
+<p>Whereas the <code>ISerializer</code> content serializer above is meant for complex serialization and deserialization, the <code>IConverter</code> is meant for simple deserialization.  The <code>IConverter</code> is used via registration to serialize objects to and from a <code>string</code> directly.  That is, given a <code>string</code>, an <code>IConverter</code> will be able to create a object from it, and conversely format a given object into a resulting <code>string</code>.</p>
+<p>You can see more of this in the <a href="https://github.com/ExtendedXmlSerializer/home/wiki/Example-Scenarios#register-a-converter">Register a Converter example scenario</a>.</p>
+<h2 id="ielement"><code>IElement</code></h2>
+<blockquote>
+<p><a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ContentModel.Content.IElement.html">API Reference</a></p>
+</blockquote>
+<p>Finally, a word about <code>IElement</code>.  This is a specialized component that is used to register different types for emitting elements into the XML document.  By default, ExtendedXmlSerializer captures the following element types:</p>
+<ul>
+<li>Arrays</li>
+<li>Generic Types</li>
+<li>Element (default)</li>
+</ul>
+<p>While not a common, other types can be used and this component warrants mention in the overview here.</p>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">

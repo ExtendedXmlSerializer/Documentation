@@ -241,6 +241,15 @@ references:
   fullName.vb: ExtendedXmlSerializer.Configuration.ContentsDecorationContext(Of T).When(ExtendedXmlSerializer.Core.Specifications.ISpecification(Of System.Reflection.TypeInfo))
   nameWithType: ContentsDecorationContext<T>.When(ISpecification<TypeInfo>)
   nameWithType.vb: ContentsDecorationContext(Of T).When(ISpecification(Of TypeInfo))
+- uid: ExtendedXmlSerializer.Configuration.ContentsDecorationContext`1.When(System.Func{System.Reflection.TypeInfo,System.Boolean})
+  name: When(Func<TypeInfo, Boolean>)
+  href: reference/ExtendedXmlSerializer.Configuration.ContentsDecorationContext-1.html#ExtendedXmlSerializer_Configuration_ContentsDecorationContext_1_When_System_Func_System_Reflection_TypeInfo_System_Boolean__
+  commentId: M:ExtendedXmlSerializer.Configuration.ContentsDecorationContext`1.When(System.Func{System.Reflection.TypeInfo,System.Boolean})
+  name.vb: When(Func(Of TypeInfo, Boolean))
+  fullName: ExtendedXmlSerializer.Configuration.ContentsDecorationContext<T>.When(System.Func<System.Reflection.TypeInfo, System.Boolean>)
+  fullName.vb: ExtendedXmlSerializer.Configuration.ContentsDecorationContext(Of T).When(System.Func(Of System.Reflection.TypeInfo, System.Boolean))
+  nameWithType: ContentsDecorationContext<T>.When(Func<TypeInfo, Boolean>)
+  nameWithType.vb: ContentsDecorationContext(Of T).When(Func(Of TypeInfo, Boolean))
 - uid: ExtendedXmlSerializer.Configuration.ContentsDecorationContext`1.When*
   name: When
   href: reference/ExtendedXmlSerializer.Configuration.ContentsDecorationContext-1.html#ExtendedXmlSerializer_Configuration_ContentsDecorationContext_1_When_
