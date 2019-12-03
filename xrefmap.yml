@@ -9268,6 +9268,22 @@ references:
   commentId: T:ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder
   fullName: ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder
   nameWithType: DefaultMemberOrder
+- uid: ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.#ctor(System.Func{System.Reflection.MemberInfo,System.Xml.Serialization.XmlElementAttribute},System.Func{System.Reflection.MemberInfo,System.Collections.Generic.List{System.Reflection.MemberInfo}})
+  name: DefaultMemberOrder(Func<MemberInfo, XmlElementAttribute>, Func<MemberInfo, List<MemberInfo>>)
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.html#ExtendedXmlSerializer_ExtensionModel_Xml_DefaultMemberOrder__ctor_System_Func_System_Reflection_MemberInfo_System_Xml_Serialization_XmlElementAttribute__System_Func_System_Reflection_MemberInfo_System_Collections_Generic_List_System_Reflection_MemberInfo___
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.#ctor(System.Func{System.Reflection.MemberInfo,System.Xml.Serialization.XmlElementAttribute},System.Func{System.Reflection.MemberInfo,System.Collections.Generic.List{System.Reflection.MemberInfo}})
+  name.vb: DefaultMemberOrder(Func(Of MemberInfo, XmlElementAttribute), Func(Of MemberInfo, List(Of MemberInfo)))
+  fullName: ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.DefaultMemberOrder(System.Func<System.Reflection.MemberInfo, System.Xml.Serialization.XmlElementAttribute>, System.Func<System.Reflection.MemberInfo, System.Collections.Generic.List<System.Reflection.MemberInfo>>)
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.DefaultMemberOrder(System.Func(Of System.Reflection.MemberInfo, System.Xml.Serialization.XmlElementAttribute), System.Func(Of System.Reflection.MemberInfo, System.Collections.Generic.List(Of System.Reflection.MemberInfo)))
+  nameWithType: DefaultMemberOrder.DefaultMemberOrder(Func<MemberInfo, XmlElementAttribute>, Func<MemberInfo, List<MemberInfo>>)
+  nameWithType.vb: DefaultMemberOrder.DefaultMemberOrder(Func(Of MemberInfo, XmlElementAttribute), Func(Of MemberInfo, List(Of MemberInfo)))
+- uid: ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.#ctor*
+  name: DefaultMemberOrder
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.html#ExtendedXmlSerializer_ExtensionModel_Xml_DefaultMemberOrder__ctor_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.#ctor
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.DefaultMemberOrder
+  nameWithType: DefaultMemberOrder.DefaultMemberOrder
 - uid: ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.Default
   name: Default
   href: reference/ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.html#ExtendedXmlSerializer_ExtensionModel_Xml_DefaultMemberOrder_Default
