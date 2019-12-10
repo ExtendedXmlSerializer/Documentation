@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/API-Overview.html",
-          "hash": "rLiPF6BPCGvkW6oB6Yi0GA=="
+          "hash": "pgNH38Uoznp7DJ2kEfM97w=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/CHANGELOG.html",
-          "hash": "zaPxv2kYfwdDcNShzLnQKQ=="
+          "hash": "koLs5w4GY6kgLtGzJgktiA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/Configuration-API.html",
-          "hash": "aPUrtC0o6g1tQL917oDvcA=="
+          "hash": "DveMwTHU7s3QSjFMvByh1A=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/Example-Scenarios.html",
-          "hash": "1bJIbUPOqx7TD62rJGEl1g=="
+          "hash": "cyteBYKKTYXxV98n973Isw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/FAQs.html",
-          "hash": "cXgMa3vQz3nBb6PUL58rmw=="
+          "hash": "r4MW9RE6KNyuamqYDn2ttQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/Features.html",
-          "hash": "o+K2NRTyP0qTF2C5CQch+Q=="
+          "hash": "gKya3rnPSFTA9+BzaG+uWQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/Home.html",
-          "hash": "SqB8/cVhURi+wulVfdn32w=="
+          "hash": "lRp86Q/lkhZ5oDC3XMwG5g=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/How-to-Upgrade-from-v1.x-to-v2.html",
-          "hash": "kK9Ldjs3Qhocj15GT8NghA=="
+          "hash": "foJjYtS5YfIdknddBgoUfA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/The-Basics.html",
-          "hash": "1+HsCZ0By7BCx1TIY/OFBg=="
+          "hash": "YB31uEtb6NDjvfmNkggtqA=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/documents/_Sidebar.html",
-          "hash": "3CxQjRTwxvV5yRozvX+uEA=="
+          "hash": "CBlaKgKHRDgtRQ7U9yWj4g=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "conceptual/index.html",
-          "hash": "VAgqSmqlG097+SA54G81Mw=="
+          "hash": "iTKWH8TmnnROgzofgIhA7Q=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "rplq+LfzQBesTqwmsNkoWA=="
+          "hash": "XQA0oxtLIA4bLt2EmbB6KA=="
         }
       },
       "is_incremental": false,
@@ -176,7 +176,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.CompositeConfigurationProfile.html",
-          "hash": "PwRL7ie5N/fhe6Dv4jj+ZA=="
+          "hash": "683/NU26Z6Ur1D7h4LN9MA=="
         }
       },
       "is_incremental": false,
@@ -188,7 +188,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ConfigurationContainer.html",
-          "hash": "mqkKQyE4iiqFB4YDJDu2hA=="
+          "hash": "tB+LMK+ee8vpbwmohKN/0A=="
         }
       },
       "is_incremental": false,
@@ -200,7 +200,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ConfiguredContainer.html",
-          "hash": "gshgyUkaeDFsX6DbmKLMpQ=="
+          "hash": "yujL49MZGJUJ/S/u7Bz2Lw=="
         }
       },
       "is_incremental": false,
@@ -212,7 +212,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ConfiguredSerializer-1.html",
-          "hash": "eZz9tcTDnlYwA0lky9PU4g=="
+          "hash": "CaDN+v/7HSlUR+j6CpbDtA=="
         }
       },
       "is_incremental": false,
@@ -224,7 +224,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ContentsDecorationContext-1.html",
-          "hash": "fva245y6qP0/QbO1LbFo3w=="
+          "hash": "F6aT92Q1+0Dj6mFtczwj6Q=="
         }
       },
       "is_incremental": false,
@@ -236,7 +236,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ContextBase.html",
-          "hash": "rwO9r82rCvPUv9By7K2uDQ=="
+          "hash": "O65Wj5lV+i4VNZ9lTH25Sw=="
         }
       },
       "is_incremental": false,
@@ -248,7 +248,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ElementDecorationContext-1.html",
-          "hash": "uyHkYYmG5R08ludtQjc0Gw=="
+          "hash": "BkiriXRvj/GU6+NBugeZ9w=="
         }
       },
       "is_incremental": false,
@@ -260,7 +260,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.EmitBehaviors.html",
-          "hash": "LpIfqMrxlLa2lF7LIyODRw=="
+          "hash": "nhN1DGsAPiERDq2RY9123A=="
         }
       },
       "is_incremental": false,
@@ -272,7 +272,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IConfigurationContainer.html",
-          "hash": "gZ7hKTYCFpBBjQ/QXtYKGQ=="
+          "hash": "E/1qllW0TaC8yUYCVlpKdQ=="
         }
       },
       "is_incremental": false,
@@ -284,7 +284,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IConfigurationProfile.html",
-          "hash": "zwdLHMaNLKLdtblVHM6avg=="
+          "hash": "f7VH725ORBcCWm+LYPd/hA=="
         }
       },
       "is_incremental": false,
@@ -296,7 +296,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IContext.html",
-          "hash": "vAMzHH8o6FaCnCm/JGb8Rg=="
+          "hash": "/vuxK0aKlk3eMUISgF+NSQ=="
         }
       },
       "is_incremental": false,
@@ -308,7 +308,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IEmitBehavior.html",
-          "hash": "ktpvVGTARWP5gVUjdeePLw=="
+          "hash": "vmi2N7+N4xNyUl5jM+kMDA=="
         }
       },
       "is_incremental": false,
@@ -320,7 +320,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IExtensionCollection.html",
-          "hash": "Xbk8CYHMplewkWo/CBpApQ=="
+          "hash": "5lpUOF+4QsSthkXwQ7LIOA=="
         }
       },
       "is_incremental": false,
@@ -332,7 +332,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IMemberConfiguration-2.html",
-          "hash": "LJHYDBYeKBiStbr+KFN0IQ=="
+          "hash": "Xl/X+TACSL/rdfqODla8Vg=="
         }
       },
       "is_incremental": false,
@@ -344,7 +344,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IMemberConfiguration.html",
-          "hash": "AmcNLcoa7+WJl0kX9J8Hmg=="
+          "hash": "RX0szzoUvOAP+3JLfkxMfw=="
         }
       },
       "is_incremental": false,
@@ -356,7 +356,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IMemberConfigurations.html",
-          "hash": "M6fWYCccM3wpKYLBAh+H4Q=="
+          "hash": "9pKbrvl/DPeSZ9hrYNZ2OA=="
         }
       },
       "is_incremental": false,
@@ -368,7 +368,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IProperty-1.html",
-          "hash": "2YcpaKSsAd4WK0aAzQuSpA=="
+          "hash": "3kyiZillcm32InSbB9ku2Q=="
         }
       },
       "is_incremental": false,
@@ -380,7 +380,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IRootContext.html",
-          "hash": "EPVDpnx6ZnohHOP6CBI41Q=="
+          "hash": "dufcQ9JVxBod1hFrf3rG9w=="
         }
       },
       "is_incremental": false,
@@ -392,7 +392,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ITypeConfiguration-1.html",
-          "hash": "4AwRbEMdH4cAxNfBnMHP5Q=="
+          "hash": "KxBcb37WKCLuwCoCXoVnJg=="
         }
       },
       "is_incremental": false,
@@ -404,7 +404,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ITypeConfiguration.html",
-          "hash": "UFwFmujAIr5cPKAT/D0q/g=="
+          "hash": "X9kn7ZqVraItbN7f0jW4gA=="
         }
       },
       "is_incremental": false,
@@ -416,7 +416,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ITypeConfigurationContext.html",
-          "hash": "5DnyMiLGpmkK8cA9a6PgdA=="
+          "hash": "jm+y/2W+FnGJDSyKEUzGbg=="
         }
       },
       "is_incremental": false,
@@ -428,7 +428,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ITypeConfigurations.html",
-          "hash": "b4felZQf6dUCFFitoy5vXw=="
+          "hash": "vYTLzGZ/DGZ/qZs+HSbwEA=="
         }
       },
       "is_incremental": false,
@@ -440,7 +440,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.MemberInfo-1.html",
-          "hash": "goYrDDvQqkOsr2OzKZm/vg=="
+          "hash": "y9bb3owhbBKfOfIu5MbmUA=="
         }
       },
       "is_incremental": false,
@@ -452,7 +452,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.MemberRegistrationContext-2.html",
-          "hash": "YWPS0llNZdQWOihg9XzPSQ=="
+          "hash": "tkE0AhKUU81FoINLfrVICg=="
         }
       },
       "is_incremental": false,
@@ -464,7 +464,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.MemberSerializationRegistrationContext-2.html",
-          "hash": "Wlf2HjOeAg214r0Oxy9D/w=="
+          "hash": "D35C/hhKxIgm0GgmaqdBkA=="
         }
       },
       "is_incremental": false,
@@ -476,7 +476,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext-1.html",
-          "hash": "jltkhDJjU+436XY24mgV7A=="
+          "hash": "akUpSzwwk25eoAHpUxcqmg=="
         }
       },
       "is_incremental": false,
@@ -488,7 +488,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ServicesFactory.html",
-          "hash": "nhU+XeyGoLiizVPah11yOw=="
+          "hash": "UIw2VWn6eQDCZYp5/ZDcbw=="
         }
       },
       "is_incremental": false,
@@ -500,7 +500,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.TypeConverterRegistrationContext-1.html",
-          "hash": "Jk9IdHCCe4Nex+aq0pRgpQ=="
+          "hash": "yziySJHLA6AgnyO5vpyqAg=="
         }
       },
       "is_incremental": false,
@@ -512,7 +512,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.TypeRegistrationContext-1.html",
-          "hash": "uSQ4qfL934ZvV2m5+B27nQ=="
+          "hash": "oRQp5cuteR03pTFcDEqDyQ=="
         }
       },
       "is_incremental": false,
@@ -524,7 +524,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext-1.html",
-          "hash": "RQ6WITQzTEv3PFb1M1dr3g=="
+          "hash": "+EfWZEaSsnilKmcsCNO81A=="
         }
       },
       "is_incremental": false,
@@ -536,7 +536,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.UnknownContentContext.html",
-          "hash": "hA6MLgx8KprVUxz7gHLjtQ=="
+          "hash": "2e/3cpzJANj+eZ8jduXPDg=="
         }
       },
       "is_incremental": false,
@@ -548,7 +548,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.html",
-          "hash": "KF69AaOyM/IxG+iPXH15+g=="
+          "hash": "Q7A4RGX09QSPAPxhT5ROWQ=="
         }
       },
       "is_incremental": false,
@@ -560,7 +560,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.ContentSerializerAttribute.html",
-          "hash": "Z0ieya66lRKp9wzPAzlMPA=="
+          "hash": "y7eIcd3gD0lb3O3UdYXqlQ=="
         }
       },
       "is_incremental": false,
@@ -572,7 +572,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.IContentReaders.html",
-          "hash": "4gVC7oAngwHPaOQWi/3uiQ=="
+          "hash": "DFTLAq9ofNuFnF+WQGk+8w=="
         }
       },
       "is_incremental": false,
@@ -584,7 +584,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.IContentWriters.html",
-          "hash": "vDrCeOabn+RreNSCun9Cvw=="
+          "hash": "CdI8DALwzBvocIgTgjtEHg=="
         }
       },
       "is_incremental": false,
@@ -596,7 +596,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.IContents.html",
-          "hash": "tTYzPf0S2mmGdAUs0+mACg=="
+          "hash": "rZNz2Gl2FjMrCucrbg3e3w=="
         }
       },
       "is_incremental": false,
@@ -608,7 +608,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.IElement.html",
-          "hash": "hWEcCiKn71Ire5nhcilxrQ=="
+          "hash": "32PnQGbWElZtsfmvoDtQwQ=="
         }
       },
       "is_incremental": false,
@@ -620,7 +620,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.IInnerContent.html",
-          "hash": "ccgFAUUdbLTUoeqqFMdt5A=="
+          "hash": "5YXWWCbA8tKodBYqSp+67w=="
         }
       },
       "is_incremental": false,
@@ -632,7 +632,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.ISerializers.html",
-          "hash": "RQxj93QJ7K1kc48s8bPbdg=="
+          "hash": "HIuUWZ4/cI0cxsqPXbUEbw=="
         }
       },
       "is_incremental": false,
@@ -644,7 +644,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.VerbatimAttribute.html",
-          "hash": "WNFwLXBtMJwMvSlwD+PKTQ=="
+          "hash": "2dLx1ZkX1cCNF8rUfALPFA=="
         }
       },
       "is_incremental": false,
@@ -656,7 +656,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Content.html",
-          "hash": "OwEzZlh/tnfRiIPcP3FQPg=="
+          "hash": "MiffdRqiWZ361/aBPtfR2A=="
         }
       },
       "is_incremental": false,
@@ -668,7 +668,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Conversion.Converter-1.html",
-          "hash": "Evq29Yhi5+F3X2BKEij2bA=="
+          "hash": "kc2gsQgWHSmwr393RA6Y1w=="
         }
       },
       "is_incremental": false,
@@ -680,7 +680,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Conversion.ConverterBase-1.html",
-          "hash": "chYZ48wtko1NmFthiIOb6A=="
+          "hash": "+eqc2/bA9L7pjQQs2ELutw=="
         }
       },
       "is_incremental": false,
@@ -692,7 +692,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Conversion.DateTimeConverter.html",
-          "hash": "QJqF+bSjYU5SCvIiKV+aMQ=="
+          "hash": "vkDme8u8foeEYwkwMgxeSQ=="
         }
       },
       "is_incremental": false,
@@ -704,7 +704,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Conversion.IConvert-1.html",
-          "hash": "1u8gzuDgntrimpDT0OLnZA=="
+          "hash": "vuA+dOp11lSw9ykGbJidKw=="
         }
       },
       "is_incremental": false,
@@ -716,7 +716,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Conversion.IConverter-1.html",
-          "hash": "gcjg7QyPO9a8SJMlg1jXhg=="
+          "hash": "qPPMAZHCZ0kW1Wwk9YJtiQ=="
         }
       },
       "is_incremental": false,
@@ -728,7 +728,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Conversion.IConverter.html",
-          "hash": "eGSd5Dy86IWLRjVyI9O7UA=="
+          "hash": "ffTggZBs/g+e36mICDfPAg=="
         }
       },
       "is_incremental": false,
@@ -740,7 +740,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Conversion.html",
-          "hash": "kTPvvnrByB2UcC+lDzmtew=="
+          "hash": "ttW8A7J84/yT9+aJjqq6xQ=="
         }
       },
       "is_incremental": false,
@@ -752,7 +752,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Defaults.html",
-          "hash": "DNOGWMCoWVYjwSqPZXPVtw=="
+          "hash": "HZOc6la1lrkzUrUNfya1/A=="
         }
       },
       "is_incremental": false,
@@ -764,7 +764,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Format.IFormat.html",
-          "hash": "n+ucnXUY9/RjWt6x92kZVA=="
+          "hash": "mdDbSiLVUKI5wd7TpGBBCA=="
         }
       },
       "is_incremental": false,
@@ -776,7 +776,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Format.IFormatReader.html",
-          "hash": "RuMT/EeAA5t5A04Qq9ctZg=="
+          "hash": "oQVUUxifeUQnuyIDXQWSCQ=="
         }
       },
       "is_incremental": false,
@@ -788,7 +788,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Format.IFormatReaders.html",
-          "hash": "tD3G+pNDHCko8AEAuJxOgw=="
+          "hash": "iD4vNhYQoJE7809jpmBB4w=="
         }
       },
       "is_incremental": false,
@@ -800,7 +800,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Format.IFormatWriter.html",
-          "hash": "kFQQxMeD32oMG4m4rQDdNQ=="
+          "hash": "lbDLVevWW4GkU9XDKdbWGw=="
         }
       },
       "is_incremental": false,
@@ -812,7 +812,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Format.IFormatWriters.html",
-          "hash": "xYKZujhA5gFo4cRswqzvwQ=="
+          "hash": "aXQDyKFvAKpAUWMtMg339g=="
         }
       },
       "is_incremental": false,
@@ -824,7 +824,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Format.html",
-          "hash": "Iqg3y/+uCU4xJt3ZTSW9eg=="
+          "hash": "jZUPyZcT4IZfR0wStMIWsw=="
         }
       },
       "is_incremental": false,
@@ -836,7 +836,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.IReader-1.html",
-          "hash": "LCZLo+FDghCRv9m5Vw1EAA=="
+          "hash": "1XjwcHwQaFCgVdi/1eWx4Q=="
         }
       },
       "is_incremental": false,
@@ -848,7 +848,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.IReader.html",
-          "hash": "ksqwAjK3k2H1aley5uYWXg=="
+          "hash": "BbxoehuGEt+Zlv1FtTiUzA=="
         }
       },
       "is_incremental": false,
@@ -860,7 +860,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.IRuntimeSerialization.html",
-          "hash": "UxGl9sOOd5kDAzjKc67meA=="
+          "hash": "XPDVKinIpV68ZEOvKwLExw=="
         }
       },
       "is_incremental": false,
@@ -872,7 +872,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.IRuntimeSerializationExceptionMessage.html",
-          "hash": "eI8nqkGq2ht1bdWa5enoGg=="
+          "hash": "2wuVOsf5u52gP1ltB5wGVQ=="
         }
       },
       "is_incremental": false,
@@ -884,7 +884,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.ISerializer-1.html",
-          "hash": "s2o2KF/ktiYDFBUumViPYQ=="
+          "hash": "nOeBiEEW7v7LU9JJFmCYtQ=="
         }
       },
       "is_incremental": false,
@@ -896,7 +896,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.ISerializer.html",
-          "hash": "FiVMIahuawwMDO7GVOIzNg=="
+          "hash": "8MiQleSakR5zlbLIwMy8sw=="
         }
       },
       "is_incremental": false,
@@ -908,7 +908,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.IWriter-1.html",
-          "hash": "XlbWVDWwlqC9O/XYj8Mcvw=="
+          "hash": "lfa0RtrTPO8chH7U8ULPYQ=="
         }
       },
       "is_incremental": false,
@@ -920,7 +920,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.IWriter.html",
-          "hash": "QamlCARXX8NnpZW54rsKBw=="
+          "hash": "f+I4/4LS8HdrLKSepVCfDw=="
         }
       },
       "is_incremental": false,
@@ -932,7 +932,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Identification.IIdentity.html",
-          "hash": "U7zdTbTTAZz0kA931Ezt7Q=="
+          "hash": "uPeKtLdkMEPZCyM+nrgthA=="
         }
       },
       "is_incremental": false,
@@ -944,7 +944,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Identification.IIdentityStore.html",
-          "hash": "nt938/a/258x2jfj8CRWeQ=="
+          "hash": "6fA7Tnw2zQdfsjy+2O6o/w=="
         }
       },
       "is_incremental": false,
@@ -956,7 +956,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Identification.IdentityFormatter-1.html",
-          "hash": "0edGVfv1D9Doj2E9xe2Wsw=="
+          "hash": "XiAVewlE7xQQ54/Dl8c8Ew=="
         }
       },
       "is_incremental": false,
@@ -968,7 +968,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Identification.IdentityFormatter.html",
-          "hash": "j4V1GuRnPilQ5Q+SZSr6ew=="
+          "hash": "XK4/171OxbR6qvj64cv7xg=="
         }
       },
       "is_incremental": false,
@@ -980,7 +980,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Identification.html",
-          "hash": "f4mZZkDXLgKUTU9ObXkXJQ=="
+          "hash": "CoPFtfPwsuJMdVfQ+e0QKA=="
         }
       },
       "is_incremental": false,
@@ -992,7 +992,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IAllowedMemberValues.html",
-          "hash": "Ldk64wJREV6Xkf7B0FQ3Rw=="
+          "hash": "r/NG4kHj2tkMEmtiOoaZWA=="
         }
       },
       "is_incremental": false,
@@ -1004,7 +1004,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IAllowedValueSpecification.html",
-          "hash": "OrMahf77YmH3+YR5Fasa4g=="
+          "hash": "mv5lX5ZrPX2lXvgPGINDtg=="
         }
       },
       "is_incremental": false,
@@ -1016,7 +1016,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IAttributeSpecification.html",
-          "hash": "Nxf9YMPwgSEFdo0GIB4OCw=="
+          "hash": "PH1+xB3IXQNQMm0dWu08OA=="
         }
       },
       "is_incremental": false,
@@ -1028,7 +1028,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IMember.html",
-          "hash": "9DiyCn2GUBt2WiZwusPa5w=="
+          "hash": "rg/LAIqU/sESmRyBkrknog=="
         }
       },
       "is_incremental": false,
@@ -1040,7 +1040,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IMemberAccess.html",
-          "hash": "P4SjWMucpcp3XtF4USHVYw=="
+          "hash": "Jhy2GW7Wm5hX7KDFpZbz0w=="
         }
       },
       "is_incremental": false,
@@ -1052,7 +1052,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IMemberSerialization.html",
-          "hash": "+ei/uiHwba+qsh7g9DZmQQ=="
+          "hash": "cMLwNUzbT/trdFiYlxFKxw=="
         }
       },
       "is_incremental": false,
@@ -1064,7 +1064,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IMemberSerializations.html",
-          "hash": "73ZMINB/qTS8nYtPvisSuA=="
+          "hash": "dcU3lq2WbpKBaZ0lZx5b6Q=="
         }
       },
       "is_incremental": false,
@@ -1076,7 +1076,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IMemberSerializer.html",
-          "hash": "7aN7trUV3YTRJvxIW4qnwA=="
+          "hash": "7m+19lgCf84pE9AI6BgjDw=="
         }
       },
       "is_incremental": false,
@@ -1088,7 +1088,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.IMetadataSpecification.html",
-          "hash": "cihZZC/6CbupOL/hFZKn2w=="
+          "hash": "6mPIaZdDGy0IT/ZNzIE4oQ=="
         }
       },
       "is_incremental": false,
@@ -1100,7 +1100,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.INames.html",
-          "hash": "gCzu/b+Uc0K37YCa+mJHIg=="
+          "hash": "KnjA1Ql/28vT8E6HPBlwFA=="
         }
       },
       "is_incremental": false,
@@ -1112,7 +1112,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.MetadataSpecification.html",
-          "hash": "3oRDmb78qdFSWb3hGz6Wtw=="
+          "hash": "nR4mrAfDoUwvg0f06ticrA=="
         }
       },
       "is_incremental": false,
@@ -1124,7 +1124,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Members.html",
-          "hash": "jZxgv4DmNv4o4oxrdixfpw=="
+          "hash": "Kfh3xRhvrjMjIRnee9FGCQ=="
         }
       },
       "is_incremental": false,
@@ -1136,7 +1136,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Reflection.INames-1.html",
-          "hash": "fJG9U1mQl+0Mt3TH6U3yTw=="
+          "hash": "g9VQYgCZlQWzgt3LwRyPdw=="
         }
       },
       "is_incremental": false,
@@ -1148,7 +1148,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Reflection.INames.html",
-          "hash": "q4EOhkyrDFeCyXY1kHSMWA=="
+          "hash": "t6V1egQyZjD0GpE57yP+WQ=="
         }
       },
       "is_incremental": false,
@@ -1160,7 +1160,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Reflection.IReflectionParser.html",
-          "hash": "sttWWz40weS7ajODftQyRA=="
+          "hash": "EKXwWRWPLZdQXkj96KpB2A=="
         }
       },
       "is_incremental": false,
@@ -1172,7 +1172,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Reflection.ITypes.html",
-          "hash": "WgZFF5xDQz9Hl96SbiQFUg=="
+          "hash": "GSxJ6aGTD9a8Za/4txvvFw=="
         }
       },
       "is_incremental": false,
@@ -1184,7 +1184,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.Reflection.html",
-          "hash": "wf1XqCHtUIgEXDbnmJyUUg=="
+          "hash": "LSVw8AUqCiUqbWRWjwVWSQ=="
         }
       },
       "is_incremental": false,
@@ -1196,7 +1196,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.RuntimeSerializers.html",
-          "hash": "7c+qyfBKXwpt9DRizOrjWQ=="
+          "hash": "pZVdfma+Nj6lzLrExFLyFw=="
         }
       },
       "is_incremental": false,
@@ -1208,7 +1208,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ContentModel.html",
-          "hash": "ZODuEC2cgiCw67YeWjSZLQ=="
+          "hash": "tODAY1fxJTY7idMjEf02bg=="
         }
       },
       "is_incremental": false,
@@ -1220,7 +1220,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.CompositeCommand-1.html",
-          "hash": "IOm1fRxqJiyzeebRlh3Apg=="
+          "hash": "X1T5pJE88Uh27aPWPj+F2w=="
         }
       },
       "is_incremental": false,
@@ -1232,7 +1232,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.ConditionMonitorState.html",
-          "hash": "+Npp36NAx95I1T9O0j3UxA=="
+          "hash": "6TfRDC1t79CLeucVkciykQ=="
         }
       },
       "is_incremental": false,
@@ -1244,7 +1244,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.ICommand-1.html",
-          "hash": "ahvlBqglPYSd7ypwtTgt+Q=="
+          "hash": "zwf+Ag34/W5N/SfKvvRFKA=="
         }
       },
       "is_incremental": false,
@@ -1256,7 +1256,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.ISortAware.html",
-          "hash": "cfeeQtNp7W+CH3COahrIpQ=="
+          "hash": "UAFr2HS+/0dVbL1QB5hv0A=="
         }
       },
       "is_incremental": false,
@@ -1268,7 +1268,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.ITypedSortOrder.html",
-          "hash": "v6+uSntYHKjugCz+yWDN0A=="
+          "hash": "Orkgy4zf1LutKBF3ORhemw=="
         }
       },
       "is_incremental": false,
@@ -1280,7 +1280,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.KeyedByTypeCollection-1.html",
-          "hash": "CfwH1Pk/JI5oOp6PPYOTvg=="
+          "hash": "rtRYq33cQYt3WrbSlNiqAw=="
         }
       },
       "is_incremental": false,
@@ -1292,7 +1292,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Parsing.IParser-1.html",
-          "hash": "83Ledhj2dzZ854Uy0vBgEA=="
+          "hash": "7f1Kf310oOSmiDOAx3cpVg=="
         }
       },
       "is_incremental": false,
@@ -1304,7 +1304,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Parsing.html",
-          "hash": "0HSn3oKh6OmmKaB0nadNww=="
+          "hash": "DKW83FTbw9nOoPjVm31+fw=="
         }
       },
       "is_incremental": false,
@@ -1316,7 +1316,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.CacheBase-2.html",
-          "hash": "a5GVLznv/l7m8X1Tdc12Fg=="
+          "hash": "NFo+mJEH7OwD5cQ7UJ+4Rw=="
         }
       },
       "is_incremental": false,
@@ -1328,7 +1328,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.CompositeAlteration-1.html",
-          "hash": "+/7GBJhtg+VmvfVlicdpRA=="
+          "hash": "Chu/D+dSeLwNZMMojrbooQ=="
         }
       },
       "is_incremental": false,
@@ -1340,7 +1340,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.ConditionalSource-2.html",
-          "hash": "s6Ef5XlVHv3T45NKrIL/sw=="
+          "hash": "BTCSQXVezb9BscrxP1/cOw=="
         }
       },
       "is_incremental": false,
@@ -1352,7 +1352,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.FixedInstanceSource-1.html",
-          "hash": "OUcevmtZ3MwQiUWJMi/+Kg=="
+          "hash": "EApiTLE5oLMy/8UdUIBbEw=="
         }
       },
       "is_incremental": false,
@@ -1364,7 +1364,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.FixedInstanceSource-2.html",
-          "hash": "uSZhZitaS36KIgViGuwgAg=="
+          "hash": "MTwK07F1J29e4EaaDvIE5g=="
         }
       },
       "is_incremental": false,
@@ -1376,7 +1376,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.IAlteration-1.html",
-          "hash": "3C1e1+EA8mSd64ZnUA9edw=="
+          "hash": "5cLOt9QD2JCct3TEV3nnMQ=="
         }
       },
       "is_incremental": false,
@@ -1388,7 +1388,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.IAssignable-2.html",
-          "hash": "RqEp4sc4Y+hMMikkcAwyRA=="
+          "hash": "u48OCU88luVBPqWBTNvJLQ=="
         }
       },
       "is_incremental": false,
@@ -1400,7 +1400,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.IFormatter-1.html",
-          "hash": "TgSbTtwyD1o1yDUa2STydA=="
+          "hash": "UL+0Z6V4aIkBYKM86ueaKg=="
         }
       },
       "is_incremental": false,
@@ -1412,7 +1412,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.IParameterizedSource-2.html",
-          "hash": "j36W5mwvluilpw0923hVJA=="
+          "hash": "ouzr69tlb6SNufA4UeRZTA=="
         }
       },
       "is_incremental": false,
@@ -1424,7 +1424,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.ISource-1.html",
-          "hash": "vT7sMS9x+CcuwXXV/D/Y6A=="
+          "hash": "j1qcVONGd5nP6yNeT5YIiw=="
         }
       },
       "is_incremental": false,
@@ -1436,7 +1436,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.ISpecificationSource-2.html",
-          "hash": "5KwTQd4VDl/eypQ63nHgFQ=="
+          "hash": "P1T+Z0ybjU9YmczALsGRsw=="
         }
       },
       "is_incremental": false,
@@ -1448,7 +1448,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.ITableSource-2.html",
-          "hash": "RRvpNCN591PDaCEtARFi6Q=="
+          "hash": "JR0awGR5weP5/9dGuDo0vg=="
         }
       },
       "is_incremental": false,
@@ -1460,7 +1460,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.Items-1.html",
-          "hash": "RxuXhYl1+8s943RgKBykxw=="
+          "hash": "D8ipd7vH1xBoP/1oTn9spg=="
         }
       },
       "is_incremental": false,
@@ -1472,7 +1472,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.ItemsBase-1.html",
-          "hash": "QqvkdBGZckzCi3JXY5Cpow=="
+          "hash": "mpseQarBZJriXK1wtdH1uw=="
         }
       },
       "is_incremental": false,
@@ -1484,7 +1484,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.ReferenceCache-2.html",
-          "hash": "blGop/WqTdyvqMBasO/9RQ=="
+          "hash": "jUCscli5KhYjGTuwwqus3g=="
         }
       },
       "is_incremental": false,
@@ -1496,7 +1496,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.ReferenceCacheBase-2.html",
-          "hash": "vK1trxpHyGok1KTXdGZKhw=="
+          "hash": "x1x0Hss754KH5YxWby4buQ=="
         }
       },
       "is_incremental": false,
@@ -1508,7 +1508,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.Self.html",
-          "hash": "L+91fSfk2/+zkV1d3AqoMA=="
+          "hash": "+V9BWCpNDOkIIbTD+A35bw=="
         }
       },
       "is_incremental": false,
@@ -1520,7 +1520,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.SpecificationSource-2.html",
-          "hash": "IUtJhNQGqEsN/AxdB1TQIw=="
+          "hash": "S2Pn1AtUuwsvKiQMGLmJdQ=="
         }
       },
       "is_incremental": false,
@@ -1532,7 +1532,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.StructureCacheBase-2.html",
-          "hash": "pwBX7y/sfJMEBA4DU79ArA=="
+          "hash": "ObhLbb5mknBsGdtAdFK1kA=="
         }
       },
       "is_incremental": false,
@@ -1544,7 +1544,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.TableSource-2.html",
-          "hash": "6iZq1rQ5VJZZM+7HpGmkgA=="
+          "hash": "1QhdpOLpNEKp4MGKZPFpsg=="
         }
       },
       "is_incremental": false,
@@ -1556,7 +1556,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Sources.html",
-          "hash": "4/XOEY4CNFjOQVkDsuDW5g=="
+          "hash": "zNYQ6MzaZ/hfwO25tDI0IQ=="
         }
       },
       "is_incremental": false,
@@ -1568,7 +1568,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Specifications.AllSpecification-1.html",
-          "hash": "rwhIxCWpfIzvkn/Fsj26Kw=="
+          "hash": "tZSnrOYaWeq2hSDQg2byoQ=="
         }
       },
       "is_incremental": false,
@@ -1580,7 +1580,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Specifications.DecoratedSpecification-1.html",
-          "hash": "bQk0lt2ZAAegTbWiTnIGJQ=="
+          "hash": "2jER/ySF9e/bQL0CQg/pUQ=="
         }
       },
       "is_incremental": false,
@@ -1592,7 +1592,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Specifications.DelegatedSpecification-1.html",
-          "hash": "DROts0tqZc7CjLOONPFuoQ=="
+          "hash": "PlTkwxqcSdliWUl+RskdPQ=="
         }
       },
       "is_incremental": false,
@@ -1604,7 +1604,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Specifications.ISpecification-1.html",
-          "hash": "hfMnaedZufXxU0s+10o24Q=="
+          "hash": "whORoVYqJNnR/dNW9++QOA=="
         }
       },
       "is_incremental": false,
@@ -1616,7 +1616,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.Specifications.html",
-          "hash": "g/rwPf+lAxt8kwxKYx1YOw=="
+          "hash": "Vo6fi9EfZfoXxq83uGuAcw=="
         }
       },
       "is_incremental": false,
@@ -1628,7 +1628,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Core.html",
-          "hash": "oyNbK94ICRq345iMI4hQGg=="
+          "hash": "1g7QIlKItJTRG+0caTztMw=="
         }
       },
       "is_incremental": false,
@@ -1640,7 +1640,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.DecoratedSerializer.html",
-          "hash": "lCaaGGBC+G4Bd12+gs/inA=="
+          "hash": "0PmRdomTcgDwLEu/Wwy6rQ=="
         }
       },
       "is_incremental": false,
@@ -1652,7 +1652,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethods.html",
-          "hash": "TBgg33fwxG/jIdM9U3aNHQ=="
+          "hash": "MViH6fle9WMsl+YUsYqSVQ=="
         }
       },
       "is_incremental": false,
@@ -1664,7 +1664,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForAlteration.html",
-          "hash": "orJmGpbucyp+r2RKvPQSGw=="
+          "hash": "FwLicSQq+5H/KMWstlKCmQ=="
         }
       },
       "is_incremental": false,
@@ -1676,7 +1676,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForAttachedProperties.html",
-          "hash": "iaiwDTsclJeu7vinwjdoQA=="
+          "hash": "Mh0gzfp8J7U+8VQHF5fJgQ=="
         }
       },
       "is_incremental": false,
@@ -1688,7 +1688,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForClassicSerialization.html",
-          "hash": "oEnCBh6C2Pee+IGknCrdzw=="
+          "hash": "7x8fxeDoIBJrV6ycwhA1LA=="
         }
       },
       "is_incremental": false,
@@ -1700,7 +1700,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForConfiguration.html",
-          "hash": "BbRxnelSdYJxPZjprlciQg=="
+          "hash": "V2jzK64TbG1nNV1f/pVUgQ=="
         }
       },
       "is_incremental": false,
@@ -1712,7 +1712,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html",
-          "hash": "MgFk96ceot067IWR24TRyA=="
+          "hash": "jU3DG/FyUNh9VqHyr/qZHQ=="
         }
       },
       "is_incremental": false,
@@ -1724,7 +1724,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForContentModel.html",
-          "hash": "v30Odph9tdSkEW1hXELhNw=="
+          "hash": "PB/vo38vtJafnJ2mE3sASA=="
         }
       },
       "is_incremental": false,
@@ -1736,7 +1736,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html",
-          "hash": "NlEq8mlZy07KKHmexOPARw=="
+          "hash": "ANswxEzWgPZeBtoqyT1OEw=="
         }
       },
       "is_incremental": false,
@@ -1748,7 +1748,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html",
-          "hash": "FFrJ/sDqMVPPzTEqYIqZwQ=="
+          "hash": "FHE08vNnjjcHAfnMk9VQTQ=="
         }
       },
       "is_incremental": false,
@@ -1760,7 +1760,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForEncryption.html",
-          "hash": "i5SbSYDkf0t8RJacH8xcAQ=="
+          "hash": "WDx0fFga/CelXspTo7Dyxw=="
         }
       },
       "is_incremental": false,
@@ -1772,7 +1772,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.html",
-          "hash": "lQbX8t5quqneVkv5V2m0Rg=="
+          "hash": "01L7cDmadUBPvR7zqE3lgg=="
         }
       },
       "is_incremental": false,
@@ -1784,7 +1784,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html",
-          "hash": "MEnUu289vJ0lv7ohHUHU+g=="
+          "hash": "xjEeUgsspqqW1lzht0yJYQ=="
         }
       },
       "is_incremental": false,
@@ -1796,7 +1796,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForLocation.html",
-          "hash": "A2OLoDceRYQS2m4r/EqqYg=="
+          "hash": "FRSfh1ATct5Oj3VoRWBTxg=="
         }
       },
       "is_incremental": false,
@@ -1808,7 +1808,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForRegistration.html",
-          "hash": "A51k0RHsMjzRGbxaRJy88A=="
+          "hash": "ZcdOGO57eLlljNxmeT1/3w=="
         }
       },
       "is_incremental": false,
@@ -1820,7 +1820,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForSerialization.html",
-          "hash": "csCoZF8oJLYU90/8BxLRoQ=="
+          "hash": "gZWFybe9uQi01RU0niLfug=="
         }
       },
       "is_incremental": false,
@@ -1832,7 +1832,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForXml.html",
-          "hash": "YUMF4k0gjqhtwtmSLVSG5g=="
+          "hash": "ZJiQRacgYAK+tKhP2HFkgA=="
         }
       },
       "is_incremental": false,
@@ -1844,7 +1844,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.AttachedProperties.IProperty.html",
-          "hash": "ZewPEfdwlG8G6zS+6c3N4g=="
+          "hash": "SJBXGTBhzAskxdPAujtYbA=="
         }
       },
       "is_incremental": false,
@@ -1856,7 +1856,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.AttachedProperties.Property-2.html",
-          "hash": "FUJK0hZzfM5/hvV9oxXlgQ=="
+          "hash": "6kDJTB5NVejm5bf1bSLvlw=="
         }
       },
       "is_incremental": false,
@@ -1868,7 +1868,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.AttachedProperties.ReferenceProperty-2.html",
-          "hash": "ahNQSrWMRtj/4izsPENP3Q=="
+          "hash": "53J5NACmZe0KAe7Gd0+Xpg=="
         }
       },
       "is_incremental": false,
@@ -1880,7 +1880,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.AttachedProperties.StructureProperty-2.html",
-          "hash": "cSfz3x5jTi5ibDPkGsUaMg=="
+          "hash": "3hXILLQKCTKlbTDzPAjL4g=="
         }
       },
       "is_incremental": false,
@@ -1892,7 +1892,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.AttachedProperties.html",
-          "hash": "R7m5X1+VfS0ICsDwpR/2cQ=="
+          "hash": "C8tp/l+PS32R/lnrhRSJVA=="
         }
       },
       "is_incremental": false,
@@ -1904,7 +1904,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.CachingExtension.html",
-          "hash": "Zqgyqhqibqg/YiplrgS4tQ=="
+          "hash": "Xzj5mFlFLvuiG8oXXbnrag=="
         }
       },
       "is_incremental": false,
@@ -1916,7 +1916,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.ContentModelExtension.html",
-          "hash": "T85KrK3YF23locFkZ0zWAA=="
+          "hash": "Yx7NSyb+ZXuxrOHo3HQ8Kg=="
         }
       },
       "is_incremental": false,
@@ -1928,7 +1928,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Contents.html",
-          "hash": "TZyXOWOKFdNTu6fLXF7lUw=="
+          "hash": "4dmw9JGdrRnYM5mlfYaKgQ=="
         }
       },
       "is_incremental": false,
@@ -1940,7 +1940,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.ContentsHistory.html",
-          "hash": "ayUiIwIDd64ClaSRQYxO+Q=="
+          "hash": "saa/cf9g3dkvxSorCB6GpQ=="
         }
       },
       "is_incremental": false,
@@ -1952,7 +1952,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.ConvertersExtension.html",
-          "hash": "fecAwVIPe5BxjDXtSoz2Lg=="
+          "hash": "OO/OtaxTBZwKSR3C7r7++w=="
         }
       },
       "is_incremental": false,
@@ -1964,7 +1964,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.IContentsHistory.html",
-          "hash": "bxBY96NvOBSm2ZYAjhkA1Q=="
+          "hash": "fZQh6yU1ex8PHTT2N81WSg=="
         }
       },
       "is_incremental": false,
@@ -1976,7 +1976,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer.html",
-          "hash": "1nSPc6yu/AWCyZWr6jqz2A=="
+          "hash": "fRNyY/9IEaKWaVUVNKk43g=="
         }
       },
       "is_incremental": false,
@@ -1988,7 +1988,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.ITypedSpecifications.html",
-          "hash": "RYjq/EulNz33iQ1/Bd4WCw=="
+          "hash": "gcs02+ymnm4AdqpfbTMmdw=="
         }
       },
       "is_incremental": false,
@@ -2000,7 +2000,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.AllowedMemberValuesExtension.html",
-          "hash": "w2ljzjGr51sJuijge4Go5g=="
+          "hash": "kBT/j6Fp26lWGf6lDF/kkQ=="
         }
       },
       "is_incremental": false,
@@ -2012,7 +2012,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.AllowedMembersExtension.html",
-          "hash": "7v4OtrcYtHFWaREx5NznCw=="
+          "hash": "vxTYrv9FVvQrzT54PoA3Uw=="
         }
       },
       "is_incremental": false,
@@ -2024,7 +2024,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IMemberSpecification.html",
-          "hash": "eS7/a19+dEV3Henmm92pSQ=="
+          "hash": "7bPZQz/1e+BZA+Bd6gdFvA=="
         }
       },
       "is_incremental": false,
@@ -2036,7 +2036,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IMemberSpecifications.html",
-          "hash": "xT2HhfF7S6Xm9iZrp3f+/Q=="
+          "hash": "9t2C8cXJvXiy1rRlzryBDQ=="
         }
       },
       "is_incremental": false,
@@ -2048,7 +2048,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IsValidMemberType.html",
-          "hash": "IPIzJV279bW/mS6ht0v7yw=="
+          "hash": "pXmG+/VItOW/OQ7UK5olWQ=="
         }
       },
       "is_incremental": false,
@@ -2060,7 +2060,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IsWritable.html",
-          "hash": "hxufLPvV2/8K0bSrcY0LLg=="
+          "hash": "od8s5i7rHNcyo5uok/RaaQ=="
         }
       },
       "is_incremental": false,
@@ -2072,7 +2072,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.MemberModelExtension.html",
-          "hash": "7G6eeviHDboAfZk65kkf/Q=="
+          "hash": "2psSaU6RAhzwHU5JCwOypA=="
         }
       },
       "is_incremental": false,
@@ -2084,7 +2084,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.MemberPropertiesExtension.html",
-          "hash": "I98KlHLbdRc8w8bfOnSrbA=="
+          "hash": "qk6A9mtRdMGBMl85A7sGhw=="
         }
       },
       "is_incremental": false,
@@ -2096,7 +2096,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.html",
-          "hash": "jWyLFn+2LsDBb6Y0tMyTrQ=="
+          "hash": "XtWBKo4/CyJPVf15FB2f2w=="
         }
       },
       "is_incremental": false,
@@ -2108,7 +2108,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.VersionConverter.html",
-          "hash": "nz44WWoTfzDlDXUeKvxC0Q=="
+          "hash": "0uX5S6wmGX8GhyLUbwOReQ=="
         }
       },
       "is_incremental": false,
@@ -2120,7 +2120,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Content.html",
-          "hash": "1XJ8ylfMcqpkCBcYPQFLuw=="
+          "hash": "y8YOay1e5RGXvLHUx9Gk3A=="
         }
       },
       "is_incremental": false,
@@ -2132,7 +2132,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.DefaultExtensions.html",
-          "hash": "ZABBLU5l3bEQQAAY3d1Q3w=="
+          "hash": "fZjXx/b6fdtVyxkkqwu/Pw=="
         }
       },
       "is_incremental": false,
@@ -2144,7 +2144,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Encryption.IDecrypt.html",
-          "hash": "IF78ihGE7RJR9FsIk1tpgg=="
+          "hash": "b0lsmogSqygxvDjNnnEo2w=="
         }
       },
       "is_incremental": false,
@@ -2156,7 +2156,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Encryption.IEncrypt.html",
-          "hash": "9jd9onUu6ogTKt2kvEOpqw=="
+          "hash": "J+zPPPFJyCAZbfKlxa2ahA=="
         }
       },
       "is_incremental": false,
@@ -2168,7 +2168,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Encryption.IEncryption.html",
-          "hash": "chX0+KofK9aoEFMOtXXMTw=="
+          "hash": "OqMcGiQbyWHesnxGEtjHag=="
         }
       },
       "is_incremental": false,
@@ -2180,7 +2180,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Encryption.html",
-          "hash": "w6Dq2QePRFflV90DpnIcjA=="
+          "hash": "/bz8OLpY4jSuJpPNFQi3Vw=="
         }
       },
       "is_incremental": false,
@@ -2192,7 +2192,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.FallbackSerializationExtension.IFallbackSerializer.html",
-          "hash": "gqHnjyAEB0gQelaC2CNOSw=="
+          "hash": "R+KGQLSJvo+rz/YRPdMuWA=="
         }
       },
       "is_incremental": false,
@@ -2204,7 +2204,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.FallbackSerializationExtension.html",
-          "hash": "OFXCdW/Of3V67Nx6R6MpgQ=="
+          "hash": "hnNL49wpq8dRRcgRCY86Bw=="
         }
       },
       "is_incremental": false,
@@ -2216,7 +2216,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.IRegistration.html",
-          "hash": "yaE5ikOC3G/RmD0s5H9m6Q=="
+          "hash": "zzzlrzmjT3RzOHqpJDHEWA=="
         }
       },
       "is_incremental": false,
@@ -2228,7 +2228,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.IRootInstances.html",
-          "hash": "UhKWlMfJd1emgJG9oRFAAQ=="
+          "hash": "R2pmZBlJr4wjhNXbX/8D5A=="
         }
       },
       "is_incremental": false,
@@ -2240,7 +2240,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.ISerializerExtension.html",
-          "hash": "1h7pXcT4Md32hjSaRQHAsQ=="
+          "hash": "ze0psFkzy1EtvjUILsjkvg=="
         }
       },
       "is_incremental": false,
@@ -2252,7 +2252,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.IServiceProvider.html",
-          "hash": "J0c3T6j4qGxt2DBJBtY2uA=="
+          "hash": "jBFnW/hAgYtMyYccLyW5Lw=="
         }
       },
       "is_incremental": false,
@@ -2264,7 +2264,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.IServiceRepository.html",
-          "hash": "UF0O72PCqEuHtGJ4LUs++Q=="
+          "hash": "c1Layo2G2tRYR+IjOEWq6Q=="
         }
       },
       "is_incremental": false,
@@ -2276,7 +2276,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.IServices.html",
-          "hash": "iEAov8MXMvAZGGt8xq/8bw=="
+          "hash": "8apNCOYyspg0O+ncHKMcfg=="
         }
       },
       "is_incremental": false,
@@ -2288,7 +2288,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor-1.html",
-          "hash": "eINC9IkzcXYrDqk6VNSD+w=="
+          "hash": "Dpnizo27pzpKtY17ALEXAA=="
         }
       },
       "is_incremental": false,
@@ -2300,7 +2300,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor.html",
-          "hash": "3qFYwcTNWVL6bseTtbAESw=="
+          "hash": "dfIcXrokCpyy/TspVnDzhQ=="
         }
       },
       "is_incremental": false,
@@ -2312,7 +2312,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.html",
-          "hash": "oGSccwnLFTaownr1mUuKyQ=="
+          "hash": "g/w5RCm3+MkIH+gRDMk+8Q=="
         }
       },
       "is_incremental": false,
@@ -2324,7 +2324,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Markup.IMarkupExtension.html",
-          "hash": "5nyGRM5vrgYBfHfz5Og6sw=="
+          "hash": "ht4l0Ygh9SQ+p7LHTmrl8A=="
         }
       },
       "is_incremental": false,
@@ -2336,7 +2336,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Markup.NullExtension.html",
-          "hash": "+7fagXncgRGEUGrI/gPltA=="
+          "hash": "TGPYidlku8NHoaoj/SmNqA=="
         }
       },
       "is_incremental": false,
@@ -2348,7 +2348,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Markup.StaticExtension.html",
-          "hash": "yTXfni+wOvIVujY2u3Qrdg=="
+          "hash": "NMGWVFtBE/p3zHd3ebvEfw=="
         }
       },
       "is_incremental": false,
@@ -2360,7 +2360,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Markup.TypeExtension.html",
-          "hash": "gk/dsT2LAAV0gIG6ERxJ9Q=="
+          "hash": "X2u+FeRjzud76z4yWt5VPA=="
         }
       },
       "is_incremental": false,
@@ -2372,7 +2372,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Markup.html",
-          "hash": "tlhqH6qsD76rZeT0nAOLsQ=="
+          "hash": "jjRGLBGjRs/X1iXs1/ACOA=="
         }
       },
       "is_incremental": false,
@@ -2384,7 +2384,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.References.DefaultReferencesExtension.html",
-          "hash": "mxwQIoLFzU6iTLTHZKbCuQ=="
+          "hash": "64uY0a16/MVlrZSpzj4bAw=="
         }
       },
       "is_incremental": false,
@@ -2396,7 +2396,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.References.IReferences.html",
-          "hash": "6TzQ3POw20jp8VOXU3qBnA=="
+          "hash": "W9MudQ098O+DgXMrEbdKww=="
         }
       },
       "is_incremental": false,
@@ -2408,7 +2408,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.References.html",
-          "hash": "60gFjUQepNxHS+m1Wpog2w=="
+          "hash": "3rJwo3/e/24w+rlaA3TUxw=="
         }
       },
       "is_incremental": false,
@@ -2420,7 +2420,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Registrations-1.html",
-          "hash": "s87i+zGIbbYRzUZ7D0CRHQ=="
+          "hash": "EDYbmwCRHpKQP9VPBzvrBA=="
         }
       },
       "is_incremental": false,
@@ -2432,7 +2432,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.SerializationExtension.html",
-          "hash": "zLzUurOE7SLSt0lrS1SpvQ=="
+          "hash": "oN1I1S5mmnKAHr/ShGP9wA=="
         }
       },
       "is_incremental": false,
@@ -2444,7 +2444,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.ImmutableArrayExtension.html",
-          "hash": "XQvjXTvpGGv02kO9Fa93Yg=="
+          "hash": "8R1lp8DLR/pasYm8RPGsJw=="
         }
       },
       "is_incremental": false,
@@ -2456,7 +2456,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.AllAssemblyTypes-1.html",
-          "hash": "wzJ4C8Tbsbow/nOmuPYB6g=="
+          "hash": "wgcgKmAkNwoYVJtCdkFywQ=="
         }
       },
       "is_incremental": false,
@@ -2468,7 +2468,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.AllAssemblyTypes.html",
-          "hash": "UkuBzIJXcYiCiRK2Eqz3kw=="
+          "hash": "J0eB2IJVD8wN7TwppWRnDA=="
         }
       },
       "is_incremental": false,
@@ -2480,7 +2480,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.AllTypesInSameNamespace-1.html",
-          "hash": "CGxpa1dQ1nVlEUuRcBQoHA=="
+          "hash": "U7hl/Fq6bAnbu2+wHZcgLg=="
         }
       },
       "is_incremental": false,
@@ -2492,7 +2492,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.AllTypesInSameNamespace.html",
-          "hash": "rnTp8T6eLg9d4C8hdbBLaw=="
+          "hash": "9obCV9/ZDubOYoIWFg5OXQ=="
         }
       },
       "is_incremental": false,
@@ -2504,7 +2504,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes-1.html",
-          "hash": "BAa5IdNhHCHv7iXKtmeBHw=="
+          "hash": "ybZtF5ZsqZ8HNC54ZSqTzQ=="
         }
       },
       "is_incremental": false,
@@ -2516,7 +2516,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes.html",
-          "hash": "FVhDIqRBb9T8pDYrhZI9bA=="
+          "hash": "SmRu6KPWeVs7HroQPkGxUw=="
         }
       },
       "is_incremental": false,
@@ -2528,7 +2528,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.PublicAssemblyTypes-1.html",
-          "hash": "gviY4PSAH9esTcrhAmK0wQ=="
+          "hash": "4kZdINnxqERsCf2qih4LuA=="
         }
       },
       "is_incremental": false,
@@ -2540,7 +2540,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.PublicAssemblyTypes.html",
-          "hash": "uIrOiGsjOOTTfp1ktodu7Q=="
+          "hash": "8NHDWwEeRvbStVgoeoezBQ=="
         }
       },
       "is_incremental": false,
@@ -2552,7 +2552,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.PublicNestedTypes-1.html",
-          "hash": "nZEsnC2cZvBkvlV5wYMJnQ=="
+          "hash": "tm8n+GnOnOH7EhbJM/Pz2A=="
         }
       },
       "is_incremental": false,
@@ -2564,7 +2564,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.PublicNestedTypes.html",
-          "hash": "ZwqBUbWyzOXBqiYOwMq/lA=="
+          "hash": "HBPd9nxMeV5TyIJ/nNwMJg=="
         }
       },
       "is_incremental": false,
@@ -2576,7 +2576,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.PublicTypesInSameNamespace-1.html",
-          "hash": "E5/3sXVnqrkyJMalR7SZxA=="
+          "hash": "YtVfc4iM8aD54DtnQ5UJAg=="
         }
       },
       "is_incremental": false,
@@ -2588,7 +2588,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.PublicTypesInSameNamespace.html",
-          "hash": "BwaIaX9ZBULLKYiVYHJeCQ=="
+          "hash": "aJ2HBuKZppFTuSkkFaTLVA=="
         }
       },
       "is_incremental": false,
@@ -2600,7 +2600,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.html",
-          "hash": "PovErTrdtcID6Y8hJhhCDg=="
+          "hash": "TY13sJaMD8haVzsiHS6S3A=="
         }
       },
       "is_incremental": false,
@@ -2612,7 +2612,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.TypeModelExtension.html",
-          "hash": "betn5te6Gl8IPimclEdNzQ=="
+          "hash": "NmDqKsp3feBdNEaf5WnLkA=="
         }
       },
       "is_incremental": false,
@@ -2624,7 +2624,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.TypeNamesExtension.html",
-          "hash": "maXGpEBArnGnzN116/pS+A=="
+          "hash": "w8YMz1XX3UMjWuV2sfmeoQ=="
         }
       },
       "is_incremental": false,
@@ -2636,7 +2636,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.html",
-          "hash": "1Uob5e+la6c9VG8PrjOIoA=="
+          "hash": "D6Bg0mAXzR6gl8CbaO4uuQ=="
         }
       },
       "is_incremental": false,
@@ -2648,7 +2648,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.DeclaredMemberNames.html",
-          "hash": "64dD/L/9o/8Ttm2vmTuKMw=="
+          "hash": "62ufnIPqAHPX7xap6zVUvw=="
         }
       },
       "is_incremental": false,
@@ -2660,7 +2660,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMemberOrder.html",
-          "hash": "xlls0Mre4Us5c+dW2aNunA=="
+          "hash": "6POr42WEWtZm4mrNmcGaAQ=="
         }
       },
       "is_incremental": false,
@@ -2672,7 +2672,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.DefaultMetadataSpecification.html",
-          "hash": "yT/4N46IDUCbjDSl5Ru35g=="
+          "hash": "YoKOC7glKpkib2Myor7K5A=="
         }
       },
       "is_incremental": false,
@@ -2684,7 +2684,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.Defaults.html",
-          "hash": "ZS6oR467ltbVYyTJNloPPA=="
+          "hash": "oVBgNosVquw9IHJwx8Herw=="
         }
       },
       "is_incremental": false,
@@ -2696,7 +2696,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.ICustomMemberSerializers.html",
-          "hash": "zztYj4cScs5lz6I+LS2JXw=="
+          "hash": "ScrzYueVzuMdb86Z/9ZLUw=="
         }
       },
       "is_incremental": false,
@@ -2708,7 +2708,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.ICustomSerializers.html",
-          "hash": "AIIzQ4eyuO5Bi1KPdI7bNQ=="
+          "hash": "osfsycpreBxeoS5AR4x7KQ=="
         }
       },
       "is_incremental": false,
@@ -2720,7 +2720,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.ICustomXmlSerializers.html",
-          "hash": "GPS1/QwvPcJ7ELeHIyapeA=="
+          "hash": "0pXpITg/FTsDsuWN6RiV0Q=="
         }
       },
       "is_incremental": false,
@@ -2732,7 +2732,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.IExtendedXmlCustomSerializer-1.html",
-          "hash": "3SCGzuaIjMyltm5YpFzqAQ=="
+          "hash": "ABjX5cpojQ2Y0PWR8TaHog=="
         }
       },
       "is_incremental": false,
@@ -2744,7 +2744,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.IExtendedXmlCustomSerializer.html",
-          "hash": "AG+7BbUOpHWpb/qA+/jxmQ=="
+          "hash": "iqxP1aqVdS2hTPK4uyKLHg=="
         }
       },
       "is_incremental": false,
@@ -2756,7 +2756,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.IPrefix.html",
-          "hash": "+5XgdAn6s8Dvp1Gqn89a6g=="
+          "hash": "XGgy/HdOE5jMjdB1TYDwjg=="
         }
       },
       "is_incremental": false,
@@ -2768,7 +2768,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.IPrefixes.html",
-          "hash": "fkV4YfFoxv7vSO8b8iMOVw=="
+          "hash": "l0aqj176a1oOXMRRiQgyjw=="
         }
       },
       "is_incremental": false,
@@ -2780,7 +2780,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.ISerializer.html",
-          "hash": "8MaIodt1iOAPSxMnghKsRw=="
+          "hash": "QnJGS77RC6BK6sEeqWGD3w=="
         }
       },
       "is_incremental": false,
@@ -2792,7 +2792,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.IXmlReaderFactory.html",
-          "hash": "G1IXBuOxP8V0oqxnLkVJsQ=="
+          "hash": "Fkw5vkN5hIFZtKhYlncZnw=="
         }
       },
       "is_incremental": false,
@@ -2804,7 +2804,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.IXmlWriterFactory.html",
-          "hash": "H78BihpftNdFUviSh9n0pg=="
+          "hash": "qQ6WM7WrPOPJAPm7IIqrzg=="
         }
       },
       "is_incremental": false,
@@ -2816,7 +2816,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.MemberFormatExtension.html",
-          "hash": "5VfZxj3S5zai/GEE8MFc0A=="
+          "hash": "IVRPi3KcD1d5u0lj+EyEaQ=="
         }
       },
       "is_incremental": false,
@@ -2828,7 +2828,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.MemberSpecification-1.html",
-          "hash": "jpB65B0YHxglzxuU4n0r3g=="
+          "hash": "jFnr9uN8b5ptBXHGZmdTZw=="
         }
       },
       "is_incremental": false,
@@ -2840,7 +2840,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.PrefixRegistryExtension.html",
-          "hash": "z4lt1pC9BvlmpIOt2hpTvQ=="
+          "hash": "cZ4CUF3ssLutAY53hgOLOQ=="
         }
       },
       "is_incremental": false,
@@ -2852,7 +2852,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.XmlReaderFactory.html",
-          "hash": "kwZnTNFTIBa176743DPf9w=="
+          "hash": "5RWH0nqRniPvDiiYK793zg=="
         }
       },
       "is_incremental": false,
@@ -2864,7 +2864,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.XmlSerializationExtension.html",
-          "hash": "plkH9Te+rMU9ACDONBuMrg=="
+          "hash": "ubweWhwN22mH0nkbvTww1w=="
         }
       },
       "is_incremental": false,
@@ -2876,7 +2876,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Xml.html",
-          "hash": "MSI0Zz9GDNMUgib6ml1rCQ=="
+          "hash": "d7EsxDQo+zqHJg8ecTLrxA=="
         }
       },
       "is_incremental": false,
@@ -2888,7 +2888,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.html",
-          "hash": "wp+WOwBjRb5y4ZTwmsWXsQ=="
+          "hash": "psFpfMgJffoKRyO3dgKlPw=="
         }
       },
       "is_incremental": false,
@@ -2900,7 +2900,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.IExtendedXmlSerializer.html",
-          "hash": "8bbLYyq1LOOngny2fx5V6w=="
+          "hash": "dZFcd21lr/pGobzaDtg4mQ=="
         }
       },
       "is_incremental": false,
@@ -2912,7 +2912,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IGeneric-1.html",
-          "hash": "IA5OHdDIiFui3k76CHXu6A=="
+          "hash": "3ZP3NtutizI47n/oy+ik0g=="
         }
       },
       "is_incremental": false,
@@ -2924,7 +2924,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IGeneric-2.html",
-          "hash": "35Px06IF6U3ez7/ejjwP8g=="
+          "hash": "BHJ3KnTwno0ZPqOREYC4yA=="
         }
       },
       "is_incremental": false,
@@ -2936,7 +2936,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IGeneric-3.html",
-          "hash": "RBlwglOBUuo/0ALTRcTCeg=="
+          "hash": "deRFX0qkww00voet86AZhw=="
         }
       },
       "is_incremental": false,
@@ -2948,7 +2948,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IGeneric-4.html",
-          "hash": "ieqJiEA3IcCSMEyCXyGf2w=="
+          "hash": "DWRg/kF0Zqo4WcGUdBKjRg=="
         }
       },
       "is_incremental": false,
@@ -2960,7 +2960,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IGeneric-5.html",
-          "hash": "5QyXQ4My3IUr/Ps6C129ag=="
+          "hash": "K/k3ma0Cbz56Sx4M8gIkvw=="
         }
       },
       "is_incremental": false,
@@ -2972,7 +2972,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IMemberTable-1.html",
-          "hash": "91sqNs7rMJDvjxwSwwkYVQ=="
+          "hash": "ngu1F0Gm5hpeqp7cG/ncfQ=="
         }
       },
       "is_incremental": false,
@@ -2984,7 +2984,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IMetadataTable-2.html",
-          "hash": "Io1mKvW8Z+Td/LgPc3jLPg=="
+          "hash": "SArKkHVmyZIJg0u9CRjX0Q=="
         }
       },
       "is_incremental": false,
@@ -2996,7 +2996,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.ITypeComparer.html",
-          "hash": "jOALxF5j1BPD6A/OvteHTg=="
+          "hash": "0QIX7qgLTAFw+NA83ZdQNw=="
         }
       },
       "is_incremental": false,
@@ -3008,7 +3008,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.ITypedTable-1.html",
-          "hash": "3VHWWo6dJ1/2IvDT/z3vqA=="
+          "hash": "g2sF7wV59QncsY9i+LfnFA=="
         }
       },
       "is_incremental": false,
@@ -3020,7 +3020,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IsAssignableSpecification-1.html",
-          "hash": "1/j4rh5NFiqZOGxVdzwSAg=="
+          "hash": "minhTMfogKrRpDoyoLDm2A=="
         }
       },
       "is_incremental": false,
@@ -3032,7 +3032,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IsAssignableSpecification.html",
-          "hash": "L86hiTKjai4+3M8AaH14Cw=="
+          "hash": "NVivy613+wp8IFufIJUXSg=="
         }
       },
       "is_incremental": false,
@@ -3044,7 +3044,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.IsTypeSpecification-1.html",
-          "hash": "gXoJiOaVeMUfWDRzDrk6ow=="
+          "hash": "mcMyQVSwc1u1GCt7YAIIwg=="
         }
       },
       "is_incremental": false,
@@ -3056,7 +3056,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.MemberTable-1.html",
-          "hash": "1oCIp8PuWpOSJ/lE610Qdg=="
+          "hash": "gQH1a6rDzEslNRbmJnTwNA=="
         }
       },
       "is_incremental": false,
@@ -3068,7 +3068,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparerBase.html",
-          "hash": "ui6dQb4Y4cUGVadKZbPLmA=="
+          "hash": "tu13BeRaOSg24dbArTGyyg=="
         }
       },
       "is_incremental": false,
@@ -3080,7 +3080,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.TypedTable-1.html",
-          "hash": "IPhB5W6nUO6xMwfZ74Zyjw=="
+          "hash": "RSJAs6f4EUuNix05j33pxA=="
         }
       },
       "is_incremental": false,
@@ -3092,7 +3092,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ReflectionModel.html",
-          "hash": "9KRohWTSDW7S2FTRyoprKQ=="
+          "hash": "MWh6SDemtRTTo3gbfBJhDw=="
         }
       },
       "is_incremental": false,
@@ -3104,7 +3104,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.html",
-          "hash": "+Qm2cYJ5QaUPeFt2h+yDkg=="
+          "hash": "yIedy/r/yBPqnHc2NULlWA=="
         }
       },
       "is_incremental": false,
@@ -3116,7 +3116,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/index.html",
-          "hash": "0z4Qlgpt7Z4LtanJlbE0zQ=="
+          "hash": "C6s0SMqzdpF5FSf0OP6O5w=="
         }
       },
       "is_incremental": false,
@@ -3158,9 +3158,9 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
@@ -3171,17 +3171,17 @@
           "total_file_count": 13,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 245,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
