@@ -376,6 +376,15 @@ references:
   fullName.vb: ExtendedXmlSerializer.Configuration.ElementDecorationContext(Of T).When
   nameWithType: ElementDecorationContext<T>.When
   nameWithType.vb: ElementDecorationContext(Of T).When
+- uid: ExtendedXmlSerializer.Configuration.ElementDecorationContext`1.When``1
+  name: When<TSpecification>()
+  href: reference/ExtendedXmlSerializer.Configuration.ElementDecorationContext-1.html#ExtendedXmlSerializer_Configuration_ElementDecorationContext_1_When__1
+  commentId: M:ExtendedXmlSerializer.Configuration.ElementDecorationContext`1.When``1
+  name.vb: When(Of TSpecification)()
+  fullName: ExtendedXmlSerializer.Configuration.ElementDecorationContext<T>.When<TSpecification>()
+  fullName.vb: ExtendedXmlSerializer.Configuration.ElementDecorationContext(Of T).When(Of TSpecification)()
+  nameWithType: ElementDecorationContext<T>.When<TSpecification>()
+  nameWithType.vb: ElementDecorationContext(Of T).When(Of TSpecification)()
 - uid: ExtendedXmlSerializer.Configuration.EmitBehaviors
   name: EmitBehaviors
   href: reference/ExtendedXmlSerializer.Configuration.EmitBehaviors.html
@@ -1183,6 +1192,23 @@ references:
   fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext(Of T).ByCalling
   nameWithType: TypeSerializationRegistrationContext<T>.ByCalling
   nameWithType.vb: TypeSerializationRegistrationContext(Of T).ByCalling
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext`1.Composer
+  name: Composer()
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializationRegistrationContext_1_Composer
+  commentId: M:ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext`1.Composer
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext<T>.Composer()
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext(Of T).Composer()
+  nameWithType: TypeSerializationRegistrationContext<T>.Composer()
+  nameWithType.vb: TypeSerializationRegistrationContext(Of T).Composer()
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext`1.Composer*
+  name: Composer
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializationRegistrationContext_1_Composer_
+  commentId: Overload:ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext`1.Composer
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext<T>.Composer
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext(Of T).Composer
+  nameWithType: TypeSerializationRegistrationContext<T>.Composer
+  nameWithType.vb: TypeSerializationRegistrationContext(Of T).Composer
 - uid: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext`1.None
   name: None()
   href: reference/ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializationRegistrationContext_1_None
@@ -1252,6 +1278,120 @@ references:
   fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializationRegistrationContext(Of T).Using
   nameWithType: TypeSerializationRegistrationContext<T>.Using
   nameWithType.vb: TypeSerializationRegistrationContext(Of T).Using
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1
+  name: TypeSerializerComposerRegistrationContext<T>
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html
+  commentId: T:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1
+  name.vb: TypeSerializerComposerRegistrationContext(Of T)
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T)
+  nameWithType: TypeSerializerComposerRegistrationContext<T>
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T)
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.#ctor(ExtendedXmlSerializer.Configuration.ITypeConfiguration{`0})
+  name: TypeSerializerComposerRegistrationContext(ITypeConfiguration<T>)
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1__ctor_ExtendedXmlSerializer_Configuration_ITypeConfiguration__0__
+  commentId: M:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.#ctor(ExtendedXmlSerializer.Configuration.ITypeConfiguration{`0})
+  name.vb: TypeSerializerComposerRegistrationContext(ITypeConfiguration(Of T))
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.TypeSerializerComposerRegistrationContext(ExtendedXmlSerializer.Configuration.ITypeConfiguration<T>)
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).TypeSerializerComposerRegistrationContext(ExtendedXmlSerializer.Configuration.ITypeConfiguration(Of T))
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.TypeSerializerComposerRegistrationContext(ITypeConfiguration<T>)
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).TypeSerializerComposerRegistrationContext(ITypeConfiguration(Of T))
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.#ctor*
+  name: TypeSerializerComposerRegistrationContext
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1__ctor_
+  commentId: Overload:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.#ctor
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.TypeSerializerComposerRegistrationContext
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).TypeSerializerComposerRegistrationContext
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.TypeSerializerComposerRegistrationContext
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).TypeSerializerComposerRegistrationContext
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.ByCalling(System.Func{ExtendedXmlSerializer.ContentModel.ISerializer,ExtendedXmlSerializer.ContentModel.ISerializer})
+  name: ByCalling(Func<ISerializer, ISerializer>)
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_ByCalling_System_Func_ExtendedXmlSerializer_ContentModel_ISerializer_ExtendedXmlSerializer_ContentModel_ISerializer__
+  commentId: M:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.ByCalling(System.Func{ExtendedXmlSerializer.ContentModel.ISerializer,ExtendedXmlSerializer.ContentModel.ISerializer})
+  name.vb: ByCalling(Func(Of ISerializer, ISerializer))
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.ByCalling(System.Func<ExtendedXmlSerializer.ContentModel.ISerializer, ExtendedXmlSerializer.ContentModel.ISerializer>)
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).ByCalling(System.Func(Of ExtendedXmlSerializer.ContentModel.ISerializer, ExtendedXmlSerializer.ContentModel.ISerializer))
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.ByCalling(Func<ISerializer, ISerializer>)
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).ByCalling(Func(Of ISerializer, ISerializer))
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.ByCalling(System.Func{ExtendedXmlSerializer.ContentModel.ISerializer{`0},ExtendedXmlSerializer.ContentModel.ISerializer{`0}})
+  name: ByCalling(Func<ISerializer<T>, ISerializer<T>>)
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_ByCalling_System_Func_ExtendedXmlSerializer_ContentModel_ISerializer__0__ExtendedXmlSerializer_ContentModel_ISerializer__0___
+  commentId: M:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.ByCalling(System.Func{ExtendedXmlSerializer.ContentModel.ISerializer{`0},ExtendedXmlSerializer.ContentModel.ISerializer{`0}})
+  name.vb: ByCalling(Func(Of ISerializer(Of T), ISerializer(Of T)))
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.ByCalling(System.Func<ExtendedXmlSerializer.ContentModel.ISerializer<T>, ExtendedXmlSerializer.ContentModel.ISerializer<T>>)
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).ByCalling(System.Func(Of ExtendedXmlSerializer.ContentModel.ISerializer(Of T), ExtendedXmlSerializer.ContentModel.ISerializer(Of T)))
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.ByCalling(Func<ISerializer<T>, ISerializer<T>>)
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).ByCalling(Func(Of ISerializer(Of T), ISerializer(Of T)))
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.ByCalling*
+  name: ByCalling
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_ByCalling_
+  commentId: Overload:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.ByCalling
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.ByCalling
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).ByCalling
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.ByCalling
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).ByCalling
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.None
+  name: None()
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_None
+  commentId: M:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.None
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.None()
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).None()
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.None()
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).None()
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.None*
+  name: None
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_None_
+  commentId: Overload:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.None
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.None
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).None
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.None
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).None
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Of(System.Type)
+  name: Of(Type)
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_Of_System_Type_
+  commentId: M:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Of(System.Type)
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.Of(System.Type)
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).Of(System.Type)
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.Of(Type)
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).Of(Type)
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Of*
+  name: Of
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_Of_
+  commentId: Overload:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Of
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.Of
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).Of
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.Of
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).Of
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Of``1
+  name: Of<TComposer>()
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_Of__1
+  commentId: M:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Of``1
+  name.vb: Of(Of TComposer)()
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.Of<TComposer>()
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).Of(Of TComposer)()
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.Of<TComposer>()
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).Of(Of TComposer)()
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Using(ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer)
+  name: Using(ISerializerComposer)
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_Using_ExtendedXmlSerializer_ExtensionModel_Content_ISerializerComposer_
+  commentId: M:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Using(ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer)
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.Using(ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer)
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).Using(ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer)
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.Using(ISerializerComposer)
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).Using(ISerializerComposer)
+- uid: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Using*
+  name: Using
+  href: reference/ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext-1.html#ExtendedXmlSerializer_Configuration_TypeSerializerComposerRegistrationContext_1_Using_
+  commentId: Overload:ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext`1.Using
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext<T>.Using
+  fullName.vb: ExtendedXmlSerializer.Configuration.TypeSerializerComposerRegistrationContext(Of T).Using
+  nameWithType: TypeSerializerComposerRegistrationContext<T>.Using
+  nameWithType.vb: TypeSerializerComposerRegistrationContext(Of T).Using
 - uid: ExtendedXmlSerializer.Configuration.UnknownContentContext
   name: UnknownContentContext
   href: reference/ExtendedXmlSerializer.Configuration.UnknownContentContext.html
@@ -4000,6 +4140,15 @@ references:
   isSpec: "True"
   fullName: ExtendedXmlSerializer.ExtensionMethods.Apply
   nameWithType: ExtensionMethods.Apply
+- uid: ExtendedXmlSerializer.ExtensionMethods.Apply``1(ExtendedXmlSerializer.Core.ICommand{``0},``0)
+  name: Apply<T>(ICommand<T>, T)
+  href: reference/ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Apply__1_ExtendedXmlSerializer_Core_ICommand___0____0_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethods.Apply``1(ExtendedXmlSerializer.Core.ICommand{``0},``0)
+  name.vb: Apply(Of T)(ICommand(Of T), T)
+  fullName: ExtendedXmlSerializer.ExtensionMethods.Apply<T>(ExtendedXmlSerializer.Core.ICommand<T>, T)
+  fullName.vb: ExtendedXmlSerializer.ExtensionMethods.Apply(Of T)(ExtendedXmlSerializer.Core.ICommand(Of T), T)
+  nameWithType: ExtensionMethods.Apply<T>(ICommand<T>, T)
+  nameWithType.vb: ExtensionMethods.Apply(Of T)(ICommand(Of T), T)
 - uid: ExtendedXmlSerializer.ExtensionMethods.Apply``1(System.Action{``0},``0)
   name: Apply<T>(Action<T>, T)
   href: reference/ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Apply__1_System_Action___0____0_
@@ -5170,6 +5319,19 @@ references:
   isSpec: "True"
   fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.WithDefaultMonitor
   nameWithType: ExtensionMethodsForContent.WithDefaultMonitor
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.WithEnumerableSupport(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  name: WithEnumerableSupport(IConfigurationContainer)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_WithEnumerableSupport_ExtendedXmlSerializer_Configuration_IConfigurationContainer_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.WithEnumerableSupport(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.WithEnumerableSupport(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  nameWithType: ExtensionMethodsForContent.WithEnumerableSupport(IConfigurationContainer)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.WithEnumerableSupport*
+  name: WithEnumerableSupport
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_WithEnumerableSupport_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionMethodsForContent.WithEnumerableSupport
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.WithEnumerableSupport
+  nameWithType: ExtensionMethodsForContent.WithEnumerableSupport
 - uid: ExtendedXmlSerializer.ExtensionMethodsForContent.WithMonitor*
   name: WithMonitor
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_WithMonitor_
@@ -7326,6 +7488,15 @@ references:
   commentId: T:ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer
   fullName: ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer
   nameWithType: ISerializerComposer
+- uid: ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer`1
+  name: ISerializerComposer<T>
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer-1.html
+  commentId: T:ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer`1
+  name.vb: ISerializerComposer(Of T)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer<T>
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Content.ISerializerComposer(Of T)
+  nameWithType: ISerializerComposer<T>
+  nameWithType.vb: ISerializerComposer(Of T)
 - uid: ExtendedXmlSerializer.ExtensionModel.Content.ITypedSpecifications
   name: ITypedSpecifications
   href: reference/ExtendedXmlSerializer.ExtensionModel.Content.ITypedSpecifications.html
