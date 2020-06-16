@@ -8,7 +8,7 @@
     <title>Configuration Profiles </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Configuration Profiles ">
-    <meta name="generator" content="docfx 2.52.0.0">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -136,6 +136,70 @@
 <pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;Issue282Tests_Profiles-Subject Number=&quot;123&quot; NewMessage=&quot;Hello World!&quot; /&gt;
 </code></pre>
 <p>The above code is verified and can be reviewed in <a href="https://github.com/ExtendedXmlSerializer/home/blob/6a7b4674e4abd9070309da4fd1b5b75cc9bbfe7b/test/ExtendedXmlSerializer.Tests.ReportedIssues/Issue282Tests_Profiles.cs">a passing test within our test suite here</a>.</p>
+<h2 id="references">References</h2>
+<p>ExtendedXmlSerializer has support for capturing, storing, and re-establishing references within an object graph.  There are two ways of establishing reference identity: implicit (whereby ExtendedXmlSerializer keeps track of identities for you) and explicit (whereby you explicitly specify an identity field used to define an entity identity).</p>
+<p>Let's take a look at these two scenarios and examine their resulting document output.  We will use the following classes in our sample code below:</p>
+<pre><code>public class Parent {
+    public Child First { get; set; }
+    public Child Second { get; set; }
+}
+
+public class Child {
+    public Guid Id { get; set; }
+    public string Message { get; set; }
+}
+</code></pre>
+<h3 id="implicit-references">Implicit References</h3>
+<p>Let's create our serializer and serialize a child object after assigning two values of the same instance:</p>
+<pre><code>var serializer = new ConfigurationContainer().EnableImplicitTyping(typeof(Parent), typeof(Child))
+			                                 .UseOptimizedNamespaces()
+			                                 .EnableReferences()
+			                                 .Create();
+
+var child = new Child {Id = Guid.Parse(&quot;{64D96027-94CD-4EA4-B102-4EED74BF53B0}&quot;), Message = &quot;Hello World!&quot;};
+var instance = new Parent {First = child, Second = child};
+var document = serializer.Serialize(instance);
+</code></pre>
+<p>Note: You can also implicitly apply references specifically to a type:</p>
+<pre><code>var serializer = new ConfigurationContainer().EnableImplicitTyping(typeof(Parent), typeof(Child))
+			                                 .UseOptimizedNamespaces()
+                                             .Type&lt;Child&gt;()
+			                                 .EnableReferences()
+			                                 .Create();
+</code></pre>
+<p>In either case, the <code>document</code> variable above contains the following XML (formatted for convenience and readability here):</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Parent xmlns:exs=&quot;https://extendedxmlserializer.github.io/v2&quot;&gt;
+	&lt;First exs:identity=&quot;1&quot;&gt;
+		&lt;Id&gt;64d96027-94cd-4ea4-b102-4eed74bf53b0&lt;/Id&gt;
+		&lt;Message&gt;Hello World!&lt;/Message&gt;
+	&lt;/First&gt;
+	&lt;Second exs:reference=&quot;1&quot; /&gt;
+&lt;/Parent&gt;
+</code></pre>
+<p>Note the use of <code>exs:identity</code> and <code>exs:reference</code> attributes.  They are used to denote the source reference and subsequent reference pointers throughout the document, respectfully.  In this case, ExtendedXmlSerializer is keeping track of the identity, and is using that by the <code>1</code> identifier.  If an object graph was generated that somehow had a 2nd <code>Child</code> reference, its identifier would be <code>2</code>, and so on.</p>
+<p>After a reference has been established in the document, subsequent references to that original reference are denoted by the <code>exs:reference=&quot;&lt;id&gt;&quot;</code> attribute, where <code>&lt;id&gt;</code> is the id of the reference that should returned and assigned within the object graph when it is deserialized.</p>
+<h3 id="explicit-references">Explicit References</h3>
+<p>Explicit references work much in the same way as implicit references but use different attributes.  It is considered explicit as you explicitly define the identity when configuring the type on the container.  Note that the resulting identity must be unique otherwise references will be lost and/or assigned incorrectly upon deserialization.</p>
+<p>Using this code:</p>
+<pre><code>var serializer = new ConfigurationContainer().EnableImplicitTyping(typeof(Parent), typeof(Child))
+                                             .UseOptimizedNamespaces()
+                                             .Type&lt;Child&gt;()
+                                             .EnableReferences(x =&gt; x.Id)
+                                             .Create()
+                                             .ForTesting();
+</code></pre>
+<p>(Note the use of <code>EnableReferences(x =&gt; x.Id)</code> which explicitly configures the identity field used to establish uniqueness.)</p>
+<p>The result is this document (formatted for readability):</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Parent xmlns:exs=&quot;https://extendedxmlserializer.github.io/v2&quot;&gt;
+	&lt;First Id=&quot;64d96027-94cd-4ea4-b102-4eed74bf53b0&quot;&gt;
+		&lt;Message&gt;Hello World!&lt;/Message&gt;
+	&lt;/First&gt;
+	&lt;Second exs:entity=&quot;64d96027-94cd-4ea4-b102-4eed74bf53b0&quot; /&gt;
+&lt;/Parent&gt;
+</code></pre>
+<p>Note the use of <code>exs:identity</code> is gone, as well as <code>exs:reference</code>.  When explicit references are used, the original reference is serialized as usual, and the <code>exs:entity</code> is used on subsequent references that point back to its identity field with the provide identity reference.</p>
 <h2 id="monitor-serialization-pipeline">Monitor Serialization Pipeline</h2>
 <p>One scenario that you might want to engage in is to monitor events during the serialization (and deserialization) process.  You might want to do this for logging or storage purposes.</p>
 <p>The <code>ISerializationMonitor</code> [<a href="https://extendedxmlserializer.github.io/documentation/reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor-1.html">link</a>] has the following callbacks:</p>
@@ -487,6 +551,36 @@ simple example.</p>
                                                                     .AddMigration(new TestClassMigrations())
                                                                     .Create();
 </code></pre>
+<h2 id="unknown-content">Unknown Content</h2>
+<p>Consider the following class:</p>
+<pre><code>class Subject {
+    public string Message { get; set; }
+}
+</code></pre>
+<p>And the following Xml:</p>
+<pre><code>&lt;Subject&gt;
+	&lt;Unknown&gt;Unexpected content will abort.&lt;/Unknown&gt;
+    &lt;Message&gt;Hello World!&lt;/Message&gt;
+&lt;/Subject&gt;
+</code></pre>
+<p>By default as of 3.x functionality, ExtendedXmlSerializer aborts its reading of the XML document when it reaches any content that it cannot deserialize into the target object.  In this case, this is the <code>Unknown</code> element in the provided XML document.</p>
+<p>The result of this aborted operation is an incomplete object that is not fully deserialized, with values not applied to object properties that were not reached before the encountered invalid content in the XML document.</p>
+<p>It is fair to say that this is not exactly ideal functionality and it should rather throw to promote better visibility of an invalid document.  In a future breaking change version this will be done after considering community feedback.</p>
+<p>However, in the meantime, ExtendedXmlSerializer does provide some control over this scenario for v3.x, via the <code>WithUnknownContent</code> method call:</p>
+<pre><code>var serializer = new ConfigurationContainer().EnableImplicitTyping(typeof(Subject))
+                                             .WithUnknownContent()
+                                             .Continue()
+                                             .Create();
+...
+</code></pre>
+<p>The <code>WithUnknownContent</code> has 3 different options:</p>
+<ol>
+<li><em>Continue</em>.  This will ignore unknown content and continue reading the document, attempting to process the next element.</li>
+<li><em>Throw</em>.  This will throw an exception whenever unknown content is encountered.</li>
+<li><em>Call</em>.  Provide a delegate to invoke whenever unknown content is encountered (for logging, etc.)</li>
+</ol>
+<p>More discussion around this can be found at the following issue:
+<a href="https://github.com/ExtendedXmlSerializer/home/issues/393">https://github.com/ExtendedXmlSerializer/home/issues/393</a></p>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">

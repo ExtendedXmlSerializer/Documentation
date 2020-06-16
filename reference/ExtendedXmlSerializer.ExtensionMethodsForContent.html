@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExtensionMethodsForContent
    ">
-    <meta name="generator" content="docfx 2.52.0.0">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -788,7 +788,7 @@ whether or not to emit the (currently) configured member.</p>
   <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForContent_EnableImplicitlyDefinedDefaultValues_ExtendedXmlSerializer_Configuration_IConfigurationContainer_" class="collapse in">
   <div class="markdown level1 summary"><p>This is intended to circumvent default behavior which throws an exception for primitive data types when there is
 no content provided for their elements.</p>
-<p>For example, say you have a boolean element defined as such: <code>&lt;Boolean&gt;&lt;/Boolean&gt;</code>  or, perhaps its long-form equivalent <code>&lt;Boolean&gt;&lt;/Boolean&gt;</code>.</p>
+<p>For example, say you have a boolean element defined as such: <code>&lt;Boolean&gt;&lt;/Boolean&gt;</code>  or, perhaps its long-form equivalent <code> &lt;Boolean&gt;&lt;/Boolean&gt;</code>.</p>
 <p>Either one of these by default will throw a <span class="xref">System.FormatException</span>.  Configuring the container with
 <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_EnableImplicitlyDefinedDefaultValues_ExtendedXmlSerializer_Configuration_IConfigurationContainer_">EnableImplicitlyDefinedDefaultValues(IConfigurationContainer)</a> will allow the use of empty values within document
 elements such as the above without throwing an exception.</p>

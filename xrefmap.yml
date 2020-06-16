@@ -7683,6 +7683,38 @@ references:
   isSpec: "True"
   fullName: ExtendedXmlSerializer.ExtensionModel.Content.Members.AllowedMemberValuesExtension.Specifications
   nameWithType: AllowedMemberValuesExtension.Specifications
+- uid: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension
+  name: IAllowedMembersExtension
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.html
+  commentId: T:ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension
+  fullName: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension
+  nameWithType: IAllowedMembersExtension
+- uid: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist
+  name: Blacklist
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.html#ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Blacklist
+  commentId: P:ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist
+  fullName: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist
+  nameWithType: IAllowedMembersExtension.Blacklist
+- uid: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist*
+  name: Blacklist
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.html#ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Blacklist_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist
+  nameWithType: IAllowedMembersExtension.Blacklist
+- uid: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist
+  name: Whitelist
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.html#ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Whitelist
+  commentId: P:ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist
+  fullName: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist
+  nameWithType: IAllowedMembersExtension.Whitelist
+- uid: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist*
+  name: Whitelist
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.html#ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Whitelist_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist
+  nameWithType: IAllowedMembersExtension.Whitelist
 - uid: ExtendedXmlSerializer.ExtensionModel.Content.Members.IMemberSpecification
   name: IMemberSpecification
   href: reference/ExtendedXmlSerializer.ExtensionModel.Content.Members.IMemberSpecification.html
@@ -9981,6 +10013,63 @@ references:
   commentId: N:ExtendedXmlSerializer.ReflectionModel
   fullName: ExtendedXmlSerializer.ReflectionModel
   nameWithType: ExtendedXmlSerializer.ReflectionModel
+- uid: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer
+  name: CompositeTypeComparer
+  href: reference/ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.html
+  commentId: T:ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer
+  fullName: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer
+  nameWithType: CompositeTypeComparer
+- uid: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.#ctor(ExtendedXmlSerializer.ReflectionModel.ITypeComparer[])
+  name: CompositeTypeComparer(ITypeComparer[])
+  href: reference/ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.html#ExtendedXmlSerializer_ReflectionModel_CompositeTypeComparer__ctor_ExtendedXmlSerializer_ReflectionModel_ITypeComparer___
+  commentId: M:ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.#ctor(ExtendedXmlSerializer.ReflectionModel.ITypeComparer[])
+  name.vb: CompositeTypeComparer(ITypeComparer())
+  fullName: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.CompositeTypeComparer(ExtendedXmlSerializer.ReflectionModel.ITypeComparer[])
+  fullName.vb: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.CompositeTypeComparer(ExtendedXmlSerializer.ReflectionModel.ITypeComparer())
+  nameWithType: CompositeTypeComparer.CompositeTypeComparer(ITypeComparer[])
+  nameWithType.vb: CompositeTypeComparer.CompositeTypeComparer(ITypeComparer())
+- uid: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.#ctor(System.Collections.Immutable.ImmutableArray{ExtendedXmlSerializer.ReflectionModel.ITypeComparer})
+  name: CompositeTypeComparer(ImmutableArray<ITypeComparer>)
+  href: reference/ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.html#ExtendedXmlSerializer_ReflectionModel_CompositeTypeComparer__ctor_System_Collections_Immutable_ImmutableArray_ExtendedXmlSerializer_ReflectionModel_ITypeComparer__
+  commentId: M:ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.#ctor(System.Collections.Immutable.ImmutableArray{ExtendedXmlSerializer.ReflectionModel.ITypeComparer})
+  name.vb: CompositeTypeComparer(ImmutableArray(Of ITypeComparer))
+  fullName: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.CompositeTypeComparer(System.Collections.Immutable.ImmutableArray<ExtendedXmlSerializer.ReflectionModel.ITypeComparer>)
+  fullName.vb: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.CompositeTypeComparer(System.Collections.Immutable.ImmutableArray(Of ExtendedXmlSerializer.ReflectionModel.ITypeComparer))
+  nameWithType: CompositeTypeComparer.CompositeTypeComparer(ImmutableArray<ITypeComparer>)
+  nameWithType.vb: CompositeTypeComparer.CompositeTypeComparer(ImmutableArray(Of ITypeComparer))
+- uid: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.#ctor*
+  name: CompositeTypeComparer
+  href: reference/ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.html#ExtendedXmlSerializer_ReflectionModel_CompositeTypeComparer__ctor_
+  commentId: Overload:ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.#ctor
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.CompositeTypeComparer
+  nameWithType: CompositeTypeComparer.CompositeTypeComparer
+- uid: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.Equals(System.Reflection.TypeInfo,System.Reflection.TypeInfo)
+  name: Equals(TypeInfo, TypeInfo)
+  href: reference/ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.html#ExtendedXmlSerializer_ReflectionModel_CompositeTypeComparer_Equals_System_Reflection_TypeInfo_System_Reflection_TypeInfo_
+  commentId: M:ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.Equals(System.Reflection.TypeInfo,System.Reflection.TypeInfo)
+  fullName: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.Equals(System.Reflection.TypeInfo, System.Reflection.TypeInfo)
+  nameWithType: CompositeTypeComparer.Equals(TypeInfo, TypeInfo)
+- uid: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.Equals*
+  name: Equals
+  href: reference/ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.html#ExtendedXmlSerializer_ReflectionModel_CompositeTypeComparer_Equals_
+  commentId: Overload:ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.Equals
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.Equals
+  nameWithType: CompositeTypeComparer.Equals
+- uid: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.GetHashCode(System.Reflection.TypeInfo)
+  name: GetHashCode(TypeInfo)
+  href: reference/ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.html#ExtendedXmlSerializer_ReflectionModel_CompositeTypeComparer_GetHashCode_System_Reflection_TypeInfo_
+  commentId: M:ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.GetHashCode(System.Reflection.TypeInfo)
+  fullName: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.GetHashCode(System.Reflection.TypeInfo)
+  nameWithType: CompositeTypeComparer.GetHashCode(TypeInfo)
+- uid: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.GetHashCode*
+  name: GetHashCode
+  href: reference/ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.html#ExtendedXmlSerializer_ReflectionModel_CompositeTypeComparer_GetHashCode_
+  commentId: Overload:ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.GetHashCode
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ReflectionModel.CompositeTypeComparer.GetHashCode
+  nameWithType: CompositeTypeComparer.GetHashCode
 - uid: ExtendedXmlSerializer.ReflectionModel.IGeneric`1
   name: IGeneric<T>
   href: reference/ExtendedXmlSerializer.ReflectionModel.IGeneric-1.html
@@ -10230,6 +10319,38 @@ references:
   fullName.vb: ExtendedXmlSerializer.ReflectionModel.TypedTable(Of T).TypedTable
   nameWithType: TypedTable<T>.TypedTable
   nameWithType.vb: TypedTable(Of T).TypedTable
+- uid: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer
+  name: TypeIdentityComparer
+  href: reference/ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.html
+  commentId: T:ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer
+  fullName: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer
+  nameWithType: TypeIdentityComparer
+- uid: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default
+  name: Default
+  href: reference/ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.html#ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_Default
+  commentId: P:ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default
+  fullName: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default
+  nameWithType: TypeIdentityComparer.Default
+- uid: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default*
+  name: Default
+  href: reference/ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.html#ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_Default_
+  commentId: Overload:ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default
+  nameWithType: TypeIdentityComparer.Default
+- uid: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode(System.Reflection.TypeInfo)
+  name: GetHashCode(TypeInfo)
+  href: reference/ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.html#ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_GetHashCode_System_Reflection_TypeInfo_
+  commentId: M:ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode(System.Reflection.TypeInfo)
+  fullName: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode(System.Reflection.TypeInfo)
+  nameWithType: TypeIdentityComparer.GetHashCode(TypeInfo)
+- uid: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode*
+  name: GetHashCode
+  href: reference/ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.html#ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_GetHashCode_
+  commentId: Overload:ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode
+  nameWithType: TypeIdentityComparer.GetHashCode
 - uid: ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparerBase
   name: TypeIdentityComparerBase
   href: reference/ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparerBase.html

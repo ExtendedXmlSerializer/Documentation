@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NestedTypes
+    <title>Class TypeIdentityComparer
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NestedTypes
+    <meta name="title" content="Class TypeIdentityComparer
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -66,32 +66,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes">
-  <h1 id="ExtendedXmlSerializer_ExtensionModel_Types_Sources_NestedTypes" data-uid="ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes">Class NestedTypes
+            <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer">
+  <h1 id="ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer" data-uid="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer">Class TypeIdentityComparer
   </h1>
-  <div class="markdown level0 summary"><p>Iterates through all private and public nested types found in the provided reference type.</p>
+  <div class="markdown level0 summary"><p>Type comparer based on hash code.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="ExtendedXmlSerializer.Core.Sources.ItemsBase-1.html">ItemsBase</a>&lt;<span class="xref">System.Type</span>&gt;</div>
-    <div class="level2"><a class="xref" href="ExtendedXmlSerializer.Core.Sources.Items-1.html">Items</a>&lt;<span class="xref">System.Type</span>&gt;</div>
-    <div class="level3"><span class="xref">NestedTypes</span></div>
+    <div class="level1"><a class="xref" href="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparerBase.html">TypeIdentityComparerBase</a></div>
+    <div class="level2"><span class="xref">TypeIdentityComparer</span></div>
   </div>
   
   
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="ExtendedXmlSerializer.Core.Sources.Items-1.html#ExtendedXmlSerializer_Core_Sources_Items_1_GetEnumerator">Items&lt;Type&gt;.GetEnumerator()</a>
-    </div>
-    <div>
-      <a class="xref" href="ExtendedXmlSerializer.Core.Sources.ItemsBase-1.html#ExtendedXmlSerializer_Core_Sources_ItemsBase_1_Get">ItemsBase&lt;Type&gt;.Get()</a>
-    </div>
-    <div>
-      <a class="xref" href="ExtendedXmlSerializer.Core.Sources.ItemsBase-1.html#ExtendedXmlSerializer_Core_Sources_ItemsBase_1_System_Collections_IEnumerable_GetEnumerator">ItemsBase&lt;Type&gt;.IEnumerable.GetEnumerator()</a>
+      <a class="xref" href="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparerBase.html#ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparerBase_Equals_System_Reflection_TypeInfo_System_Reflection_TypeInfo_">TypeIdentityComparerBase.Equals(TypeInfo, TypeInfo)</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -116,51 +109,53 @@
     </div>
   </div>
   
-  <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.ExtensionModel.Types.Sources.html">ExtendedXmlSerializer.ExtensionModel.Types.Sources</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.ReflectionModel.html">ExtendedXmlSerializer.ReflectionModel</a></h6>
   <h6><strong>Assembly</strong>: ExtendedXmlSerializer.dll</h6>
   
-  <h5 id="ExtendedXmlSerializer_ExtensionModel_Types_Sources_NestedTypes_syntax">Syntax</h5>
+  <h5 id="ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class NestedTypes : Items&lt;Type&gt;, IItems&lt;Type&gt;, IEnumerable&lt;Type&gt;, IEnumerable, ISource&lt;ImmutableArray&lt;Type&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TypeIdentityComparer : TypeIdentityComparerBase, ITypeComparer, IEqualityComparer&lt;TypeInfo&gt;</code></pre>
   </div>
 
   
   
   
   
-  <h3 id="constructors">Constructors
+  <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Types_Sources_NestedTypes__ctor_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes.%23ctor(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_Default.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Types/Sources/NestedTypes.cs/#L29" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ReflectionModel/TypeIdentityComparer.cs/#L13" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
-  <a id="ExtendedXmlSerializer_ExtensionModel_Types_Sources_NestedTypes__ctor_" data-uid="ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes.#ctor*"></a>
+  <a id="ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_Default_" data-uid="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default*"></a>
   
-  <h4 id="ExtendedXmlSerializer_ExtensionModel_Types_Sources_NestedTypes__ctor_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes.#ctor(System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Types_Sources_NestedTypes__ctor_System_Type_" class="expander" data-toggle="collapse">NestedTypes(Type)</a></h4>
+  <h4 id="ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_Default" data-uid="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.Default"><a href="#collapsible-ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_Default" class="expander" data-toggle="collapse">Default</a></h4>
   
-  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Types_Sources_NestedTypes__ctor_System_Type_" class="collapse in">
-  <div class="markdown level1 summary"><p>Creates a new instance.</p>
+  <div id="collapsible-ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_Default" class="collapse in">
+  <div class="markdown level1 summary"><p>The default instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NestedTypes(Type referenceType)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TypeIdentityComparer Default { get; }</code></pre>
   </div>
 
-  <h5 class="parameters">Parameters</h5>
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Type</span></span>
-        <span class="parametername">referenceType</span>
-        <p><p>The reference type to query.</p>
-</p>
+        <a class="xref" href="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.html">TypeIdentityComparer</a>
+        <p>
       </td>
     </tr>
   </table>
@@ -171,6 +166,59 @@
   
   
   
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_GetHashCode_System_Reflection_TypeInfo_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode(System.Reflection.TypeInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ReflectionModel/TypeIdentityComparer.cs/#L18" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_GetHashCode_" data-uid="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_GetHashCode_System_Reflection_TypeInfo_" data-uid="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer.GetHashCode(System.Reflection.TypeInfo)"><a href="#collapsible-ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_GetHashCode_System_Reflection_TypeInfo_" class="expander" data-toggle="collapse">GetHashCode(TypeInfo)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer_GetHashCode_System_Reflection_TypeInfo_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode(TypeInfo obj)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Reflection.TypeInfo</span></span>
+        <span class="parametername">obj</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Int32</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparerBase.html#ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparerBase_GetHashCode_System_Reflection_TypeInfo_">TypeIdentityComparerBase.GetHashCode(TypeInfo)</a></div>
+  
   
   
   
@@ -180,9 +228,6 @@
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Return__2___0___1_">ExtensionMethods.Return&lt;T, TOut&gt;(T, TOut)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Only__1_System_Collections_Generic_IEnumerable___0__">ExtensionMethods.Only&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_To__1_System_Object_">ExtensionMethods.To&lt;T&gt;(Object)</a>
@@ -202,24 +247,12 @@
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Let__2___1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0____1_">ExtensionMethodsForCoreSources.Let&lt;TSpecification, TInstance&gt;(TInstance, ISpecification&lt;TSpecification&gt;, TInstance)</a>
   </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Singleton__1_ExtendedXmlSerializer_Core_Sources_ISource___0__">ExtensionMethodsForCoreSources.Singleton&lt;T&gt;(ISource&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_ToSourceDelegate__1_ExtendedXmlSerializer_Core_Sources_ISource___0__">ExtensionMethodsForCoreSources.ToSourceDelegate&lt;T&gt;(ISource&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_ToDelegate__1_ExtendedXmlSerializer_Core_Sources_ISource___0__">ExtensionMethodsForCoreSources.ToDelegate&lt;T&gt;(ISource&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.html#ExtendedXmlSerializer_ExtensionMethodsForExtensionModel_WithArrayTypes_System_Collections_Generic_IEnumerable_System_Type__">ExtensionMethodsForExtensionModel.WithArrayTypes(IEnumerable&lt;Type&gt;)</a>
-  </div>
   
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Types_Sources_NestedTypes.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Types/Sources/NestedTypes.cs/#L23" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ReflectionModel_TypeIdentityComparer.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ReflectionModel.TypeIdentityComparer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ReflectionModel/TypeIdentityComparer.cs/#L8" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

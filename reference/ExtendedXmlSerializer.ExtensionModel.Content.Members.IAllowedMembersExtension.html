@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISpecificationSource&lt;TParameter, TResult&gt;
+    <title>Interface IAllowedMembersExtension
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISpecificationSource&lt;TParameter, TResult&gt;
+    <meta name="title" content="Interface IAllowedMembersExtension
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -66,10 +66,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.Core.Sources.ISpecificationSource`2">
-  <h1 id="ExtendedXmlSerializer_Core_Sources_ISpecificationSource_2" data-uid="ExtendedXmlSerializer.Core.Sources.ISpecificationSource`2">Interface ISpecificationSource&lt;TParameter, TResult&gt;
+            <article class="content wrap" id="_content" data-uid="ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension">
+  <h1 id="ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension" data-uid="ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension">Interface IAllowedMembersExtension
   </h1>
-  <div class="markdown level0 summary"><p>A selector paired with a specification.</p>
+  <div class="markdown level0 summary"><p>Marker extension used for defining allowed and prohibited members.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
 
@@ -78,46 +78,122 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="ExtendedXmlSerializer.Core.Specifications.ISpecification-1.html#ExtendedXmlSerializer_Core_Specifications_ISpecification_1_IsSatisfiedBy__0_">ISpecification&lt;TParameter&gt;.IsSatisfiedBy(TParameter)</a>
+      <a class="xref" href="ExtendedXmlSerializer.Core.Sources.IParameterizedSource-2.html#ExtendedXmlSerializer_Core_Sources_IParameterizedSource_2_Get__0_">IParameterizedSource&lt;IServiceRepository, IServiceRepository&gt;.Get(IServiceRepository)</a>
     </div>
     <div>
-      <a class="xref" href="ExtendedXmlSerializer.Core.Sources.IParameterizedSource-2.html#ExtendedXmlSerializer_Core_Sources_IParameterizedSource_2_Get__0_">IParameterizedSource&lt;TParameter, TResult&gt;.Get(TParameter)</a>
+      <a class="xref" href="ExtendedXmlSerializer.Core.ICommand-1.html#ExtendedXmlSerializer_Core_ICommand_1_Execute__0_">ICommand&lt;IServices&gt;.Execute(IServices)</a>
     </div>
   </div>
   
-  <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.Core.Sources.html">ExtendedXmlSerializer.Core.Sources</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ExtendedXmlSerializer.ExtensionModel.Content.Members.html">ExtendedXmlSerializer.ExtensionModel.Content.Members</a></h6>
   <h6><strong>Assembly</strong>: ExtendedXmlSerializer.dll</h6>
   
-  <h5 id="ExtendedXmlSerializer_Core_Sources_ISpecificationSource_2_syntax">Syntax</h5>
+  <h5 id="ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISpecificationSource&lt;in TParameter, out TResult&gt; : ISpecification&lt;TParameter&gt;, IParameterizedSource&lt;TParameter, TResult&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAllowedMembersExtension : ISerializerExtension, IAlteration&lt;IServiceRepository&gt;, IParameterizedSource&lt;IServiceRepository, IServiceRepository&gt;, ICommand&lt;IServices&gt;</code></pre>
   </div>
 
   
   
-  <h5 class="typeParameters">Type Parameters</h5>
+  
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Blacklist.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Content/Members/IAllowedMembersExtension.cs/#L14" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Blacklist_" data-uid="ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Blacklist" data-uid="ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Blacklist"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Blacklist" class="expander" data-toggle="collapse">Blacklist</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Blacklist" class="collapse in">
+  <div class="markdown level1 summary"><p>Prohibited members.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICollection&lt;MemberInfo&gt; Blacklist { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
   <table>
     <tr>
       <td>
-        <span class="parametername">TParameter</span>
-        <p><p>The selector's parameter type.</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="parametername">TResult</span>
-        <p><p>The selection result type.</p>
-</p>
+        <span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Reflection.MemberInfo</span>&gt;
+        <p>
       </td>
     </tr>
   </table>
   
   
   
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Whitelist.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Content/Members/IAllowedMembersExtension.cs/#L19" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Whitelist_" data-uid="ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Whitelist" data-uid="ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension.Whitelist"><a href="#collapsible-ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Whitelist" class="expander" data-toggle="collapse">Whitelist</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension_Whitelist" class="collapse in">
+  <div class="markdown level1 summary"><p>Allowed members.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICollection&lt;MemberInfo&gt; Whitelist { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Reflection.MemberInfo</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Return__2___0___1_">ExtensionMethods.Return&lt;T, TOut&gt;(T, TOut)</a>
+  </div>
+  <div>
+      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_Apply__1_ExtendedXmlSerializer_Core_ICommand___0____0_">ExtensionMethods.Apply&lt;T&gt;(ICommand&lt;T&gt;, T)</a>
   </div>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethods.html#ExtendedXmlSerializer_ExtensionMethods_To__1_System_Object_">ExtensionMethods.To&lt;T&gt;(Object)</a>
@@ -130,6 +206,9 @@
   </div>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForAttachedProperties.html#ExtendedXmlSerializer_ExtensionMethodsForAttachedProperties_Set__2___0_ExtendedXmlSerializer_ExtensionModel_AttachedProperties_Property___0___1____1_">ExtensionMethodsForAttachedProperties.Set&lt;TType, TValue&gt;(TType, Property&lt;TType, TValue&gt;, TValue)</a>
+  </div>
+  <div>
+      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Adapt__1_ExtendedXmlSerializer_Core_Sources_IAlteration___0__">ExtensionMethodsForCoreSources.Adapt&lt;T&gt;(IAlteration&lt;T&gt;)</a>
   </div>
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_To__3_ExtendedXmlSerializer_Core_Sources_IParameterizedSource___0___1__ExtendedXmlSerializer_Core_Sources_IParameterizedSource___1___2__">ExtensionMethodsForCoreSources.To&lt;TParameter, TResult, TTo&gt;(IParameterizedSource&lt;TParameter, TResult&gt;, IParameterizedSource&lt;TResult, TTo&gt;)</a>
@@ -156,6 +235,9 @@
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Let__2___1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0____1_">ExtensionMethodsForCoreSources.Let&lt;TSpecification, TInstance&gt;(TInstance, ISpecification&lt;TSpecification&gt;, TInstance)</a>
   </div>
   <div>
+      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Or__2_ExtendedXmlSerializer_Core_Sources_IParameterizedSource___0___1__ExtendedXmlSerializer_Core_Sources_IParameterizedSource___0___1__">ExtensionMethodsForCoreSources.Or&lt;TParameter, TResult&gt;(IParameterizedSource&lt;TParameter, TResult&gt;, IParameterizedSource&lt;TParameter, TResult&gt;)</a>
+  </div>
+  <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSources.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSources_Build__2_ExtendedXmlSerializer_Core_Sources_IParameterizedSource___0___1____0_">ExtensionMethodsForCoreSources.Build&lt;TParameter, TResult&gt;(IParameterizedSource&lt;TParameter, TResult&gt;, TParameter)</a>
   </div>
   <div>
@@ -173,39 +255,12 @@
   <div>
       <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_IfAssigned__2_ExtendedXmlSerializer_Core_Sources_IParameterizedSource___0___1__">ExtensionMethodsForCoreSpecifications.IfAssigned&lt;TParameter, TResult&gt;(IParameterizedSource&lt;TParameter, TResult&gt;)</a>
   </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_ToDelegate__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0__">ExtensionMethodsForCoreSpecifications.ToDelegate&lt;T&gt;(ISpecification&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_Build__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0____0_">ExtensionMethodsForCoreSpecifications.Build&lt;T&gt;(ISpecification&lt;T&gt;, T)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_Fix__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0____0_">ExtensionMethodsForCoreSpecifications.Fix&lt;T&gt;(ISpecification&lt;T&gt;, T)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_Any__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0____0___">ExtensionMethodsForCoreSpecifications.Any&lt;T&gt;(ISpecification&lt;T&gt;, T[])</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_Or__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0__ExtendedXmlSerializer_Core_Specifications_ISpecification___0____">ExtensionMethodsForCoreSpecifications.Or&lt;T&gt;(ISpecification&lt;T&gt;, ISpecification&lt;T&gt;[])</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_And__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0__ExtendedXmlSerializer_Core_Specifications_ISpecification___0____">ExtensionMethodsForCoreSpecifications.And&lt;T&gt;(ISpecification&lt;T&gt;, ISpecification&lt;T&gt;[])</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_Inverse__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0__">ExtensionMethodsForCoreSpecifications.Inverse&lt;T&gt;(ISpecification&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_AdaptForNull__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0__">ExtensionMethodsForCoreSpecifications.AdaptForNull&lt;T&gt;(ISpecification&lt;T&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForCoreSpecifications.html#ExtendedXmlSerializer_ExtensionMethodsForCoreSpecifications_Adapt__1_ExtendedXmlSerializer_Core_Specifications_ISpecification___0__">ExtensionMethodsForCoreSpecifications.Adapt&lt;T&gt;(ISpecification&lt;T&gt;)</a>
-  </div>
   
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_Core_Sources_ISpecificationSource_2.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.Core.Sources.ISpecificationSource%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/Core/Sources/ISpecificationSource.cs/#L10" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionModel_Content_Members_IAllowedMembersExtension.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionModel.Content.Members.IAllowedMembersExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionModel/Content/Members/IAllowedMembersExtension.cs/#L9" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
