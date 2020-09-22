@@ -332,7 +332,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IMemberConfiguration-2.html",
-          "hash": "bC3x2R674GAOW9KdEikIvA=="
+          "hash": "tdk1SB1RQ/5m+7V0h5ektw=="
         }
       },
       "is_incremental": false,
@@ -392,7 +392,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ITypeConfiguration-1.html",
-          "hash": "xBfUnAy1U546JMW2GInWyQ=="
+          "hash": "KdnWLbVvWYMFVfJnDk8m0Q=="
         }
       },
       "is_incremental": false,
@@ -1724,7 +1724,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html",
-          "hash": "5xXPSHSXB9Fvk+2qQEnmqA=="
+          "hash": "IlMCd5fKIBIQt9p2rkbJSQ=="
         }
       },
       "is_incremental": false,
@@ -2320,6 +2320,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.html",
+          "hash": "pJy+iQqnVsk5sOGCPa/35w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor.html",
+          "hash": "vc4LOZq59YOE+KsmjNPf3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor-1.yml",
       "output": {
         ".html": {
@@ -2344,11 +2368,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.html",
+          "hash": "Qo4/8GQVI1IIzQxHnT1Zqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.yml",
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Instances.html",
-          "hash": "0tZdinb+9R98sU4bWebPFw=="
+          "hash": "CdzVqGjNtZqilBJ5e08zzQ=="
         }
       },
       "is_incremental": false,
@@ -3188,7 +3224,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/toc.html",
-          "hash": "CuS6TuOVFN4iKwrP1TkfPg=="
+          "hash": "NwByGkIHLKL/osuxMRDieA=="
         }
       },
       "is_incremental": false,
@@ -3227,7 +3263,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 250,
+          "total_file_count": 253,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

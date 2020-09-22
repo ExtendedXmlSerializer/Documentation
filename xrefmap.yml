@@ -5332,6 +5332,31 @@ references:
   isSpec: "True"
   fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.WithEnumerableSupport
   nameWithType: ExtensionMethodsForContent.WithEnumerableSupport
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor*
+  name: WithInterceptor
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_WithInterceptor_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor
+  nameWithType: ExtensionMethodsForContent.WithInterceptor
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor``1(ExtendedXmlSerializer.Configuration.ITypeConfiguration{``0},ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor)
+  name: WithInterceptor<T>(ITypeConfiguration<T>, ISerializationInterceptor)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_WithInterceptor__1_ExtendedXmlSerializer_Configuration_ITypeConfiguration___0__ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationInterceptor_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor``1(ExtendedXmlSerializer.Configuration.ITypeConfiguration{``0},ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor)
+  name.vb: WithInterceptor(Of T)(ITypeConfiguration(Of T), ISerializationInterceptor)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor<T>(ExtendedXmlSerializer.Configuration.ITypeConfiguration<T>, ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor)
+  fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor(Of T)(ExtendedXmlSerializer.Configuration.ITypeConfiguration(Of T), ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor)
+  nameWithType: ExtensionMethodsForContent.WithInterceptor<T>(ITypeConfiguration<T>, ISerializationInterceptor)
+  nameWithType.vb: ExtensionMethodsForContent.WithInterceptor(Of T)(ITypeConfiguration(Of T), ISerializationInterceptor)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor``1(ExtendedXmlSerializer.Configuration.ITypeConfiguration{``0},ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor{``0})
+  name: WithInterceptor<T>(ITypeConfiguration<T>, ISerializationInterceptor<T>)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_WithInterceptor__1_ExtendedXmlSerializer_Configuration_ITypeConfiguration___0__ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationInterceptor___0__
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor``1(ExtendedXmlSerializer.Configuration.ITypeConfiguration{``0},ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor{``0})
+  name.vb: WithInterceptor(Of T)(ITypeConfiguration(Of T), ISerializationInterceptor(Of T))
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor<T>(ExtendedXmlSerializer.Configuration.ITypeConfiguration<T>, ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor<T>)
+  fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForContent.WithInterceptor(Of T)(ExtendedXmlSerializer.Configuration.ITypeConfiguration(Of T), ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor(Of T))
+  nameWithType: ExtensionMethodsForContent.WithInterceptor<T>(ITypeConfiguration<T>, ISerializationInterceptor<T>)
+  nameWithType.vb: ExtensionMethodsForContent.WithInterceptor(Of T)(ITypeConfiguration(Of T), ISerializationInterceptor(Of T))
 - uid: ExtendedXmlSerializer.ExtensionMethodsForContent.WithMonitor*
   name: WithMonitor
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_WithMonitor_
@@ -8079,6 +8104,72 @@ references:
   commentId: N:ExtendedXmlSerializer.ExtensionModel.Instances
   fullName: ExtendedXmlSerializer.ExtensionModel.Instances
   nameWithType: ExtendedXmlSerializer.ExtensionModel.Instances
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor
+  name: ISerializationInterceptor
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor.html
+  commentId: T:ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor
+  nameWithType: ISerializationInterceptor
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1
+  name: ISerializationInterceptor<T>
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.html
+  commentId: T:ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1
+  name.vb: ISerializationInterceptor(Of T)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor<T>
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor(Of T)
+  nameWithType: ISerializationInterceptor<T>
+  nameWithType.vb: ISerializationInterceptor(Of T)
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Activating(System.Type)
+  name: Activating(Type)
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.html#ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationInterceptor_1_Activating_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Activating(System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor<T>.Activating(System.Type)
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor(Of T).Activating(System.Type)
+  nameWithType: ISerializationInterceptor<T>.Activating(Type)
+  nameWithType.vb: ISerializationInterceptor(Of T).Activating(Type)
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Activating*
+  name: Activating
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.html#ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationInterceptor_1_Activating_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Activating
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor<T>.Activating
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor(Of T).Activating
+  nameWithType: ISerializationInterceptor<T>.Activating
+  nameWithType.vb: ISerializationInterceptor(Of T).Activating
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Deserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,`0)
+  name: Deserialized(IFormatReader, T)
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.html#ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationInterceptor_1_Deserialized_ExtendedXmlSerializer_ContentModel_Format_IFormatReader__0_
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Deserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,`0)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor<T>.Deserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader, T)
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor(Of T).Deserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader, T)
+  nameWithType: ISerializationInterceptor<T>.Deserialized(IFormatReader, T)
+  nameWithType.vb: ISerializationInterceptor(Of T).Deserialized(IFormatReader, T)
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Deserialized*
+  name: Deserialized
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.html#ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationInterceptor_1_Deserialized_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Deserialized
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor<T>.Deserialized
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor(Of T).Deserialized
+  nameWithType: ISerializationInterceptor<T>.Deserialized
+  nameWithType.vb: ISerializationInterceptor(Of T).Deserialized
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Serializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,`0)
+  name: Serializing(IFormatWriter, T)
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.html#ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationInterceptor_1_Serializing_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter__0_
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Serializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,`0)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor<T>.Serializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter, T)
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor(Of T).Serializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter, T)
+  nameWithType: ISerializationInterceptor<T>.Serializing(IFormatWriter, T)
+  nameWithType.vb: ISerializationInterceptor(Of T).Serializing(IFormatWriter, T)
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Serializing*
+  name: Serializing
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor-1.html#ExtendedXmlSerializer_ExtensionModel_Instances_ISerializationInterceptor_1_Serializing_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor`1.Serializing
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor<T>.Serializing
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationInterceptor(Of T).Serializing
+  nameWithType: ISerializationInterceptor<T>.Serializing
+  nameWithType.vb: ISerializationInterceptor(Of T).Serializing
 - uid: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor
   name: ISerializationMonitor
   href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor.html
@@ -8196,6 +8287,51 @@ references:
   fullName.vb: ExtendedXmlSerializer.ExtensionModel.Instances.ISerializationMonitor(Of T).OnSerializing
   nameWithType: ISerializationMonitor<T>.OnSerializing
   nameWithType.vb: ISerializationMonitor(Of T).OnSerializing
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator
+  name: SerializationActivator
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.html
+  commentId: T:ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator
+  nameWithType: SerializationActivator
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Activating(System.Type)
+  name: Activating(Type)
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.html#ExtendedXmlSerializer_ExtensionModel_Instances_SerializationActivator_Activating_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Activating(System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Activating(System.Type)
+  nameWithType: SerializationActivator.Activating(Type)
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Activating*
+  name: Activating
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.html#ExtendedXmlSerializer_ExtensionModel_Instances_SerializationActivator_Activating_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Activating
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Activating
+  nameWithType: SerializationActivator.Activating
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Deserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,System.Object)
+  name: Deserialized(IFormatReader, Object)
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.html#ExtendedXmlSerializer_ExtensionModel_Instances_SerializationActivator_Deserialized_ExtendedXmlSerializer_ContentModel_Format_IFormatReader_System_Object_
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Deserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader,System.Object)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Deserialized(ExtendedXmlSerializer.ContentModel.Format.IFormatReader, System.Object)
+  nameWithType: SerializationActivator.Deserialized(IFormatReader, Object)
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Deserialized*
+  name: Deserialized
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.html#ExtendedXmlSerializer_ExtensionModel_Instances_SerializationActivator_Deserialized_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Deserialized
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Deserialized
+  nameWithType: SerializationActivator.Deserialized
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Serializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,System.Object)
+  name: Serializing(IFormatWriter, Object)
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.html#ExtendedXmlSerializer_ExtensionModel_Instances_SerializationActivator_Serializing_ExtendedXmlSerializer_ContentModel_Format_IFormatWriter_System_Object_
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Serializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter,System.Object)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Serializing(ExtendedXmlSerializer.ContentModel.Format.IFormatWriter, System.Object)
+  nameWithType: SerializationActivator.Serializing(IFormatWriter, Object)
+- uid: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Serializing*
+  name: Serializing
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.html#ExtendedXmlSerializer_ExtensionModel_Instances_SerializationActivator_Serializing_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Serializing
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Instances.SerializationActivator.Serializing
+  nameWithType: SerializationActivator.Serializing
 - uid: ExtendedXmlSerializer.ExtensionModel.IRegistration
   name: IRegistration
   href: reference/ExtendedXmlSerializer.ExtensionModel.IRegistration.html
