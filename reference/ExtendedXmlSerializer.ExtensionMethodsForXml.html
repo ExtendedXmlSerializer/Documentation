@@ -123,6 +123,204 @@ behaviors (<a class="xref" href="ExtendedXmlSerializer.ExtensionModel.Xml.html">
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_ExtendedXmlSerializer_Core_ICommand_System_Xml_Linq_XElement__.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration(ExtendedXmlSerializer.Configuration.ITypeConfiguration%2CExtendedXmlSerializer.Core.ICommand%7BSystem.Xml.Linq.XElement%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForXml.cs/#L284" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_ExtendedXmlSerializer_Core_ICommand_System_Xml_Linq_XElement__" data-uid="ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration(ExtendedXmlSerializer.Configuration.ITypeConfiguration,ExtendedXmlSerializer.Core.ICommand{System.Xml.Linq.XElement})"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_ExtendedXmlSerializer_Core_ICommand_System_Xml_Linq_XElement__" class="expander" data-toggle="collapse">AddMigration(ITypeConfiguration, ICommand&lt;XElement&gt;)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_ExtendedXmlSerializer_Core_ICommand_System_Xml_Linq_XElement__" class="collapse in">
+  <div class="markdown level1 summary"><p>Adds a migration command to the configured type.  A migration allows older persisted XML to migrate to an object
+model schema that has changed since the XML was persisted.  The provided command specifies how to manipulate the
+element that represents the type so that it can (hopefully 😇) be deserialized without error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ITypeConfiguration AddMigration(this ITypeConfiguration this, ICommand&lt;XElement&gt; migration)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.ITypeConfiguration.html">ITypeConfiguration</a></span>
+        <span class="parametername">this</span>
+        <p><p>The type configuration to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Core.ICommand-1.html">ICommand</a>&lt;<span class="xref">System.Xml.Linq.XElement</span>&gt;</span>
+        <span class="parametername">migration</span>
+        <p><p>The command that specifies how to migrate an Xml element that represents an older schema.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.ITypeConfiguration.html">ITypeConfiguration</a>
+        <p><p>The configured type configuration.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_System_Action_System_Xml_Linq_XElement__.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration(ExtendedXmlSerializer.Configuration.ITypeConfiguration%2CSystem.Action%7BSystem.Xml.Linq.XElement%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForXml.cs/#L296" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_System_Action_System_Xml_Linq_XElement__" data-uid="ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration(ExtendedXmlSerializer.Configuration.ITypeConfiguration,System.Action{System.Xml.Linq.XElement})"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_System_Action_System_Xml_Linq_XElement__" class="expander" data-toggle="collapse">AddMigration(ITypeConfiguration, Action&lt;XElement&gt;)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_System_Action_System_Xml_Linq_XElement__" class="collapse in">
+  <div class="markdown level1 summary"><p>Adds a migration delegate to the configured type.  A migration allows older persisted XML to migrate to an object
+model schema that has changed since the XML was persisted.  The provided command specifies how to manipulate the
+element that represents the type so that it can (hopefully 😇) be deserialized without error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ITypeConfiguration AddMigration(this ITypeConfiguration this, Action&lt;XElement&gt; migration)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.ITypeConfiguration.html">ITypeConfiguration</a></span>
+        <span class="parametername">this</span>
+        <p><p>The type configuration to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.Linq.XElement</span>&gt;</span>
+        <span class="parametername">migration</span>
+        <p><p>The delegate that specifies how to migrate an Xml element that represents an older schema.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.ITypeConfiguration.html">ITypeConfiguration</a>
+        <p><p>The configured type configuration.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_System_Collections_Generic_IEnumerable_System_Action_System_Xml_Linq_XElement___.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration(ExtendedXmlSerializer.Configuration.ITypeConfiguration%2CSystem.Collections.Generic.IEnumerable%7BSystem.Action%7BSystem.Xml.Linq.XElement%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForXml.cs/#L308" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_System_Collections_Generic_IEnumerable_System_Action_System_Xml_Linq_XElement___" data-uid="ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration(ExtendedXmlSerializer.Configuration.ITypeConfiguration,System.Collections.Generic.IEnumerable{System.Action{System.Xml.Linq.XElement}})"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_System_Collections_Generic_IEnumerable_System_Action_System_Xml_Linq_XElement___" class="expander" data-toggle="collapse">AddMigration(ITypeConfiguration, IEnumerable&lt;Action&lt;XElement&gt;&gt;)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration_ExtendedXmlSerializer_Configuration_ITypeConfiguration_System_Collections_Generic_IEnumerable_System_Action_System_Xml_Linq_XElement___" class="collapse in">
+  <div class="markdown level1 summary"><p>Adds a set of migration delegates to the configured type.  A migration allows older persisted XML to migrate to an
+object model schema that has changed since the XML was persisted.  The provided command specifies how to
+manipulate the element that represents the type so that it can (hopefully 😇) be deserialized without error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ITypeConfiguration AddMigration(this ITypeConfiguration this, IEnumerable&lt;Action&lt;XElement&gt;&gt; migrations)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.ITypeConfiguration.html">ITypeConfiguration</a></span>
+        <span class="parametername">this</span>
+        <p><p>The type configuration to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Action</span>&lt;<span class="xref">System.Xml.Linq.XElement</span>&gt;&gt;</span>
+        <span class="parametername">migrations</span>
+        <p><p>The delegates that specify how to migrate an Xml element that represents an older schema.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.ITypeConfiguration.html">ITypeConfiguration</a>
+        <p><p>The configured type configuration.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForXml_AddMigration__1_ExtendedXmlSerializer_Configuration_ITypeConfiguration___0__ExtendedXmlSerializer_Core_ICommand_System_Xml_Linq_XElement__.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForXml.AddMigration%60%601(ExtendedXmlSerializer.Configuration.ITypeConfiguration%7B%60%600%7D%2CExtendedXmlSerializer.Core.ICommand%7BSystem.Xml.Linq.XElement%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">

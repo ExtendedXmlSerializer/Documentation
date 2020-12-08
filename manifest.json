@@ -188,7 +188,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ConfigurationContainer.html",
-          "hash": "fOziXoMxuj2Vd2pCwfCOAg=="
+          "hash": "jlU1741Qr0zxCTCENK8LKw=="
         }
       },
       "is_incremental": false,
@@ -260,7 +260,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.EmitBehaviors.html",
-          "hash": "y3ngGJaACIDHWoCW9sYZoQ=="
+          "hash": "ij5VGweP2Ij3ZsB2gzbdWw=="
         }
       },
       "is_incremental": false,
@@ -272,7 +272,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IConfigurationContainer.html",
-          "hash": "LbMU2yx4xNfKthwuMalRjA=="
+          "hash": "sgNJgmfU9kpL1OzBoyZxGQ=="
         }
       },
       "is_incremental": false,
@@ -332,7 +332,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IMemberConfiguration-2.html",
-          "hash": "NNEb0nxGcAZ7crtNbQ0/bw=="
+          "hash": "01ciZRiL5GG7xwRcYDTo5Q=="
         }
       },
       "is_incremental": false,
@@ -344,7 +344,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.IMemberConfiguration.html",
-          "hash": "u11cRJ62d/SRUsIJyfIAMg=="
+          "hash": "Y771PIKhUsgAt+vBo3ULzA=="
         }
       },
       "is_incremental": false,
@@ -392,7 +392,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ITypeConfiguration-1.html",
-          "hash": "X6n05t7jVr/j1hUWBF+ZNA=="
+          "hash": "lIqy8yb6JoWz8omplzcs1A=="
         }
       },
       "is_incremental": false,
@@ -404,7 +404,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.Configuration.ITypeConfiguration.html",
-          "hash": "++USMuuMZsEOaGMMdSRO/Q=="
+          "hash": "s/JjmFU5XnVbP8dG0HXiaQ=="
         }
       },
       "is_incremental": false,
@@ -1784,7 +1784,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.html",
-          "hash": "0sKHnG8UW7IEkDFF2+l4Cw=="
+          "hash": "+uSLsW2IXdDGuih/1PpcYg=="
         }
       },
       "is_incremental": false,
@@ -1844,7 +1844,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionMethodsForXml.html",
-          "hash": "QSYsmgQD/3Wd70EnMPHTNA=="
+          "hash": "ydCvaCjt6tQWuXf1PbGNfQ=="
         }
       },
       "is_incremental": false,
@@ -2512,6 +2512,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.IActivationAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.IActivationAware.html",
+          "hash": "RvAAeGIXSSbuzvOydnsjaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.ImmutableArrayExtension.yml",
       "output": {
         ".html": {
@@ -2684,7 +2696,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.TypeModelExtension.html",
-          "hash": "00KHswQKzON9Ob1TkTj5mg=="
+          "hash": "YQf4qcrtZ92JKTCSGvSJqw=="
         }
       },
       "is_incremental": false,
@@ -2708,7 +2720,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/ExtendedXmlSerializer.ExtensionModel.Types.html",
-          "hash": "EbjMVjJPYlXYgV/HPTB30g=="
+          "hash": "CK0x/0ryMbir29fuW/uEiA=="
         }
       },
       "is_incremental": false,
@@ -3224,7 +3236,7 @@
       "output": {
         ".html": {
           "relative_path": "reference/toc.html",
-          "hash": "NwByGkIHLKL/osuxMRDieA=="
+          "hash": "clXC57MG6KwTzg6fhDze+g=="
         }
       },
       "is_incremental": false,
@@ -3263,7 +3275,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 253,
+          "total_file_count": 254,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
