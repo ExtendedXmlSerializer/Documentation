@@ -6292,6 +6292,34 @@ references:
   isSpec: "True"
   fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTyping
   nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTyping
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  name: EnableImplicitTypingByInspecting(IConfigurationContainer, Type)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Type)
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting(IConfigurationContainer, Type)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting*
+  name: EnableImplicitTypingByInspecting
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting``1(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  name: EnableImplicitTypingByInspecting<T>(IConfigurationContainer)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting``1(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  name.vb: EnableImplicitTypingByInspecting(Of T)(IConfigurationContainer)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting<T>(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting(Of T)(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting<T>(IConfigurationContainer)
+  nameWithType.vb: ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting(Of T)(IConfigurationContainer)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  name: EnableImplicitTypingFromAll(IConfigurationContainer, Type)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Type)
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll(IConfigurationContainer, Type)
 - uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll*
   name: EnableImplicitTypingFromAll
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_
@@ -6308,6 +6336,12 @@ references:
   fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll(Of T)(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
   nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll<T>(IConfigurationContainer)
   nameWithType.vb: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll(Of T)(IConfigurationContainer)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  name: EnableImplicitTypingFromNamespace(IConfigurationContainer, Type)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Type)
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace(IConfigurationContainer, Type)
 - uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace*
   name: EnableImplicitTypingFromNamespace
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_
@@ -6324,6 +6358,12 @@ references:
   fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace(Of T)(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
   nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace<T>(IConfigurationContainer)
   nameWithType.vb: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace(Of T)(IConfigurationContainer)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  name: EnableImplicitTypingFromNamespacePublic(IConfigurationContainer, Type)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Type)
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic(IConfigurationContainer, Type)
 - uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic*
   name: EnableImplicitTypingFromNamespacePublic
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_
@@ -6340,6 +6380,12 @@ references:
   fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic(Of T)(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
   nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic<T>(IConfigurationContainer)
   nameWithType.vb: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic(Of T)(IConfigurationContainer)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  name: EnableImplicitTypingFromNested(IConfigurationContainer, Type)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Type)
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested(IConfigurationContainer, Type)
 - uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested*
   name: EnableImplicitTypingFromNested
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_
@@ -6356,6 +6402,12 @@ references:
   fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested(Of T)(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
   nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested<T>(IConfigurationContainer)
   nameWithType.vb: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested(Of T)(IConfigurationContainer)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  name: EnableImplicitTypingFromPublic(IConfigurationContainer, Type)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Type)
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic(IConfigurationContainer, Type)
 - uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic*
   name: EnableImplicitTypingFromPublic
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_
@@ -6372,6 +6424,12 @@ references:
   fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic(Of T)(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
   nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic<T>(IConfigurationContainer)
   nameWithType.vb: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic(Of T)(IConfigurationContainer)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublicNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  name: EnableImplicitTypingFromPublicNested(IConfigurationContainer, Type)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublicNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublicNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublicNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Type)
+  nameWithType: ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublicNested(IConfigurationContainer, Type)
 - uid: ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublicNested*
   name: EnableImplicitTypingFromPublicNested
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublicNested_
@@ -9309,6 +9367,51 @@ references:
   fullName.vb: ExtendedXmlSerializer.ExtensionModel.Types.Sources.AllTypesInSameNamespace(Of T).AllTypesInSameNamespace
   nameWithType: AllTypesInSameNamespace<T>.AllTypesInSameNamespace
   nameWithType.vb: AllTypesInSameNamespace(Of T).AllTypesInSameNamespace
+- uid: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes
+  name: InspectedPropertyTypes
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.html
+  commentId: T:ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes
+  fullName: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes
+  nameWithType: InspectedPropertyTypes
+- uid: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.#ctor(System.Type)
+  name: InspectedPropertyTypes(Type)
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.html#ExtendedXmlSerializer_ExtensionModel_Types_Sources_InspectedPropertyTypes__ctor_System_Type_
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.#ctor(System.Type)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.InspectedPropertyTypes(System.Type)
+  nameWithType: InspectedPropertyTypes.InspectedPropertyTypes(Type)
+- uid: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.#ctor*
+  name: InspectedPropertyTypes
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.html#ExtendedXmlSerializer_ExtensionModel_Types_Sources_InspectedPropertyTypes__ctor_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.#ctor
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes.InspectedPropertyTypes
+  nameWithType: InspectedPropertyTypes.InspectedPropertyTypes
+- uid: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes`1
+  name: InspectedPropertyTypes<T>
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes-1.html
+  commentId: T:ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes`1
+  name.vb: InspectedPropertyTypes(Of T)
+  fullName: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes<T>
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes(Of T)
+  nameWithType: InspectedPropertyTypes<T>
+  nameWithType.vb: InspectedPropertyTypes(Of T)
+- uid: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes`1.#ctor
+  name: InspectedPropertyTypes()
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes-1.html#ExtendedXmlSerializer_ExtensionModel_Types_Sources_InspectedPropertyTypes_1__ctor
+  commentId: M:ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes`1.#ctor
+  fullName: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes<T>.InspectedPropertyTypes()
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes(Of T).InspectedPropertyTypes()
+  nameWithType: InspectedPropertyTypes<T>.InspectedPropertyTypes()
+  nameWithType.vb: InspectedPropertyTypes(Of T).InspectedPropertyTypes()
+- uid: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes`1.#ctor*
+  name: InspectedPropertyTypes
+  href: reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes-1.html#ExtendedXmlSerializer_ExtensionModel_Types_Sources_InspectedPropertyTypes_1__ctor_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes`1.#ctor
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes<T>.InspectedPropertyTypes
+  fullName.vb: ExtendedXmlSerializer.ExtensionModel.Types.Sources.InspectedPropertyTypes(Of T).InspectedPropertyTypes
+  nameWithType: InspectedPropertyTypes<T>.InspectedPropertyTypes
+  nameWithType.vb: InspectedPropertyTypes(Of T).InspectedPropertyTypes
 - uid: ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes
   name: NestedTypes
   href: reference/ExtendedXmlSerializer.ExtensionModel.Types.Sources.NestedTypes.html

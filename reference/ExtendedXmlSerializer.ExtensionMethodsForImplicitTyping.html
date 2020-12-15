@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExtensionMethodsForImplicitTyping
    ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -261,10 +261,225 @@ is thrown.</p>
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting(ExtendedXmlSerializer.Configuration.IConfigurationContainer%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L225" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="expander" data-toggle="collapse">EnableImplicitTypingByInspecting(IConfigurationContainer, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"><p>Convenience method to enable implicit typing on a container, using all recursively found public property types within the
+provided type. All public property types found within the provided type will be included and registered as an implicit type.
+Use this with care and ensure that the names of all the public types found within the namespace are unique.  Otherwise,
+an exception will be thrown if more than one type share the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer EnableImplicitTypingByInspecting(this IConfigurationContainer this, Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p><p>The subject type to query for type resolution.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting%60%601(ExtendedXmlSerializer.Configuration.IConfigurationContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L211" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingByInspecting``1(ExtendedXmlSerializer.Configuration.IConfigurationContainer)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_" class="expander" data-toggle="collapse">EnableImplicitTypingByInspecting&lt;T&gt;(IConfigurationContainer)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_" class="collapse in">
+  <div class="markdown level1 summary"><p>Convenience method to enable implicit typing on a container, using all recursively found public property types within the
+provided type. All public property types found within the provided type will be included and registered as an implicit type.
+Use this with care and ensure that the names of all the public types found within the namespace are unique.  Otherwise,
+an exception will be thrown if more than one type share the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer EnableImplicitTypingByInspecting&lt;T&gt;(this IConfigurationContainer this)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p><p>The subject type to query for type resolution.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingByInspecting__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll(ExtendedXmlSerializer.Configuration.IConfigurationContainer%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L118" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="expander" data-toggle="collapse">EnableImplicitTypingFromAll(IConfigurationContainer, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"><p>Convenience method to enable implicit typing on a container, using all found types within the provided subject
+type's assembly.  All types found within the provided subject type's assembly will be included and registered as
+an implicit type.  Use this with care and ensure that the names of all the types found within the assembly are
+unique. Otherwise, an exception will be thrown if more than one type share the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer EnableImplicitTypingFromAll(this IConfigurationContainer this, Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p><p>The subject type to query for type resolution.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll%60%601(ExtendedXmlSerializer.Configuration.IConfigurationContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L79" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L105" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromAll_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromAll*"></a>
@@ -334,10 +549,81 @@ unique. Otherwise, an exception will be thrown if more than one type share the s
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace(ExtendedXmlSerializer.Configuration.IConfigurationContainer%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L170" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="expander" data-toggle="collapse">EnableImplicitTypingFromNamespace(IConfigurationContainer, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"><p>Convenience method to enable implicit typing on a container, using all found types within the provided subject
+type's namespace.  All types found within the provided subject type's namespace will be included and registered as
+an implicit type.  Use this with care and ensure that the names of all the types found within the namespace are
+unique. Otherwise, an exception will be thrown if more than one type share the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer EnableImplicitTypingFromNamespace(this IConfigurationContainer this, Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p><p>The subject type to query for type resolution.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace%60%601(ExtendedXmlSerializer.Configuration.IConfigurationContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L105" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L157" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespace_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespace*"></a>
@@ -407,10 +693,81 @@ unique. Otherwise, an exception will be thrown if more than one type share the s
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L197" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="expander" data-toggle="collapse">EnableImplicitTypingFromNamespacePublic(IConfigurationContainer, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"><p>Convenience method to enable implicit typing on a container, using all found public types within the provided
+subject type's namespace.  All public types found within the provided subject type's namespace will be included and
+registered as an implicit type.  Use this with care and ensure that the names of all the public types found within
+the namespace are unique.  Otherwise, an exception will be thrown if more than one type share the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer EnableImplicitTypingFromNamespacePublic(this IConfigurationContainer this, Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p><p>The subject type to query for type resolution.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic%60%601(ExtendedXmlSerializer.Configuration.IConfigurationContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L118" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L183" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNamespacePublic_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNamespacePublic*"></a>
@@ -480,10 +837,80 @@ the namespace are unique.  Otherwise, an exception will be thrown if more than o
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L91" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="expander" data-toggle="collapse">EnableImplicitTypingFromNested(IConfigurationContainer, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"><p>Convenience method to enable implicit typing on a container, using all nested types -- private or otherwise --
+found within the provided subject type.  All nested types found within the provided subject type will be
+included and registered as an implicit type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer EnableImplicitTypingFromNested(this IConfigurationContainer this, Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p><p>The subject type to query for type resolution.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested%60%601(ExtendedXmlSerializer.Configuration.IConfigurationContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L66" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L79" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromNested_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromNested*"></a>
@@ -552,10 +979,81 @@ included and registered as an implicit type.</p>
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L144" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="expander" data-toggle="collapse">EnableImplicitTypingFromPublic(IConfigurationContainer, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"><p>Convenience method to enable implicit typing on a container, using all found public types within the provided
+subject type's assembly.  All public types found within the provided subject type's assembly will be included and
+registered as an implicit type.  Use this with care and ensure that the names of all the public types found within
+the assembly are unique.  Otherwise, an exception will be thrown if more than one type share the same name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer EnableImplicitTypingFromPublic(this IConfigurationContainer this, Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p><p>The subject type to query for type resolution.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic%60%601(ExtendedXmlSerializer.Configuration.IConfigurationContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L92" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L131" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublic*"></a>
@@ -618,6 +1116,76 @@ the assembly are unique.  Otherwise, an exception will be thrown if more than on
   
   
   <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublic__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublicNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublicNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForImplicitTyping.cs/#L66" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublicNested_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublicNested*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublicNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.EnableImplicitTypingFromPublicNested(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Type)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublicNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="expander" data-toggle="collapse">EnableImplicitTypingFromPublicNested(IConfigurationContainer, Type)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublicNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"><p>Convenience method to enable implicit typing on a container, using all public-nested types found within the
+provided subject type.  All public nested types found within the provided subject type will be included as an
+implicit type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer EnableImplicitTypingFromPublicNested(this IConfigurationContainer this, Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p><p>The subject type to query for type resolution.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTypingFromPublicNested_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForImplicitTyping.html#ExtendedXmlSerializer_ExtensionMethodsForImplicitTyping_EnableImplicitTyping_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Type___">EnableImplicitTyping(IConfigurationContainer, Type[])</a></div>
   </div>
