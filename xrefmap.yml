@@ -5202,6 +5202,12 @@ references:
   commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Reflection.MemberInfo)
   fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Reflection.MemberInfo)
   nameWithType: ExtensionMethodsForContent.Ignore(IConfigurationContainer, MemberInfo)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Reflection.TypeInfo)
+  name: Ignore(IConfigurationContainer, TypeInfo)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_Ignore_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Reflection_TypeInfo_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Reflection.TypeInfo)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Reflection.TypeInfo)
+  nameWithType: ExtensionMethodsForContent.Ignore(IConfigurationContainer, TypeInfo)
 - uid: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore*
   name: Ignore
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_Ignore_
@@ -5209,6 +5215,15 @@ references:
   isSpec: "True"
   fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore
   nameWithType: ExtensionMethodsForContent.Ignore
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore``1(ExtendedXmlSerializer.Configuration.ITypeConfiguration{``0})
+  name: Ignore<T>(ITypeConfiguration<T>)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_Ignore__1_ExtendedXmlSerializer_Configuration_ITypeConfiguration___0__
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore``1(ExtendedXmlSerializer.Configuration.ITypeConfiguration{``0})
+  name.vb: Ignore(Of T)(ITypeConfiguration(Of T))
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore<T>(ExtendedXmlSerializer.Configuration.ITypeConfiguration<T>)
+  fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore(Of T)(ExtendedXmlSerializer.Configuration.ITypeConfiguration(Of T))
+  nameWithType: ExtensionMethodsForContent.Ignore<T>(ITypeConfiguration<T>)
+  nameWithType.vb: ExtensionMethodsForContent.Ignore(Of T)(ITypeConfiguration(Of T))
 - uid: ExtendedXmlSerializer.ExtensionMethodsForContent.Ignore``2(ExtendedXmlSerializer.Configuration.IMemberConfiguration{``0,``1})
   name: Ignore<T, TMember>(IMemberConfiguration<T, TMember>)
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_Ignore__2_ExtendedXmlSerializer_Configuration_IMemberConfiguration___0___1__
@@ -5224,6 +5239,12 @@ references:
   commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.Include(ExtendedXmlSerializer.Configuration.IMemberConfiguration)
   fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.Include(ExtendedXmlSerializer.Configuration.IMemberConfiguration)
   nameWithType: ExtensionMethodsForContent.Include(IMemberConfiguration)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.Include(ExtendedXmlSerializer.Configuration.ITypeConfiguration)
+  name: Include(ITypeConfiguration)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_Include_ExtendedXmlSerializer_Configuration_ITypeConfiguration_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.Include(ExtendedXmlSerializer.Configuration.ITypeConfiguration)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.Include(ExtendedXmlSerializer.Configuration.ITypeConfiguration)
+  nameWithType: ExtensionMethodsForContent.Include(ITypeConfiguration)
 - uid: ExtendedXmlSerializer.ExtensionMethodsForContent.Include*
   name: Include
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_Include_
@@ -5231,6 +5252,15 @@ references:
   isSpec: "True"
   fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.Include
   nameWithType: ExtensionMethodsForContent.Include
+- uid: ExtendedXmlSerializer.ExtensionMethodsForContent.Include``1(ExtendedXmlSerializer.Configuration.ITypeConfiguration{``0})
+  name: Include<T>(ITypeConfiguration<T>)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_Include__1_ExtendedXmlSerializer_Configuration_ITypeConfiguration___0__
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForContent.Include``1(ExtendedXmlSerializer.Configuration.ITypeConfiguration{``0})
+  name.vb: Include(Of T)(ITypeConfiguration(Of T))
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForContent.Include<T>(ExtendedXmlSerializer.Configuration.ITypeConfiguration<T>)
+  fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForContent.Include(Of T)(ExtendedXmlSerializer.Configuration.ITypeConfiguration(Of T))
+  nameWithType: ExtensionMethodsForContent.Include<T>(ITypeConfiguration<T>)
+  nameWithType.vb: ExtensionMethodsForContent.Include(Of T)(ITypeConfiguration(Of T))
 - uid: ExtendedXmlSerializer.ExtensionMethodsForContent.Include``2(ExtendedXmlSerializer.Configuration.IMemberConfiguration{``0,``1})
   name: Include<T, TMember>(IMemberConfiguration<T, TMember>)
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForContent.html#ExtendedXmlSerializer_ExtensionMethodsForContent_Include__2_ExtendedXmlSerializer_Configuration_IMemberConfiguration___0___1__
@@ -6187,6 +6217,32 @@ references:
   fullName.vb: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableRootInstances(Of T)(T)
   nameWithType: ExtensionMethodsForExtensionModel.EnableRootInstances<T>(T)
   nameWithType.vb: ExtensionMethodsForExtensionModel.EnableRootInstances(Of T)(T)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableStaticReferenceChecking(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Boolean)
+  name: EnableStaticReferenceChecking(IConfigurationContainer, Boolean)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.html#ExtendedXmlSerializer_ExtensionMethodsForExtensionModel_EnableStaticReferenceChecking_ExtendedXmlSerializer_Configuration_IConfigurationContainer_System_Boolean_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableStaticReferenceChecking(ExtendedXmlSerializer.Configuration.IConfigurationContainer,System.Boolean)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableStaticReferenceChecking(ExtendedXmlSerializer.Configuration.IConfigurationContainer, System.Boolean)
+  nameWithType: ExtensionMethodsForExtensionModel.EnableStaticReferenceChecking(IConfigurationContainer, Boolean)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableStaticReferenceChecking*
+  name: EnableStaticReferenceChecking
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.html#ExtendedXmlSerializer_ExtensionMethodsForExtensionModel_EnableStaticReferenceChecking_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableStaticReferenceChecking
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableStaticReferenceChecking
+  nameWithType: ExtensionMethodsForExtensionModel.EnableStaticReferenceChecking
+- uid: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableThreadAwareRecursionContent(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  name: EnableThreadAwareRecursionContent(IConfigurationContainer)
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.html#ExtendedXmlSerializer_ExtensionMethodsForExtensionModel_EnableThreadAwareRecursionContent_ExtendedXmlSerializer_Configuration_IConfigurationContainer_
+  commentId: M:ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableThreadAwareRecursionContent(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableThreadAwareRecursionContent(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
+  nameWithType: ExtensionMethodsForExtensionModel.EnableThreadAwareRecursionContent(IConfigurationContainer)
+- uid: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableThreadAwareRecursionContent*
+  name: EnableThreadAwareRecursionContent
+  href: reference/ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.html#ExtendedXmlSerializer_ExtensionMethodsForExtensionModel_EnableThreadAwareRecursionContent_
+  commentId: Overload:ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableThreadAwareRecursionContent
+  isSpec: "True"
+  fullName: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableThreadAwareRecursionContent
+  nameWithType: ExtensionMethodsForExtensionModel.EnableThreadAwareRecursionContent
 - uid: ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.EnableThreadProtection(ExtendedXmlSerializer.Configuration.IConfigurationContainer)
   name: EnableThreadProtection(IConfigurationContainer)
   href: reference/ExtendedXmlSerializer.ExtensionMethodsForExtensionModel.html#ExtendedXmlSerializer_ExtensionMethodsForExtensionModel_EnableThreadProtection_ExtendedXmlSerializer_Configuration_IConfigurationContainer_
