@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExtensionMethodsForConfiguration
    ">
-    <meta name="generator" content="docfx 2.58.5.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -327,6 +327,70 @@ that if both whitelist and blacklists are populated, the whitelist takes precede
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
+    <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForConfiguration_AllowMultipleReferences_ExtendedXmlSerializer_Configuration_IConfigurationContainer_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForConfiguration.AllowMultipleReferences(ExtendedXmlSerializer.Configuration.IConfigurationContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L387" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ExtendedXmlSerializer_ExtensionMethodsForConfiguration_AllowMultipleReferences_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForConfiguration.AllowMultipleReferences*"></a>
+  
+  <h4 id="ExtendedXmlSerializer_ExtensionMethodsForConfiguration_AllowMultipleReferences_ExtendedXmlSerializer_Configuration_IConfigurationContainer_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForConfiguration.AllowMultipleReferences(ExtendedXmlSerializer.Configuration.IConfigurationContainer)"><a href="#collapsible-ExtendedXmlSerializer_ExtensionMethodsForConfiguration_AllowMultipleReferences_ExtendedXmlSerializer_Configuration_IConfigurationContainer_" class="expander" data-toggle="collapse">AllowMultipleReferences(IConfigurationContainer)</a></h4>
+  
+  <div id="collapsible-ExtendedXmlSerializer_ExtensionMethodsForConfiguration_AllowMultipleReferences_ExtendedXmlSerializer_Configuration_IConfigurationContainer_" class="collapse in">
+  <div class="markdown level1 summary"><p>This enables multiple references to be allowed in the graph without throwing an exception.  By default
+if multiple instances of the same reference are found in an object graph that is being serialized, this throws
+an exception.  This overrides the the default setting and allows the serialization to occur.  Note that this
+does not impact cyclical references and these will still throw an exception if encountered and
+<a class="xref" href="ExtendedXmlSerializer.ExtensionMethodsForConfiguration.html#ExtendedXmlSerializer_ExtensionMethodsForConfiguration_EnableReferences_ExtendedXmlSerializer_Configuration_IConfigurationContainer_">EnableReferences(IConfigurationContainer)</a> is not configured on the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IConfigurationContainer AllowMultipleReferences(this IConfigurationContainer this)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a></span>
+        <span class="parametername">this</span>
+        <p><p>The configuration container to configure.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ExtendedXmlSerializer.Configuration.IConfigurationContainer.html">IConfigurationContainer</a>
+        <p><p>The configured configuration container.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ExtendedXmlSerializer_ExtensionMethodsForConfiguration_AllowMultipleReferences_ExtendedXmlSerializer_Configuration_IConfigurationContainer__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span><a href="https://github.com/ExtendedXmlSerializer/home/issues/583">https://github.com/ExtendedXmlSerializer/home/issues/583</a></span></div>
+  </div>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForConfiguration_Apply__1_ExtendedXmlSerializer_Configuration_IRootContext_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForConfiguration.Apply%60%601(ExtendedXmlSerializer.Configuration.IRootContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -615,7 +679,7 @@ applying them quickly to a configuration container.</p>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForConfiguration_ConfigureType__1_ExtendedXmlSerializer_Configuration_IConfigurationContainer_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForConfiguration.ConfigureType%60%601(ExtendedXmlSerializer.Configuration.IConfigurationContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L400" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L413" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForConfiguration_ConfigureType_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForConfiguration.ConfigureType*"></a>
@@ -857,7 +921,7 @@ references, an exception is thrown.</p>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForConfiguration_EnableReferences_ExtendedXmlSerializer_Configuration_IRootContext_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForConfiguration.EnableReferences(ExtendedXmlSerializer.Configuration.IRootContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L389" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L402" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForConfiguration_EnableReferences_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForConfiguration.EnableReferences*"></a>
@@ -1175,7 +1239,7 @@ specifically.</p>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForConfiguration_GetTypeConfiguration_ExtendedXmlSerializer_Configuration_IContext_System_Reflection_TypeInfo_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForConfiguration.GetTypeConfiguration(ExtendedXmlSerializer.Configuration.IContext%2CSystem.Reflection.TypeInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L394" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L407" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForConfiguration_GetTypeConfiguration_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForConfiguration.GetTypeConfiguration*"></a>
@@ -1437,7 +1501,7 @@ blacklists are populated, the whitelist takes precedence.</p>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForConfiguration_Member__1_ExtendedXmlSerializer_Configuration_ITypeConfiguration___0__System_Reflection_MemberInfo_.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForConfiguration.Member%60%601(ExtendedXmlSerializer.Configuration.ITypeConfiguration%7B%60%600%7D%2CSystem.Reflection.MemberInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L404" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L417" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForConfiguration_Member_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForConfiguration.Member*"></a>
@@ -2216,7 +2280,7 @@ configurations for further configuration of the type's members.</p>
     <a href="https://github.com/ExtendedXmlSerializer/home/new/master/apiSpec/new?filename=ExtendedXmlSerializer_ExtensionMethodsForConfiguration_With_System_Collections_Generic_IEnumerable_ExtendedXmlSerializer_ExtensionModel_ISerializerExtension__ExtendedXmlSerializer_ExtensionModel_ISerializerExtension___.md&amp;value=---%0Auid%3A%20ExtendedXmlSerializer.ExtensionMethodsForConfiguration.With(System.Collections.Generic.IEnumerable%7BExtendedXmlSerializer.ExtensionModel.ISerializerExtension%7D%2CExtendedXmlSerializer.ExtensionModel.ISerializerExtension%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L383" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ExtendedXmlSerializer/home/blob/master/src/ExtendedXmlSerializer/ExtensionMethodsForConfiguration.cs/#L396" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ExtendedXmlSerializer_ExtensionMethodsForConfiguration_With_" data-uid="ExtendedXmlSerializer.ExtensionMethodsForConfiguration.With*"></a>
