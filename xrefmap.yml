@@ -910,6 +910,14 @@ references:
   fullName.vb: ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext(Of T).Deserialize(System.String)
   nameWithType: ReferencedDeserializationContext<T>.Deserialize(String)
   nameWithType.vb: ReferencedDeserializationContext(Of T).Deserialize(String)
+- uid: ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext`1.Deserialize(System.Xml.XmlReader)
+  name: Deserialize(XmlReader)
+  href: reference/ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext-1.html#ExtendedXmlSerializer_Configuration_ReferencedDeserializationContext_1_Deserialize_System_Xml_XmlReader_
+  commentId: M:ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext`1.Deserialize(System.Xml.XmlReader)
+  fullName: ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext<T>.Deserialize(System.Xml.XmlReader)
+  fullName.vb: ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext(Of T).Deserialize(System.Xml.XmlReader)
+  nameWithType: ReferencedDeserializationContext<T>.Deserialize(XmlReader)
+  nameWithType.vb: ReferencedDeserializationContext(Of T).Deserialize(XmlReader)
 - uid: ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext`1.Deserialize(System.Xml.XmlReaderSettings,System.IO.Stream)
   name: Deserialize(XmlReaderSettings, Stream)
   href: reference/ExtendedXmlSerializer.Configuration.ReferencedDeserializationContext-1.html#ExtendedXmlSerializer_Configuration_ReferencedDeserializationContext_1_Deserialize_System_Xml_XmlReaderSettings_System_IO_Stream_
